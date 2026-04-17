@@ -1,0 +1,21 @@
+# Raw historical CSVs — large, not ours to redistribute
+data/lol-historical-data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude local settings (keep project CLAUDE.md, ignore local user-specific settings)
+.claude/settings.local.json

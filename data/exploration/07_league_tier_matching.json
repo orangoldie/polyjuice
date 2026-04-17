@@ -1,0 +1,876 @@
+{
+  "summary": {
+    "total_our_leagues": 121,
+    "matched_count": 70,
+    "unmatched_count": 51,
+    "total_games": 85313,
+    "matched_games": 68861,
+    "unmatched_games": 16452,
+    "matched_pct": 80.7,
+    "by_tier": {
+      "S": {
+        "leagues": 20,
+        "games": 21305
+      },
+      "A": {
+        "leagues": 28,
+        "games": 27764
+      },
+      "B": {
+        "leagues": 22,
+        "games": 19792
+      }
+    }
+  },
+  "matched": [
+    {
+      "league": "LCK",
+      "games": 5138,
+      "years": "2016-2026",
+      "tier": "S",
+      "matched_to": "LCK"
+    },
+    {
+      "league": "LPL",
+      "games": 2263,
+      "years": "2018-2021",
+      "tier": "S",
+      "matched_to": "LPL"
+    },
+    {
+      "league": "LEC",
+      "games": 2058,
+      "years": "2015-2026",
+      "tier": "S",
+      "matched_to": "LEC"
+    },
+    {
+      "league": "CBLOL",
+      "games": 1995,
+      "years": "2015-2026",
+      "tier": "S",
+      "matched_to": "CBLOL"
+    },
+    {
+      "league": "NA LCS",
+      "games": 1736,
+      "years": "2014-2018",
+      "tier": "S",
+      "matched_to": "LCS"
+    },
+    {
+      "league": "LCS",
+      "games": 1733,
+      "years": "2015-2026",
+      "tier": "S",
+      "matched_to": "LCS"
+    },
+    {
+      "league": "EU LCS",
+      "games": 1554,
+      "years": "2014-2018",
+      "tier": "S",
+      "matched_to": "LEC"
+    },
+    {
+      "league": "LMS",
+      "games": 1329,
+      "years": "2015-2019",
+      "tier": "S",
+      "matched_to": "LMS"
+    },
+    {
+      "league": "WLDs",
+      "games": 1288,
+      "years": "2014-2025",
+      "tier": "S",
+      "matched_to": "World Championship"
+    },
+    {
+      "league": "MSI",
+      "games": 616,
+      "years": "2015-2025",
+      "tier": "S",
+      "matched_to": "Mid-Season Invitational"
+    },
+    {
+      "league": "LCP",
+      "games": 412,
+      "years": "2025-2026",
+      "tier": "S",
+      "matched_to": "LCP"
+    },
+    {
+      "league": "OGN",
+      "games": 394,
+      "years": "2015-2015",
+      "tier": "S",
+      "matched_to": "Champions"
+    },
+    {
+      "league": "LTA S",
+      "games": 222,
+      "years": "2025-2026",
+      "tier": "S",
+      "matched_to": "LTA"
+    },
+    {
+      "league": "LTA N",
+      "games": 213,
+      "years": "2025-2026",
+      "tier": "S",
+      "matched_to": "LTA"
+    },
+    {
+      "league": "GPL",
+      "games": 138,
+      "years": "2016-2018",
+      "tier": "S",
+      "matched_to": "Garena Premier League"
+    },
+    {
+      "league": "FST",
+      "games": 80,
+      "years": "2025-2026",
+      "tier": "S",
+      "matched_to": "First Stand Tournament"
+    },
+    {
+      "league": "EWC",
+      "games": 52,
+      "years": "2024-2025",
+      "tier": "S",
+      "matched_to": "Esports World Cup"
+    },
+    {
+      "league": "LTA",
+      "games": 40,
+      "years": "2025-2025",
+      "tier": "S",
+      "matched_to": "LTA"
+    },
+    {
+      "league": "MSC",
+      "games": 25,
+      "years": "2020-2020",
+      "tier": "S",
+      "matched_to": "Mid-Season Cup"
+    },
+    {
+      "league": "Americas Cup",
+      "games": 19,
+      "years": "2026-2026",
+      "tier": "S",
+      "matched_to": "Americas Cup"
+    },
+    {
+      "league": "LDL",
+      "games": 2577,
+      "years": "2019-2021",
+      "tier": "A",
+      "matched_to": "LDL"
+    },
+    {
+      "league": "VCS",
+      "games": 2429,
+      "years": "2018-2026",
+      "tier": "A",
+      "matched_to": "VCS"
+    },
+    {
+      "league": "LCKC",
+      "games": 2344,
+      "years": "2021-2026",
+      "tier": "A",
+      "matched_to": "LCK CL"
+    },
+    {
+      "league": "LJL",
+      "games": 2153,
+      "years": "2016-2026",
+      "tier": "A",
+      "matched_to": "LJL"
+    },
+    {
+      "league": "LAS",
+      "games": 1715,
+      "years": "2020-2026",
+      "tier": "A",
+      "matched_to": "Liga Regional Sur"
+    },
+    {
+      "league": "PCS",
+      "games": 1704,
+      "years": "2020-2025",
+      "tier": "A",
+      "matched_to": "PCS"
+    },
+    {
+      "league": "NACL",
+      "games": 1670,
+      "years": "2023-2026",
+      "tier": "A",
+      "matched_to": "North American Challengers League"
+    },
+    {
+      "league": "LCSA",
+      "games": 1601,
+      "years": "2018-2022",
+      "tier": "A",
+      "matched_to": "North American Challengers League"
+    },
+    {
+      "league": "CK",
+      "games": 1391,
+      "years": "2016-2020",
+      "tier": "A",
+      "matched_to": "CK"
+    },
+    {
+      "league": "EM",
+      "games": 1276,
+      "years": "2023-2026",
+      "tier": "A",
+      "matched_to": "EMEA Masters"
+    },
+    {
+      "league": "OPL",
+      "games": 1168,
+      "years": "2015-2020",
+      "tier": "A",
+      "matched_to": "OPL"
+    },
+    {
+      "league": "LLA",
+      "games": 1148,
+      "years": "2019-2024",
+      "tier": "A",
+      "matched_to": "LLA"
+    },
+    {
+      "league": "EUM",
+      "games": 948,
+      "years": "2018-2022",
+      "tier": "A",
+      "matched_to": "European Masters"
+    },
+    {
+      "league": "LCL",
+      "games": 897,
+      "years": "2016-2022",
+      "tier": "A",
+      "matched_to": "LCL"
+    },
+    {
+      "league": "LCO",
+      "games": 688,
+      "years": "2021-2024",
+      "tier": "A",
+      "matched_to": "LCO"
+    },
+    {
+      "league": "CLS",
+      "games": 580,
+      "years": "2016-2018",
+      "tier": "A",
+      "matched_to": "CLS"
+    },
+    {
+      "league": "EU CS",
+      "games": 506,
+      "years": "2014-2017",
+      "tier": "A",
+      "matched_to": "Elite Challenger Series"
+    },
+    {
+      "league": "NA CS",
+      "games": 454,
+      "years": "2014-2017",
+      "tier": "A",
+      "matched_to": "North American Challengers League"
+    },
+    {
+      "league": "LLN",
+      "games": 445,
+      "years": "2017-2018",
+      "tier": "A",
+      "matched_to": "LLN"
+    },
+    {
+      "league": "LRN",
+      "games": 418,
+      "years": "2023-2026",
+      "tier": "A",
+      "matched_to": "Liga Regional Norte"
+    },
+    {
+      "league": "LRS",
+      "games": 412,
+      "years": "2023-2026",
+      "tier": "A",
+      "matched_to": "Liga Regional Sur"
+    },
+    {
+      "league": "KeSPA",
+      "games": 353,
+      "years": "2016-2026",
+      "tier": "A",
+      "matched_to": "KeSPA Cup"
+    },
+    {
+      "league": "CD",
+      "games": 347,
+      "years": "2025-2026",
+      "tier": "A",
+      "matched_to": "Circuito Desafiante"
+    },
+    {
+      "league": "DCup",
+      "games": 228,
+      "years": "2018-2025",
+      "tier": "A",
+      "matched_to": "Demacia Cup"
+    },
+    {
+      "league": "Asia Master",
+      "games": 180,
+      "years": "2025-2025",
+      "tier": "A",
+      "matched_to": "Asia Masters"
+    },
+    {
+      "league": "NEST",
+      "games": 50,
+      "years": "2020-2020",
+      "tier": "A",
+      "matched_to": "National Electronic Sports Tournament"
+    },
+    {
+      "league": "ASI",
+      "games": 42,
+      "years": "2025-2025",
+      "tier": "A",
+      "matched_to": "Asia Star Challengers Invitational"
+    },
+    {
+      "league": "IWCI",
+      "games": 40,
+      "years": "2016-2016",
+      "tier": "A",
+      "matched_to": "International Wildcard Invitational"
+    },
+    {
+      "league": "TCL",
+      "games": 2498,
+      "years": "2015-2026",
+      "tier": "B",
+      "matched_to": "TCL"
+    },
+    {
+      "league": "LFL",
+      "games": 1720,
+      "years": "2019-2026",
+      "tier": "B",
+      "matched_to": "LFL"
+    },
+    {
+      "league": "PRM",
+      "games": 1720,
+      "years": "2020-2026",
+      "tier": "B",
+      "matched_to": "Prime League"
+    },
+    {
+      "league": "NLC",
+      "games": 1483,
+      "years": "2020-2026",
+      "tier": "B",
+      "matched_to": "NLC"
+    },
+    {
+      "league": "UL",
+      "games": 1268,
+      "years": "2018-2025",
+      "tier": "B",
+      "matched_to": "UL (direct)"
+    },
+    {
+      "league": "LPLOL",
+      "games": 1228,
+      "years": "2019-2026",
+      "tier": "B",
+      "matched_to": "LPLOL"
+    },
+    {
+      "league": "LVP SL",
+      "games": 1225,
+      "years": "2021-2026",
+      "tier": "B",
+      "matched_to": "LVP SL (direct)"
+    },
+    {
+      "league": "EBL",
+      "games": 1127,
+      "years": "2019-2026",
+      "tier": "B",
+      "matched_to": "EBL"
+    },
+    {
+      "league": "HM",
+      "games": 1088,
+      "years": "2019-2025",
+      "tier": "B",
+      "matched_to": "Hitpoint Masters"
+    },
+    {
+      "league": "GLL",
+      "games": 1087,
+      "years": "2019-2025",
+      "tier": "B",
+      "matched_to": "GLL (direct)"
+    },
+    {
+      "league": "PGN",
+      "games": 949,
+      "years": "2018-2024",
+      "tier": "B",
+      "matched_to": "PGN (direct)"
+    },
+    {
+      "league": "ESLOL",
+      "games": 833,
+      "years": "2022-2025",
+      "tier": "B",
+      "matched_to": "ESLOL (direct)"
+    },
+    {
+      "league": "AL",
+      "games": 761,
+      "years": "2023-2026",
+      "tier": "B",
+      "matched_to": "Arabian League"
+    },
+    {
+      "league": "SLO",
+      "games": 636,
+      "years": "2018-2020",
+      "tier": "B",
+      "matched_to": "SLO (direct)"
+    },
+    {
+      "league": "UKLC",
+      "games": 430,
+      "years": "2019-2021",
+      "tier": "B",
+      "matched_to": "UKLC (direct)"
+    },
+    {
+      "league": "LIT",
+      "games": 404,
+      "years": "2024-2026",
+      "tier": "B",
+      "matched_to": "LIT"
+    },
+    {
+      "league": "RL",
+      "games": 310,
+      "years": "2025-2026",
+      "tier": "B",
+      "matched_to": "Rift Legends"
+    },
+    {
+      "league": "HLL",
+      "games": 302,
+      "years": "2025-2026",
+      "tier": "B",
+      "matched_to": "HLL"
+    },
+    {
+      "league": "ROL",
+      "games": 295,
+      "years": "2025-2026",
+      "tier": "B",
+      "matched_to": "Road of Legends"
+    },
+    {
+      "league": "DL",
+      "games": 198,
+      "years": "2020-2021",
+      "tier": "B",
+      "matched_to": "DL (direct)"
+    },
+    {
+      "league": "BL",
+      "games": 196,
+      "years": "2020-2021",
+      "tier": "B",
+      "matched_to": "BL (direct)"
+    },
+    {
+      "league": "LES",
+      "games": 34,
+      "years": "2026-2026",
+      "tier": "B",
+      "matched_to": "LES"
+    }
+  ],
+  "unmatched": [
+    {
+      "league": "LMF",
+      "games": 1091,
+      "years": "2019-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "LHE",
+      "games": 978,
+      "years": "2019-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CBLOLA",
+      "games": 961,
+      "years": "2021-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "NEXO",
+      "games": 938,
+      "years": "2020-2025",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "LFL2",
+      "games": 919,
+      "years": "2021-2026",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "UPL",
+      "games": 884,
+      "years": "2020-2022",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "HC",
+      "games": 868,
+      "years": "2020-2025",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "DDH",
+      "games": 828,
+      "years": "2019-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "TAL",
+      "games": 788,
+      "years": "2019-2022",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "RCL",
+      "games": 551,
+      "years": "2020-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "PGC",
+      "games": 501,
+      "years": "2022-2022",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "PCL",
+      "games": 449,
+      "years": "2023-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "BRCC",
+      "games": 424,
+      "years": "2017-2020",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "OCS",
+      "games": 401,
+      "years": "2016-2020",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "OTBLX",
+      "games": 371,
+      "years": "2020-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "BIG",
+      "games": 343,
+      "years": "2019-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "PRMP",
+      "games": 342,
+      "years": "2022-2025",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "HW",
+      "games": 337,
+      "years": "2021-2026",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "VL",
+      "games": 275,
+      "years": "2022-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "SL (LATAM)",
+      "games": 275,
+      "years": "2022-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "GL",
+      "games": 271,
+      "years": "2022-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "IC",
+      "games": 244,
+      "years": "2022-2025",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "BM",
+      "games": 243,
+      "years": "2019-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CT",
+      "games": 243,
+      "years": "2019-2025",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "EPL",
+      "games": 236,
+      "years": "2023-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "NLC Aurora Open",
+      "games": 217,
+      "years": "2022-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CDF",
+      "games": 217,
+      "years": "2022-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CU",
+      "games": 209,
+      "years": "2020-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "EL",
+      "games": 176,
+      "years": "2022-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "LJLA",
+      "games": 169,
+      "years": "2021-2023",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "NASG",
+      "games": 156,
+      "years": "2017-2020",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "IEM",
+      "games": 139,
+      "years": "2015-2017",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "TPL",
+      "games": 135,
+      "years": "2015-2017",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "LJLCS",
+      "games": 135,
+      "years": "2016-2018",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "UGP",
+      "games": 132,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "TSC",
+      "games": 107,
+      "years": "2024-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CISC",
+      "games": 106,
+      "years": "2017-2018",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "USP",
+      "games": 106,
+      "years": "2022-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "TCS",
+      "games": 97,
+      "years": "2018-2018",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "EGL",
+      "games": 92,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "GLLPA",
+      "games": 85,
+      "years": "2022-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "HS",
+      "games": 79,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "IGNIS",
+      "games": 55,
+      "years": "2024-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "GSG",
+      "games": 53,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "EBLPA",
+      "games": 44,
+      "years": "2022-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "NERD",
+      "games": 42,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "CCWS",
+      "games": 40,
+      "years": "2026-2026",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "AOL",
+      "games": 37,
+      "years": "2021-2021",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "AC",
+      "games": 35,
+      "years": "2024-2024",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "Riot",
+      "games": 20,
+      "years": "2020-2020",
+      "tier": null,
+      "matched_to": null
+    },
+    {
+      "league": "LGL",
+      "games": 8,
+      "years": "2019-2019",
+      "tier": null,
+      "matched_to": null
+    }
+  ]
+}

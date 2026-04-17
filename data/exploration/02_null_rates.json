@@ -1,0 +1,1900 @@
+{
+  "2014": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 21.99,
+      "all_null_pct": 21.99
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "xpat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "csat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "golddiffat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "killsat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    }
+  },
+  "2015": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 98.95,
+      "all_null_pct": 99.82
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat20": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat25": {
+      "team_null_pct": 2.82,
+      "all_null_pct": 2.82
+    },
+    "xpat25": {
+      "team_null_pct": 2.82,
+      "all_null_pct": 2.82
+    },
+    "csat25": {
+      "team_null_pct": 2.82,
+      "all_null_pct": 2.82
+    },
+    "golddiffat25": {
+      "team_null_pct": 2.82,
+      "all_null_pct": 2.82
+    },
+    "killsat25": {
+      "team_null_pct": 2.82,
+      "all_null_pct": 2.82
+    }
+  },
+  "2016": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 2.09,
+      "all_null_pct": 83.68
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.21,
+      "all_null_pct": 0.21
+    },
+    "xpat20": {
+      "team_null_pct": 0.21,
+      "all_null_pct": 0.21
+    },
+    "csat20": {
+      "team_null_pct": 0.21,
+      "all_null_pct": 0.21
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.21,
+      "all_null_pct": 0.21
+    },
+    "killsat20": {
+      "team_null_pct": 0.21,
+      "all_null_pct": 0.21
+    },
+    "goldat25": {
+      "team_null_pct": 4.01,
+      "all_null_pct": 4.01
+    },
+    "xpat25": {
+      "team_null_pct": 4.01,
+      "all_null_pct": 4.01
+    },
+    "csat25": {
+      "team_null_pct": 4.01,
+      "all_null_pct": 4.01
+    },
+    "golddiffat25": {
+      "team_null_pct": 4.01,
+      "all_null_pct": 4.01
+    },
+    "killsat25": {
+      "team_null_pct": 4.01,
+      "all_null_pct": 4.01
+    }
+  },
+  "2017": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.16,
+      "all_null_pct": 0.16
+    },
+    "xpat20": {
+      "team_null_pct": 0.16,
+      "all_null_pct": 0.16
+    },
+    "csat20": {
+      "team_null_pct": 0.16,
+      "all_null_pct": 0.16
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.16,
+      "all_null_pct": 0.16
+    },
+    "killsat20": {
+      "team_null_pct": 0.16,
+      "all_null_pct": 0.16
+    },
+    "goldat25": {
+      "team_null_pct": 4.64,
+      "all_null_pct": 4.64
+    },
+    "xpat25": {
+      "team_null_pct": 4.64,
+      "all_null_pct": 4.64
+    },
+    "csat25": {
+      "team_null_pct": 4.64,
+      "all_null_pct": 4.64
+    },
+    "golddiffat25": {
+      "team_null_pct": 4.64,
+      "all_null_pct": 4.64
+    },
+    "killsat25": {
+      "team_null_pct": 4.64,
+      "all_null_pct": 4.64
+    }
+  },
+  "2018": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 0.07,
+      "all_null_pct": 83.35
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.09,
+      "all_null_pct": 9.87
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.18,
+      "all_null_pct": 0.18
+    },
+    "xpat20": {
+      "team_null_pct": 0.18,
+      "all_null_pct": 0.18
+    },
+    "csat20": {
+      "team_null_pct": 0.18,
+      "all_null_pct": 0.18
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.18,
+      "all_null_pct": 0.18
+    },
+    "killsat20": {
+      "team_null_pct": 0.18,
+      "all_null_pct": 0.18
+    },
+    "goldat25": {
+      "team_null_pct": 6.49,
+      "all_null_pct": 6.49
+    },
+    "xpat25": {
+      "team_null_pct": 6.49,
+      "all_null_pct": 6.49
+    },
+    "csat25": {
+      "team_null_pct": 6.49,
+      "all_null_pct": 6.49
+    },
+    "golddiffat25": {
+      "team_null_pct": 6.49,
+      "all_null_pct": 6.49
+    },
+    "killsat25": {
+      "team_null_pct": 6.49,
+      "all_null_pct": 6.49
+    }
+  },
+  "2019": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 1.01,
+      "all_null_pct": 83.5
+    },
+    "heralds": {
+      "team_null_pct": 14.58,
+      "all_null_pct": 85.76
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 1.03,
+      "all_null_pct": 17.44
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "xpat15": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "csat15": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "killsat15": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "goldat20": {
+      "team_null_pct": 0.45,
+      "all_null_pct": 0.45
+    },
+    "xpat20": {
+      "team_null_pct": 0.45,
+      "all_null_pct": 0.45
+    },
+    "csat20": {
+      "team_null_pct": 0.45,
+      "all_null_pct": 0.45
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.45,
+      "all_null_pct": 0.45
+    },
+    "killsat20": {
+      "team_null_pct": 0.45,
+      "all_null_pct": 0.45
+    },
+    "goldat25": {
+      "team_null_pct": 7.5,
+      "all_null_pct": 7.5
+    },
+    "xpat25": {
+      "team_null_pct": 7.5,
+      "all_null_pct": 7.5
+    },
+    "csat25": {
+      "team_null_pct": 7.5,
+      "all_null_pct": 7.5
+    },
+    "golddiffat25": {
+      "team_null_pct": 7.5,
+      "all_null_pct": 7.5
+    },
+    "killsat25": {
+      "team_null_pct": 7.5,
+      "all_null_pct": 7.5
+    }
+  },
+  "2020": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "heralds": {
+      "team_null_pct": 5.34,
+      "all_null_pct": 84.22
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 14.69
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.54,
+      "all_null_pct": 0.54
+    },
+    "xpat20": {
+      "team_null_pct": 0.54,
+      "all_null_pct": 0.54
+    },
+    "csat20": {
+      "team_null_pct": 0.54,
+      "all_null_pct": 0.54
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.54,
+      "all_null_pct": 0.54
+    },
+    "killsat20": {
+      "team_null_pct": 0.54,
+      "all_null_pct": 0.54
+    },
+    "goldat25": {
+      "team_null_pct": 7.53,
+      "all_null_pct": 7.53
+    },
+    "xpat25": {
+      "team_null_pct": 7.53,
+      "all_null_pct": 7.53
+    },
+    "csat25": {
+      "team_null_pct": 7.53,
+      "all_null_pct": 7.53
+    },
+    "golddiffat25": {
+      "team_null_pct": 7.53,
+      "all_null_pct": 7.53
+    },
+    "killsat25": {
+      "team_null_pct": 7.53,
+      "all_null_pct": 7.53
+    }
+  },
+  "2021": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 73.45
+    },
+    "heralds": {
+      "team_null_pct": 9.52,
+      "all_null_pct": 84.92
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.04,
+      "all_null_pct": 8.23
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 0.55
+    },
+    "xpat20": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 0.55
+    },
+    "csat20": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 0.55
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 0.55
+    },
+    "killsat20": {
+      "team_null_pct": 0.55,
+      "all_null_pct": 0.55
+    },
+    "goldat25": {
+      "team_null_pct": 9.59,
+      "all_null_pct": 9.59
+    },
+    "xpat25": {
+      "team_null_pct": 9.59,
+      "all_null_pct": 9.59
+    },
+    "csat25": {
+      "team_null_pct": 9.59,
+      "all_null_pct": 9.59
+    },
+    "golddiffat25": {
+      "team_null_pct": 9.59,
+      "all_null_pct": 9.59
+    },
+    "killsat25": {
+      "team_null_pct": 9.59,
+      "all_null_pct": 9.59
+    }
+  },
+  "2022": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 4.0
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 2.53
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.35,
+      "all_null_pct": 0.35
+    },
+    "xpat20": {
+      "team_null_pct": 0.35,
+      "all_null_pct": 0.35
+    },
+    "csat20": {
+      "team_null_pct": 0.35,
+      "all_null_pct": 0.35
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.35,
+      "all_null_pct": 0.35
+    },
+    "killsat20": {
+      "team_null_pct": 0.35,
+      "all_null_pct": 0.35
+    },
+    "goldat25": {
+      "team_null_pct": 6.31,
+      "all_null_pct": 6.31
+    },
+    "xpat25": {
+      "team_null_pct": 6.31,
+      "all_null_pct": 6.31
+    },
+    "csat25": {
+      "team_null_pct": 6.31,
+      "all_null_pct": 6.31
+    },
+    "golddiffat25": {
+      "team_null_pct": 6.31,
+      "all_null_pct": 6.31
+    },
+    "killsat25": {
+      "team_null_pct": 6.31,
+      "all_null_pct": 6.31
+    }
+  },
+  "2023": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.01
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 99.55,
+      "all_null_pct": 99.93
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.01
+    },
+    "elders": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 83.34
+    },
+    "goldat10": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "xpat10": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "csat10": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "killsat10": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "goldat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "xpat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "csat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "killsat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "goldat20": {
+      "team_null_pct": 0.32,
+      "all_null_pct": 0.32
+    },
+    "xpat20": {
+      "team_null_pct": 0.32,
+      "all_null_pct": 0.32
+    },
+    "csat20": {
+      "team_null_pct": 0.32,
+      "all_null_pct": 0.32
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.32,
+      "all_null_pct": 0.32
+    },
+    "killsat20": {
+      "team_null_pct": 0.32,
+      "all_null_pct": 0.32
+    },
+    "goldat25": {
+      "team_null_pct": 7.24,
+      "all_null_pct": 7.24
+    },
+    "xpat25": {
+      "team_null_pct": 7.24,
+      "all_null_pct": 7.24
+    },
+    "csat25": {
+      "team_null_pct": 7.24,
+      "all_null_pct": 7.24
+    },
+    "golddiffat25": {
+      "team_null_pct": 7.24,
+      "all_null_pct": 7.24
+    },
+    "killsat25": {
+      "team_null_pct": 7.24,
+      "all_null_pct": 7.24
+    }
+  },
+  "2024": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 4.23,
+      "all_null_pct": 84.04
+    },
+    "atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "opp_atakhans": {
+      "team_null_pct": 100.0,
+      "all_null_pct": 100.0
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "xpat10": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "csat10": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "killsat10": {
+      "team_null_pct": 0.01,
+      "all_null_pct": 0.01
+    },
+    "goldat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "xpat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "csat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "killsat15": {
+      "team_null_pct": 0.02,
+      "all_null_pct": 0.02
+    },
+    "goldat20": {
+      "team_null_pct": 0.43,
+      "all_null_pct": 0.43
+    },
+    "xpat20": {
+      "team_null_pct": 0.43,
+      "all_null_pct": 0.43
+    },
+    "csat20": {
+      "team_null_pct": 0.43,
+      "all_null_pct": 0.43
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.43,
+      "all_null_pct": 0.43
+    },
+    "killsat20": {
+      "team_null_pct": 0.43,
+      "all_null_pct": 0.43
+    },
+    "goldat25": {
+      "team_null_pct": 7.97,
+      "all_null_pct": 7.97
+    },
+    "xpat25": {
+      "team_null_pct": 7.97,
+      "all_null_pct": 7.97
+    },
+    "csat25": {
+      "team_null_pct": 7.97,
+      "all_null_pct": 7.97
+    },
+    "golddiffat25": {
+      "team_null_pct": 7.97,
+      "all_null_pct": 7.97
+    },
+    "killsat25": {
+      "team_null_pct": 7.97,
+      "all_null_pct": 7.97
+    }
+  },
+  "2025": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "atakhans": {
+      "team_null_pct": 4.17,
+      "all_null_pct": 84.03
+    },
+    "opp_atakhans": {
+      "team_null_pct": 4.17,
+      "all_null_pct": 84.03
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.13,
+      "all_null_pct": 0.13
+    },
+    "xpat20": {
+      "team_null_pct": 0.13,
+      "all_null_pct": 0.13
+    },
+    "csat20": {
+      "team_null_pct": 0.13,
+      "all_null_pct": 0.13
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.13,
+      "all_null_pct": 0.13
+    },
+    "killsat20": {
+      "team_null_pct": 0.13,
+      "all_null_pct": 0.13
+    },
+    "goldat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "xpat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "csat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "golddiffat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    },
+    "killsat25": {
+      "team_null_pct": 3.81,
+      "all_null_pct": 3.81
+    }
+  },
+  "2026": {
+    "datacompleteness": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "league": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "patch": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "side": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "position": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "result": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "gamelength": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "dragons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "barons": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "heralds": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "void_grubs": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "atakhans": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "opp_atakhans": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "towers": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "inhibitors": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "elders": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 83.33
+    },
+    "goldat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat10": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "xpat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "csat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "golddiffat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "killsat15": {
+      "team_null_pct": 0.0,
+      "all_null_pct": 0.0
+    },
+    "goldat20": {
+      "team_null_pct": 0.2,
+      "all_null_pct": 0.2
+    },
+    "xpat20": {
+      "team_null_pct": 0.2,
+      "all_null_pct": 0.2
+    },
+    "csat20": {
+      "team_null_pct": 0.2,
+      "all_null_pct": 0.2
+    },
+    "golddiffat20": {
+      "team_null_pct": 0.2,
+      "all_null_pct": 0.2
+    },
+    "killsat20": {
+      "team_null_pct": 0.2,
+      "all_null_pct": 0.2
+    },
+    "goldat25": {
+      "team_null_pct": 6.28,
+      "all_null_pct": 6.28
+    },
+    "xpat25": {
+      "team_null_pct": 6.28,
+      "all_null_pct": 6.28
+    },
+    "csat25": {
+      "team_null_pct": 6.28,
+      "all_null_pct": 6.28
+    },
+    "golddiffat25": {
+      "team_null_pct": 6.28,
+      "all_null_pct": 6.28
+    },
+    "killsat25": {
+      "team_null_pct": 6.28,
+      "all_null_pct": 6.28
+    }
+  }
+}

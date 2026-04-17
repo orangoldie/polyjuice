@@ -1,0 +1,4928 @@
+{
+  "per_year": {
+    "2014": {
+      "blue_wins": 474,
+      "red_wins": 340,
+      "total": 1628,
+      "games": 814,
+      "blue_wr": 58.23,
+      "red_wr": 41.77
+    },
+    "2015": {
+      "blue_wins": 994,
+      "red_wins": 813,
+      "total": 3614,
+      "games": 1807,
+      "blue_wr": 55.01,
+      "red_wr": 44.99
+    },
+    "2016": {
+      "blue_wins": 1794,
+      "red_wins": 1596,
+      "total": 6780,
+      "games": 3390,
+      "blue_wr": 52.92,
+      "red_wr": 47.08
+    },
+    "2017": {
+      "blue_wins": 2455,
+      "red_wins": 2004,
+      "total": 8918,
+      "games": 4459,
+      "blue_wr": 55.06,
+      "red_wr": 44.94
+    },
+    "2018": {
+      "blue_wins": 2966,
+      "red_wins": 2546,
+      "total": 11024,
+      "games": 5512,
+      "blue_wr": 53.81,
+      "red_wr": 46.19
+    },
+    "2019": {
+      "blue_wins": 4104,
+      "red_wins": 3641,
+      "total": 15490,
+      "games": 7745,
+      "blue_wr": 52.99,
+      "red_wr": 47.01
+    },
+    "2020": {
+      "blue_wins": 5134,
+      "red_wins": 4606,
+      "total": 19480,
+      "games": 9740,
+      "blue_wr": 52.71,
+      "red_wr": 47.29
+    },
+    "2021": {
+      "blue_wins": 5774,
+      "red_wins": 5164,
+      "total": 21876,
+      "games": 10938,
+      "blue_wr": 52.79,
+      "red_wr": 47.21
+    },
+    "2022": {
+      "blue_wins": 5450,
+      "red_wins": 4987,
+      "total": 20874,
+      "games": 10437,
+      "blue_wr": 52.22,
+      "red_wr": 47.78
+    },
+    "2023": {
+      "blue_wins": 4985,
+      "red_wins": 4366,
+      "total": 18704,
+      "games": 9352,
+      "blue_wr": 53.3,
+      "red_wr": 46.69
+    },
+    "2024": {
+      "blue_wins": 4673,
+      "red_wins": 4146,
+      "total": 17640,
+      "games": 8820,
+      "blue_wr": 52.98,
+      "red_wr": 47.01
+    },
+    "2025": {
+      "blue_wins": 4974,
+      "red_wins": 4379,
+      "total": 18706,
+      "games": 9353,
+      "blue_wr": 53.18,
+      "red_wr": 46.82
+    },
+    "2026": {
+      "blue_wins": 1552,
+      "red_wins": 1394,
+      "total": 5892,
+      "games": 2946,
+      "blue_wr": 52.68,
+      "red_wr": 47.32
+    }
+  },
+  "per_league": {
+    "LCK": {
+      "blue_wins": 2719,
+      "red_wins": 2418,
+      "total": 10276,
+      "games": 5138,
+      "blue_wr": 52.92,
+      "red_wr": 47.06
+    },
+    "LDL": {
+      "blue_wins": 1381,
+      "red_wins": 1196,
+      "total": 5154,
+      "games": 2577,
+      "blue_wr": 53.59,
+      "red_wr": 46.41
+    },
+    "TCL": {
+      "blue_wins": 1338,
+      "red_wins": 1160,
+      "total": 4996,
+      "games": 2498,
+      "blue_wr": 53.56,
+      "red_wr": 46.44
+    },
+    "VCS": {
+      "blue_wins": 1245,
+      "red_wins": 1184,
+      "total": 4858,
+      "games": 2429,
+      "blue_wr": 51.26,
+      "red_wr": 48.74
+    },
+    "LCKC": {
+      "blue_wins": 1242,
+      "red_wins": 1102,
+      "total": 4688,
+      "games": 2344,
+      "blue_wr": 52.99,
+      "red_wr": 47.01
+    },
+    "LPL": {
+      "blue_wins": 1184,
+      "red_wins": 1079,
+      "total": 4526,
+      "games": 2263,
+      "blue_wr": 52.32,
+      "red_wr": 47.68
+    },
+    "LJL": {
+      "blue_wins": 1165,
+      "red_wins": 988,
+      "total": 4306,
+      "games": 2153,
+      "blue_wr": 54.11,
+      "red_wr": 45.89
+    },
+    "LEC": {
+      "blue_wins": 1093,
+      "red_wins": 965,
+      "total": 4116,
+      "games": 2058,
+      "blue_wr": 53.11,
+      "red_wr": 46.89
+    },
+    "CBLOL": {
+      "blue_wins": 1058,
+      "red_wins": 937,
+      "total": 3990,
+      "games": 1995,
+      "blue_wr": 53.03,
+      "red_wr": 46.97
+    },
+    "NA LCS": {
+      "blue_wins": 977,
+      "red_wins": 759,
+      "total": 3472,
+      "games": 1736,
+      "blue_wr": 56.28,
+      "red_wr": 43.72
+    },
+    "LCS": {
+      "blue_wins": 933,
+      "red_wins": 800,
+      "total": 3466,
+      "games": 1733,
+      "blue_wr": 53.84,
+      "red_wr": 46.16
+    },
+    "LFL": {
+      "blue_wins": 938,
+      "red_wins": 782,
+      "total": 3440,
+      "games": 1720,
+      "blue_wr": 54.53,
+      "red_wr": 45.47
+    },
+    "PRM": {
+      "blue_wins": 896,
+      "red_wins": 824,
+      "total": 3440,
+      "games": 1720,
+      "blue_wr": 52.09,
+      "red_wr": 47.91
+    },
+    "LAS": {
+      "blue_wins": 899,
+      "red_wins": 816,
+      "total": 3430,
+      "games": 1715,
+      "blue_wr": 52.42,
+      "red_wr": 47.58
+    },
+    "PCS": {
+      "blue_wins": 924,
+      "red_wins": 780,
+      "total": 3408,
+      "games": 1704,
+      "blue_wr": 54.23,
+      "red_wr": 45.77
+    },
+    "NACL": {
+      "blue_wins": 896,
+      "red_wins": 774,
+      "total": 3340,
+      "games": 1670,
+      "blue_wr": 53.65,
+      "red_wr": 46.35
+    },
+    "LCSA": {
+      "blue_wins": 853,
+      "red_wins": 748,
+      "total": 3202,
+      "games": 1601,
+      "blue_wr": 53.28,
+      "red_wr": 46.72
+    },
+    "EU LCS": {
+      "blue_wins": 843,
+      "red_wins": 711,
+      "total": 3108,
+      "games": 1554,
+      "blue_wr": 54.25,
+      "red_wr": 45.75
+    },
+    "NLC": {
+      "blue_wins": 797,
+      "red_wins": 686,
+      "total": 2966,
+      "games": 1483,
+      "blue_wr": 53.74,
+      "red_wr": 46.26
+    },
+    "CK": {
+      "blue_wins": 727,
+      "red_wins": 664,
+      "total": 2782,
+      "games": 1391,
+      "blue_wr": 52.26,
+      "red_wr": 47.74
+    },
+    "LMS": {
+      "blue_wins": 733,
+      "red_wins": 596,
+      "total": 2658,
+      "games": 1329,
+      "blue_wr": 55.15,
+      "red_wr": 44.85
+    },
+    "WLDs": {
+      "blue_wins": 703,
+      "red_wins": 585,
+      "total": 2576,
+      "games": 1288,
+      "blue_wr": 54.58,
+      "red_wr": 45.42
+    },
+    "EM": {
+      "blue_wins": 695,
+      "red_wins": 581,
+      "total": 2552,
+      "games": 1276,
+      "blue_wr": 54.47,
+      "red_wr": 45.53
+    },
+    "UL": {
+      "blue_wins": 685,
+      "red_wins": 583,
+      "total": 2536,
+      "games": 1268,
+      "blue_wr": 54.02,
+      "red_wr": 45.98
+    },
+    "LPLOL": {
+      "blue_wins": 633,
+      "red_wins": 595,
+      "total": 2456,
+      "games": 1228,
+      "blue_wr": 51.55,
+      "red_wr": 48.45
+    },
+    "LVP SL": {
+      "blue_wins": 649,
+      "red_wins": 576,
+      "total": 2450,
+      "games": 1225,
+      "blue_wr": 52.98,
+      "red_wr": 47.02
+    },
+    "OPL": {
+      "blue_wins": 608,
+      "red_wins": 560,
+      "total": 2336,
+      "games": 1168,
+      "blue_wr": 52.05,
+      "red_wr": 47.95
+    },
+    "LLA": {
+      "blue_wins": 593,
+      "red_wins": 555,
+      "total": 2296,
+      "games": 1148,
+      "blue_wr": 51.66,
+      "red_wr": 48.34
+    },
+    "EBL": {
+      "blue_wins": 566,
+      "red_wins": 561,
+      "total": 2254,
+      "games": 1127,
+      "blue_wr": 50.22,
+      "red_wr": 49.78
+    },
+    "LMF": {
+      "blue_wins": 558,
+      "red_wins": 533,
+      "total": 2182,
+      "games": 1091,
+      "blue_wr": 51.15,
+      "red_wr": 48.85
+    },
+    "HM": {
+      "blue_wins": 586,
+      "red_wins": 502,
+      "total": 2176,
+      "games": 1088,
+      "blue_wr": 53.86,
+      "red_wr": 46.14
+    },
+    "GLL": {
+      "blue_wins": 594,
+      "red_wins": 493,
+      "total": 2174,
+      "games": 1087,
+      "blue_wr": 54.65,
+      "red_wr": 45.35
+    },
+    "LHE": {
+      "blue_wins": 507,
+      "red_wins": 471,
+      "total": 1956,
+      "games": 978,
+      "blue_wr": 51.84,
+      "red_wr": 48.16
+    },
+    "CBLOLA": {
+      "blue_wins": 524,
+      "red_wins": 437,
+      "total": 1922,
+      "games": 961,
+      "blue_wr": 54.53,
+      "red_wr": 45.47
+    },
+    "PGN": {
+      "blue_wins": 507,
+      "red_wins": 442,
+      "total": 1898,
+      "games": 949,
+      "blue_wr": 53.42,
+      "red_wr": 46.58
+    },
+    "EUM": {
+      "blue_wins": 495,
+      "red_wins": 453,
+      "total": 1896,
+      "games": 948,
+      "blue_wr": 52.22,
+      "red_wr": 47.78
+    },
+    "NEXO": {
+      "blue_wins": 449,
+      "red_wins": 489,
+      "total": 1876,
+      "games": 938,
+      "blue_wr": 47.87,
+      "red_wr": 52.13
+    },
+    "LFL2": {
+      "blue_wins": 486,
+      "red_wins": 433,
+      "total": 1838,
+      "games": 919,
+      "blue_wr": 52.88,
+      "red_wr": 47.12
+    },
+    "LCL": {
+      "blue_wins": 477,
+      "red_wins": 420,
+      "total": 1794,
+      "games": 897,
+      "blue_wr": 53.18,
+      "red_wr": 46.82
+    },
+    "UPL": {
+      "blue_wins": 466,
+      "red_wins": 418,
+      "total": 1768,
+      "games": 884,
+      "blue_wr": 52.71,
+      "red_wr": 47.29
+    },
+    "HC": {
+      "blue_wins": 467,
+      "red_wins": 401,
+      "total": 1736,
+      "games": 868,
+      "blue_wr": 53.8,
+      "red_wr": 46.2
+    },
+    "ESLOL": {
+      "blue_wins": 451,
+      "red_wins": 381,
+      "total": 1666,
+      "games": 833,
+      "blue_wr": 54.14,
+      "red_wr": 45.74
+    },
+    "DDH": {
+      "blue_wins": 451,
+      "red_wins": 377,
+      "total": 1656,
+      "games": 828,
+      "blue_wr": 54.47,
+      "red_wr": 45.53
+    },
+    "TAL": {
+      "blue_wins": 401,
+      "red_wins": 387,
+      "total": 1576,
+      "games": 788,
+      "blue_wr": 50.89,
+      "red_wr": 49.11
+    },
+    "AL": {
+      "blue_wins": 412,
+      "red_wins": 349,
+      "total": 1522,
+      "games": 761,
+      "blue_wr": 54.14,
+      "red_wr": 45.86
+    },
+    "LCO": {
+      "blue_wins": 356,
+      "red_wins": 332,
+      "total": 1376,
+      "games": 688,
+      "blue_wr": 51.74,
+      "red_wr": 48.26
+    },
+    "SLO": {
+      "blue_wins": 343,
+      "red_wins": 293,
+      "total": 1272,
+      "games": 636,
+      "blue_wr": 53.93,
+      "red_wr": 46.07
+    },
+    "MSI": {
+      "blue_wins": 340,
+      "red_wins": 276,
+      "total": 1232,
+      "games": 616,
+      "blue_wr": 55.19,
+      "red_wr": 44.81
+    },
+    "CLS": {
+      "blue_wins": 323,
+      "red_wins": 257,
+      "total": 1160,
+      "games": 580,
+      "blue_wr": 55.69,
+      "red_wr": 44.31
+    },
+    "RCL": {
+      "blue_wins": 302,
+      "red_wins": 249,
+      "total": 1102,
+      "games": 551,
+      "blue_wr": 54.81,
+      "red_wr": 45.19
+    },
+    "EU CS": {
+      "blue_wins": 264,
+      "red_wins": 242,
+      "total": 1012,
+      "games": 506,
+      "blue_wr": 52.17,
+      "red_wr": 47.83
+    },
+    "PGC": {
+      "blue_wins": 267,
+      "red_wins": 234,
+      "total": 1002,
+      "games": 501,
+      "blue_wr": 53.29,
+      "red_wr": 46.71
+    },
+    "NA CS": {
+      "blue_wins": 272,
+      "red_wins": 182,
+      "total": 908,
+      "games": 454,
+      "blue_wr": 59.91,
+      "red_wr": 40.09
+    },
+    "PCL": {
+      "blue_wins": 244,
+      "red_wins": 205,
+      "total": 898,
+      "games": 449,
+      "blue_wr": 54.34,
+      "red_wr": 45.66
+    },
+    "LLN": {
+      "blue_wins": 239,
+      "red_wins": 206,
+      "total": 890,
+      "games": 445,
+      "blue_wr": 53.71,
+      "red_wr": 46.29
+    },
+    "UKLC": {
+      "blue_wins": 221,
+      "red_wins": 209,
+      "total": 860,
+      "games": 430,
+      "blue_wr": 51.4,
+      "red_wr": 48.6
+    },
+    "BRCC": {
+      "blue_wins": 227,
+      "red_wins": 197,
+      "total": 848,
+      "games": 424,
+      "blue_wr": 53.54,
+      "red_wr": 46.46
+    },
+    "LRN": {
+      "blue_wins": 225,
+      "red_wins": 193,
+      "total": 836,
+      "games": 418,
+      "blue_wr": 53.83,
+      "red_wr": 46.17
+    },
+    "LRS": {
+      "blue_wins": 220,
+      "red_wins": 192,
+      "total": 824,
+      "games": 412,
+      "blue_wr": 53.4,
+      "red_wr": 46.6
+    },
+    "LCP": {
+      "blue_wins": 224,
+      "red_wins": 188,
+      "total": 824,
+      "games": 412,
+      "blue_wr": 54.37,
+      "red_wr": 45.63
+    },
+    "LIT": {
+      "blue_wins": 198,
+      "red_wins": 206,
+      "total": 808,
+      "games": 404,
+      "blue_wr": 49.01,
+      "red_wr": 50.99
+    },
+    "OCS": {
+      "blue_wins": 201,
+      "red_wins": 200,
+      "total": 802,
+      "games": 401,
+      "blue_wr": 50.12,
+      "red_wr": 49.88
+    },
+    "OGN": {
+      "blue_wins": 213,
+      "red_wins": 181,
+      "total": 788,
+      "games": 394,
+      "blue_wr": 54.06,
+      "red_wr": 45.94
+    },
+    "OTBLX": {
+      "blue_wins": 170,
+      "red_wins": 201,
+      "total": 742,
+      "games": 371,
+      "blue_wr": 45.82,
+      "red_wr": 54.18
+    },
+    "KeSPA": {
+      "blue_wins": 188,
+      "red_wins": 165,
+      "total": 706,
+      "games": 353,
+      "blue_wr": 53.26,
+      "red_wr": 46.74
+    },
+    "CD": {
+      "blue_wins": 176,
+      "red_wins": 171,
+      "total": 694,
+      "games": 347,
+      "blue_wr": 50.72,
+      "red_wr": 49.28
+    },
+    "BIG": {
+      "blue_wins": 176,
+      "red_wins": 167,
+      "total": 686,
+      "games": 343,
+      "blue_wr": 51.31,
+      "red_wr": 48.69
+    },
+    "PRMP": {
+      "blue_wins": 167,
+      "red_wins": 175,
+      "total": 684,
+      "games": 342,
+      "blue_wr": 48.83,
+      "red_wr": 51.17
+    },
+    "HW": {
+      "blue_wins": 195,
+      "red_wins": 142,
+      "total": 674,
+      "games": 337,
+      "blue_wr": 57.86,
+      "red_wr": 42.14
+    },
+    "RL": {
+      "blue_wins": 160,
+      "red_wins": 150,
+      "total": 620,
+      "games": 310,
+      "blue_wr": 51.61,
+      "red_wr": 48.39
+    },
+    "HLL": {
+      "blue_wins": 162,
+      "red_wins": 140,
+      "total": 604,
+      "games": 302,
+      "blue_wr": 53.64,
+      "red_wr": 46.36
+    },
+    "ROL": {
+      "blue_wins": 160,
+      "red_wins": 135,
+      "total": 590,
+      "games": 295,
+      "blue_wr": 54.24,
+      "red_wr": 45.76
+    },
+    "VL": {
+      "blue_wins": 138,
+      "red_wins": 137,
+      "total": 550,
+      "games": 275,
+      "blue_wr": 50.18,
+      "red_wr": 49.82
+    },
+    "SL (LATAM)": {
+      "blue_wins": 156,
+      "red_wins": 119,
+      "total": 550,
+      "games": 275,
+      "blue_wr": 56.73,
+      "red_wr": 43.27
+    },
+    "GL": {
+      "blue_wins": 138,
+      "red_wins": 133,
+      "total": 542,
+      "games": 271,
+      "blue_wr": 50.92,
+      "red_wr": 49.08
+    },
+    "IC": {
+      "blue_wins": 150,
+      "red_wins": 94,
+      "total": 488,
+      "games": 244,
+      "blue_wr": 61.48,
+      "red_wr": 38.52
+    },
+    "BM": {
+      "blue_wins": 128,
+      "red_wins": 115,
+      "total": 486,
+      "games": 243,
+      "blue_wr": 52.67,
+      "red_wr": 47.33
+    },
+    "CT": {
+      "blue_wins": 117,
+      "red_wins": 126,
+      "total": 486,
+      "games": 243,
+      "blue_wr": 48.15,
+      "red_wr": 51.85
+    },
+    "EPL": {
+      "blue_wins": 111,
+      "red_wins": 125,
+      "total": 472,
+      "games": 236,
+      "blue_wr": 47.03,
+      "red_wr": 52.97
+    },
+    "DCup": {
+      "blue_wins": 118,
+      "red_wins": 110,
+      "total": 456,
+      "games": 228,
+      "blue_wr": 51.75,
+      "red_wr": 48.25
+    },
+    "LTA S": {
+      "blue_wins": 116,
+      "red_wins": 106,
+      "total": 444,
+      "games": 222,
+      "blue_wr": 52.25,
+      "red_wr": 47.75
+    },
+    "NLC Aurora Open": {
+      "blue_wins": 112,
+      "red_wins": 105,
+      "total": 434,
+      "games": 217,
+      "blue_wr": 51.61,
+      "red_wr": 48.39
+    },
+    "CDF": {
+      "blue_wins": 117,
+      "red_wins": 100,
+      "total": 434,
+      "games": 217,
+      "blue_wr": 53.92,
+      "red_wr": 46.08
+    },
+    "LTA N": {
+      "blue_wins": 109,
+      "red_wins": 104,
+      "total": 426,
+      "games": 213,
+      "blue_wr": 51.17,
+      "red_wr": 48.83
+    },
+    "CU": {
+      "blue_wins": 119,
+      "red_wins": 90,
+      "total": 418,
+      "games": 209,
+      "blue_wr": 56.94,
+      "red_wr": 43.06
+    },
+    "DL": {
+      "blue_wins": 100,
+      "red_wins": 98,
+      "total": 396,
+      "games": 198,
+      "blue_wr": 50.51,
+      "red_wr": 49.49
+    },
+    "BL": {
+      "blue_wins": 103,
+      "red_wins": 93,
+      "total": 392,
+      "games": 196,
+      "blue_wr": 52.55,
+      "red_wr": 47.45
+    },
+    "Asia Master": {
+      "blue_wins": 96,
+      "red_wins": 84,
+      "total": 360,
+      "games": 180,
+      "blue_wr": 53.33,
+      "red_wr": 46.67
+    },
+    "EL": {
+      "blue_wins": 95,
+      "red_wins": 81,
+      "total": 352,
+      "games": 176,
+      "blue_wr": 53.98,
+      "red_wr": 46.02
+    },
+    "LJLA": {
+      "blue_wins": 84,
+      "red_wins": 85,
+      "total": 338,
+      "games": 169,
+      "blue_wr": 49.7,
+      "red_wr": 50.3
+    },
+    "NASG": {
+      "blue_wins": 74,
+      "red_wins": 82,
+      "total": 312,
+      "games": 156,
+      "blue_wr": 47.44,
+      "red_wr": 52.56
+    },
+    "IEM": {
+      "blue_wins": 77,
+      "red_wins": 62,
+      "total": 278,
+      "games": 139,
+      "blue_wr": 55.4,
+      "red_wr": 44.6
+    },
+    "GPL": {
+      "blue_wins": 66,
+      "red_wins": 72,
+      "total": 276,
+      "games": 138,
+      "blue_wr": 47.83,
+      "red_wr": 52.17
+    },
+    "TPL": {
+      "blue_wins": 67,
+      "red_wins": 68,
+      "total": 270,
+      "games": 135,
+      "blue_wr": 49.63,
+      "red_wr": 50.37
+    },
+    "LJLCS": {
+      "blue_wins": 70,
+      "red_wins": 65,
+      "total": 270,
+      "games": 135,
+      "blue_wr": 51.85,
+      "red_wr": 48.15
+    },
+    "UGP": {
+      "blue_wins": 80,
+      "red_wins": 52,
+      "total": 264,
+      "games": 132,
+      "blue_wr": 60.61,
+      "red_wr": 39.39
+    },
+    "TSC": {
+      "blue_wins": 57,
+      "red_wins": 50,
+      "total": 214,
+      "games": 107,
+      "blue_wr": 53.27,
+      "red_wr": 46.73
+    },
+    "CISC": {
+      "blue_wins": 54,
+      "red_wins": 52,
+      "total": 212,
+      "games": 106,
+      "blue_wr": 50.94,
+      "red_wr": 49.06
+    },
+    "USP": {
+      "blue_wins": 59,
+      "red_wins": 47,
+      "total": 212,
+      "games": 106,
+      "blue_wr": 55.66,
+      "red_wr": 44.34
+    },
+    "TCS": {
+      "blue_wins": 55,
+      "red_wins": 42,
+      "total": 194,
+      "games": 97,
+      "blue_wr": 56.7,
+      "red_wr": 43.3
+    },
+    "EGL": {
+      "blue_wins": 49,
+      "red_wins": 43,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 53.26,
+      "red_wr": 46.74
+    },
+    "GLLPA": {
+      "blue_wins": 53,
+      "red_wins": 32,
+      "total": 170,
+      "games": 85,
+      "blue_wr": 62.35,
+      "red_wr": 37.65
+    },
+    "FST": {
+      "blue_wins": 46,
+      "red_wins": 34,
+      "total": 160,
+      "games": 80,
+      "blue_wr": 57.5,
+      "red_wr": 42.5
+    },
+    "HS": {
+      "blue_wins": 49,
+      "red_wins": 30,
+      "total": 158,
+      "games": 79,
+      "blue_wr": 62.03,
+      "red_wr": 37.97
+    },
+    "IGNIS": {
+      "blue_wins": 31,
+      "red_wins": 24,
+      "total": 110,
+      "games": 55,
+      "blue_wr": 56.36,
+      "red_wr": 43.64
+    },
+    "GSG": {
+      "blue_wins": 26,
+      "red_wins": 27,
+      "total": 106,
+      "games": 53,
+      "blue_wr": 49.06,
+      "red_wr": 50.94
+    },
+    "EWC": {
+      "blue_wins": 29,
+      "red_wins": 23,
+      "total": 104,
+      "games": 52,
+      "blue_wr": 55.77,
+      "red_wr": 44.23
+    },
+    "NEST": {
+      "blue_wins": 31,
+      "red_wins": 19,
+      "total": 100,
+      "games": 50,
+      "blue_wr": 62.0,
+      "red_wr": 38.0
+    },
+    "EBLPA": {
+      "blue_wins": 25,
+      "red_wins": 19,
+      "total": 88,
+      "games": 44,
+      "blue_wr": 56.82,
+      "red_wr": 43.18
+    },
+    "NERD": {
+      "blue_wins": 23,
+      "red_wins": 19,
+      "total": 84,
+      "games": 42,
+      "blue_wr": 54.76,
+      "red_wr": 45.24
+    },
+    "ASI": {
+      "blue_wins": 17,
+      "red_wins": 25,
+      "total": 84,
+      "games": 42,
+      "blue_wr": 40.48,
+      "red_wr": 59.52
+    },
+    "IWCI": {
+      "blue_wins": 27,
+      "red_wins": 13,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 67.5,
+      "red_wr": 32.5
+    },
+    "LTA": {
+      "blue_wins": 20,
+      "red_wins": 20,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "CCWS": {
+      "blue_wins": 16,
+      "red_wins": 24,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 40.0,
+      "red_wr": 60.0
+    },
+    "AOL": {
+      "blue_wins": 18,
+      "red_wins": 19,
+      "total": 74,
+      "games": 37,
+      "blue_wr": 48.65,
+      "red_wr": 51.35
+    },
+    "AC": {
+      "blue_wins": 18,
+      "red_wins": 17,
+      "total": 70,
+      "games": 35,
+      "blue_wr": 51.43,
+      "red_wr": 48.57
+    },
+    "LES": {
+      "blue_wins": 16,
+      "red_wins": 18,
+      "total": 68,
+      "games": 34,
+      "blue_wr": 47.06,
+      "red_wr": 52.94
+    },
+    "MSC": {
+      "blue_wins": 8,
+      "red_wins": 17,
+      "total": 50,
+      "games": 25,
+      "blue_wr": 32.0,
+      "red_wr": 68.0
+    },
+    "Riot": {
+      "blue_wins": 10,
+      "red_wins": 10,
+      "total": 40,
+      "games": 20,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "Americas Cup": {
+      "blue_wins": 8,
+      "red_wins": 11,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 42.11,
+      "red_wr": 57.89
+    },
+    "LGL": {
+      "blue_wins": 6,
+      "red_wins": 2,
+      "total": 16,
+      "games": 8,
+      "blue_wr": 75.0,
+      "red_wr": 25.0
+    }
+  },
+  "per_year_league": {
+    "2014_EU CS": {
+      "blue_wins": 49,
+      "red_wins": 38,
+      "total": 174,
+      "games": 87,
+      "blue_wr": 56.32,
+      "red_wr": 43.68
+    },
+    "2014_EU LCS": {
+      "blue_wins": 155,
+      "red_wins": 120,
+      "total": 550,
+      "games": 275,
+      "blue_wr": 56.36,
+      "red_wr": 43.64
+    },
+    "2014_NA CS": {
+      "blue_wins": 57,
+      "red_wins": 35,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 61.96,
+      "red_wr": 38.04
+    },
+    "2014_NA LCS": {
+      "blue_wins": 167,
+      "red_wins": 115,
+      "total": 564,
+      "games": 282,
+      "blue_wr": 59.22,
+      "red_wr": 40.78
+    },
+    "2014_WLDs": {
+      "blue_wins": 46,
+      "red_wins": 32,
+      "total": 156,
+      "games": 78,
+      "blue_wr": 58.97,
+      "red_wr": 41.03
+    },
+    "2015_CBLOL": {
+      "blue_wins": 12,
+      "red_wins": 7,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 63.16,
+      "red_wr": 36.84
+    },
+    "2015_EU CS": {
+      "blue_wins": 66,
+      "red_wins": 67,
+      "total": 266,
+      "games": 133,
+      "blue_wr": 49.62,
+      "red_wr": 50.38
+    },
+    "2015_EU LCS": {
+      "blue_wins": 159,
+      "red_wins": 130,
+      "total": 578,
+      "games": 289,
+      "blue_wr": 55.02,
+      "red_wr": 44.98
+    },
+    "2015_IEM": {
+      "blue_wins": 10,
+      "red_wins": 9,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 52.63,
+      "red_wr": 47.37
+    },
+    "2015_LCS": {
+      "blue_wins": 6,
+      "red_wins": 8,
+      "total": 28,
+      "games": 14,
+      "blue_wr": 42.86,
+      "red_wr": 57.14
+    },
+    "2015_LEC": {
+      "blue_wins": 4,
+      "red_wins": 7,
+      "total": 22,
+      "games": 11,
+      "blue_wr": 36.36,
+      "red_wr": 63.64
+    },
+    "2015_LMS": {
+      "blue_wins": 98,
+      "red_wins": 85,
+      "total": 366,
+      "games": 183,
+      "blue_wr": 53.55,
+      "red_wr": 46.45
+    },
+    "2015_MSI": {
+      "blue_wins": 18,
+      "red_wins": 10,
+      "total": 56,
+      "games": 28,
+      "blue_wr": 64.29,
+      "red_wr": 35.71
+    },
+    "2015_NA CS": {
+      "blue_wins": 76,
+      "red_wins": 59,
+      "total": 270,
+      "games": 135,
+      "blue_wr": 56.3,
+      "red_wr": 43.7
+    },
+    "2015_NA LCS": {
+      "blue_wins": 156,
+      "red_wins": 138,
+      "total": 588,
+      "games": 294,
+      "blue_wr": 53.06,
+      "red_wr": 46.94
+    },
+    "2015_OGN": {
+      "blue_wins": 213,
+      "red_wins": 181,
+      "total": 788,
+      "games": 394,
+      "blue_wr": 54.06,
+      "red_wr": 45.94
+    },
+    "2015_OPL": {
+      "blue_wins": 29,
+      "red_wins": 13,
+      "total": 84,
+      "games": 42,
+      "blue_wr": 69.05,
+      "red_wr": 30.95
+    },
+    "2015_TCL": {
+      "blue_wins": 97,
+      "red_wins": 64,
+      "total": 322,
+      "games": 161,
+      "blue_wr": 60.25,
+      "red_wr": 39.75
+    },
+    "2015_TPL": {
+      "blue_wins": 7,
+      "red_wins": 5,
+      "total": 24,
+      "games": 12,
+      "blue_wr": 58.33,
+      "red_wr": 41.67
+    },
+    "2015_WLDs": {
+      "blue_wins": 43,
+      "red_wins": 30,
+      "total": 146,
+      "games": 73,
+      "blue_wr": 58.9,
+      "red_wr": 41.1
+    },
+    "2016_CBLOL": {
+      "blue_wins": 90,
+      "red_wins": 74,
+      "total": 328,
+      "games": 164,
+      "blue_wr": 54.88,
+      "red_wr": 45.12
+    },
+    "2016_CK": {
+      "blue_wins": 104,
+      "red_wins": 95,
+      "total": 398,
+      "games": 199,
+      "blue_wr": 52.26,
+      "red_wr": 47.74
+    },
+    "2016_CLS": {
+      "blue_wins": 76,
+      "red_wins": 72,
+      "total": 296,
+      "games": 148,
+      "blue_wr": 51.35,
+      "red_wr": 48.65
+    },
+    "2016_EU CS": {
+      "blue_wins": 80,
+      "red_wins": 64,
+      "total": 288,
+      "games": 144,
+      "blue_wr": 55.56,
+      "red_wr": 44.44
+    },
+    "2016_EU LCS": {
+      "blue_wins": 185,
+      "red_wins": 162,
+      "total": 694,
+      "games": 347,
+      "blue_wr": 53.31,
+      "red_wr": 46.69
+    },
+    "2016_GPL": {
+      "blue_wins": 18,
+      "red_wins": 32,
+      "total": 100,
+      "games": 50,
+      "blue_wr": 36.0,
+      "red_wr": 64.0
+    },
+    "2016_IEM": {
+      "blue_wins": 29,
+      "red_wins": 24,
+      "total": 106,
+      "games": 53,
+      "blue_wr": 54.72,
+      "red_wr": 45.28
+    },
+    "2016_IWCI": {
+      "blue_wins": 27,
+      "red_wins": 13,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 67.5,
+      "red_wr": 32.5
+    },
+    "2016_KeSPA": {
+      "blue_wins": 19,
+      "red_wins": 15,
+      "total": 68,
+      "games": 34,
+      "blue_wr": 55.88,
+      "red_wr": 44.12
+    },
+    "2016_LCK": {
+      "blue_wins": 258,
+      "red_wins": 226,
+      "total": 968,
+      "games": 484,
+      "blue_wr": 53.31,
+      "red_wr": 46.69
+    },
+    "2016_LCL": {
+      "blue_wins": 79,
+      "red_wins": 69,
+      "total": 296,
+      "games": 148,
+      "blue_wr": 53.38,
+      "red_wr": 46.62
+    },
+    "2016_LCS": {
+      "blue_wins": 6,
+      "red_wins": 4,
+      "total": 20,
+      "games": 10,
+      "blue_wr": 60.0,
+      "red_wr": 40.0
+    },
+    "2016_LEC": {
+      "blue_wins": 5,
+      "red_wins": 6,
+      "total": 22,
+      "games": 11,
+      "blue_wr": 45.45,
+      "red_wr": 54.55
+    },
+    "2016_LJL": {
+      "blue_wins": 50,
+      "red_wins": 42,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 54.35,
+      "red_wr": 45.65
+    },
+    "2016_LJLCS": {
+      "blue_wins": 17,
+      "red_wins": 16,
+      "total": 66,
+      "games": 33,
+      "blue_wr": 51.52,
+      "red_wr": 48.48
+    },
+    "2016_LMS": {
+      "blue_wins": 126,
+      "red_wins": 134,
+      "total": 520,
+      "games": 260,
+      "blue_wr": 48.46,
+      "red_wr": 51.54
+    },
+    "2016_MSI": {
+      "blue_wins": 21,
+      "red_wins": 20,
+      "total": 82,
+      "games": 41,
+      "blue_wr": 51.22,
+      "red_wr": 48.78
+    },
+    "2016_NA CS": {
+      "blue_wins": 58,
+      "red_wins": 40,
+      "total": 196,
+      "games": 98,
+      "blue_wr": 59.18,
+      "red_wr": 40.82
+    },
+    "2016_NA LCS": {
+      "blue_wins": 204,
+      "red_wins": 172,
+      "total": 752,
+      "games": 376,
+      "blue_wr": 54.26,
+      "red_wr": 45.74
+    },
+    "2016_OCS": {
+      "blue_wins": 46,
+      "red_wins": 34,
+      "total": 160,
+      "games": 80,
+      "blue_wr": 57.5,
+      "red_wr": 42.5
+    },
+    "2016_OPL": {
+      "blue_wins": 112,
+      "red_wins": 120,
+      "total": 464,
+      "games": 232,
+      "blue_wr": 48.28,
+      "red_wr": 51.72
+    },
+    "2016_TCL": {
+      "blue_wins": 123,
+      "red_wins": 107,
+      "total": 460,
+      "games": 230,
+      "blue_wr": 53.48,
+      "red_wr": 46.52
+    },
+    "2016_TPL": {
+      "blue_wins": 19,
+      "red_wins": 20,
+      "total": 78,
+      "games": 39,
+      "blue_wr": 48.72,
+      "red_wr": 51.28
+    },
+    "2016_WLDs": {
+      "blue_wins": 42,
+      "red_wins": 35,
+      "total": 154,
+      "games": 77,
+      "blue_wr": 54.55,
+      "red_wr": 45.45
+    },
+    "2017_BRCC": {
+      "blue_wins": 49,
+      "red_wins": 43,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 53.26,
+      "red_wr": 46.74
+    },
+    "2017_CBLOL": {
+      "blue_wins": 81,
+      "red_wins": 73,
+      "total": 308,
+      "games": 154,
+      "blue_wr": 52.6,
+      "red_wr": 47.4
+    },
+    "2017_CISC": {
+      "blue_wins": 14,
+      "red_wins": 18,
+      "total": 64,
+      "games": 32,
+      "blue_wr": 43.75,
+      "red_wr": 56.25
+    },
+    "2017_CK": {
+      "blue_wins": 155,
+      "red_wins": 141,
+      "total": 592,
+      "games": 296,
+      "blue_wr": 52.36,
+      "red_wr": 47.64
+    },
+    "2017_CLS": {
+      "blue_wins": 100,
+      "red_wins": 100,
+      "total": 400,
+      "games": 200,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2017_EU CS": {
+      "blue_wins": 69,
+      "red_wins": 73,
+      "total": 284,
+      "games": 142,
+      "blue_wr": 48.59,
+      "red_wr": 51.41
+    },
+    "2017_EU LCS": {
+      "blue_wins": 215,
+      "red_wins": 176,
+      "total": 782,
+      "games": 391,
+      "blue_wr": 54.99,
+      "red_wr": 45.01
+    },
+    "2017_GPL": {
+      "blue_wins": 35,
+      "red_wins": 29,
+      "total": 128,
+      "games": 64,
+      "blue_wr": 54.69,
+      "red_wr": 45.31
+    },
+    "2017_IEM": {
+      "blue_wins": 38,
+      "red_wins": 29,
+      "total": 134,
+      "games": 67,
+      "blue_wr": 56.72,
+      "red_wr": 43.28
+    },
+    "2017_KeSPA": {
+      "blue_wins": 21,
+      "red_wins": 11,
+      "total": 64,
+      "games": 32,
+      "blue_wr": 65.62,
+      "red_wr": 34.38
+    },
+    "2017_LCK": {
+      "blue_wins": 287,
+      "red_wins": 221,
+      "total": 1016,
+      "games": 508,
+      "blue_wr": 56.5,
+      "red_wr": 43.5
+    },
+    "2017_LCL": {
+      "blue_wins": 90,
+      "red_wins": 68,
+      "total": 316,
+      "games": 158,
+      "blue_wr": 56.96,
+      "red_wr": 43.04
+    },
+    "2017_LCS": {
+      "blue_wins": 5,
+      "red_wins": 6,
+      "total": 22,
+      "games": 11,
+      "blue_wr": 45.45,
+      "red_wr": 54.55
+    },
+    "2017_LEC": {
+      "blue_wins": 7,
+      "red_wins": 4,
+      "total": 22,
+      "games": 11,
+      "blue_wr": 63.64,
+      "red_wr": 36.36
+    },
+    "2017_LJL": {
+      "blue_wins": 95,
+      "red_wins": 76,
+      "total": 342,
+      "games": 171,
+      "blue_wr": 55.56,
+      "red_wr": 44.44
+    },
+    "2017_LLN": {
+      "blue_wins": 154,
+      "red_wins": 132,
+      "total": 572,
+      "games": 286,
+      "blue_wr": 53.85,
+      "red_wr": 46.15
+    },
+    "2017_LMS": {
+      "blue_wins": 170,
+      "red_wins": 119,
+      "total": 578,
+      "games": 289,
+      "blue_wr": 58.82,
+      "red_wr": 41.18
+    },
+    "2017_MSI": {
+      "blue_wins": 51,
+      "red_wins": 27,
+      "total": 156,
+      "games": 78,
+      "blue_wr": 65.38,
+      "red_wr": 34.62
+    },
+    "2017_NA CS": {
+      "blue_wins": 81,
+      "red_wins": 48,
+      "total": 258,
+      "games": 129,
+      "blue_wr": 62.79,
+      "red_wr": 37.21
+    },
+    "2017_NA LCS": {
+      "blue_wins": 294,
+      "red_wins": 236,
+      "total": 1060,
+      "games": 530,
+      "blue_wr": 55.47,
+      "red_wr": 44.53
+    },
+    "2017_NASG": {
+      "blue_wins": 10,
+      "red_wins": 9,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 52.63,
+      "red_wr": 47.37
+    },
+    "2017_OCS": {
+      "blue_wins": 31,
+      "red_wins": 36,
+      "total": 134,
+      "games": 67,
+      "blue_wr": 46.27,
+      "red_wr": 53.73
+    },
+    "2017_OPL": {
+      "blue_wins": 126,
+      "red_wins": 116,
+      "total": 484,
+      "games": 242,
+      "blue_wr": 52.07,
+      "red_wr": 47.93
+    },
+    "2017_TCL": {
+      "blue_wins": 169,
+      "red_wins": 118,
+      "total": 574,
+      "games": 287,
+      "blue_wr": 58.89,
+      "red_wr": 41.11
+    },
+    "2017_TPL": {
+      "blue_wins": 41,
+      "red_wins": 43,
+      "total": 168,
+      "games": 84,
+      "blue_wr": 48.81,
+      "red_wr": 51.19
+    },
+    "2017_WLDs": {
+      "blue_wins": 67,
+      "red_wins": 52,
+      "total": 238,
+      "games": 119,
+      "blue_wr": 56.3,
+      "red_wr": 43.7
+    },
+    "2018_BRCC": {
+      "blue_wins": 48,
+      "red_wins": 34,
+      "total": 164,
+      "games": 82,
+      "blue_wr": 58.54,
+      "red_wr": 41.46
+    },
+    "2018_CBLOL": {
+      "blue_wins": 104,
+      "red_wins": 81,
+      "total": 370,
+      "games": 185,
+      "blue_wr": 56.22,
+      "red_wr": 43.78
+    },
+    "2018_CISC": {
+      "blue_wins": 40,
+      "red_wins": 34,
+      "total": 148,
+      "games": 74,
+      "blue_wr": 54.05,
+      "red_wr": 45.95
+    },
+    "2018_CK": {
+      "blue_wins": 154,
+      "red_wins": 146,
+      "total": 600,
+      "games": 300,
+      "blue_wr": 51.33,
+      "red_wr": 48.67
+    },
+    "2018_CLS": {
+      "blue_wins": 147,
+      "red_wins": 85,
+      "total": 464,
+      "games": 232,
+      "blue_wr": 63.36,
+      "red_wr": 36.64
+    },
+    "2018_DCup": {
+      "blue_wins": 12,
+      "red_wins": 10,
+      "total": 44,
+      "games": 22,
+      "blue_wr": 54.55,
+      "red_wr": 45.45
+    },
+    "2018_EU LCS": {
+      "blue_wins": 129,
+      "red_wins": 123,
+      "total": 504,
+      "games": 252,
+      "blue_wr": 51.19,
+      "red_wr": 48.81
+    },
+    "2018_EUM": {
+      "blue_wins": 73,
+      "red_wins": 68,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 51.77,
+      "red_wr": 48.23
+    },
+    "2018_GPL": {
+      "blue_wins": 13,
+      "red_wins": 11,
+      "total": 48,
+      "games": 24,
+      "blue_wr": 54.17,
+      "red_wr": 45.83
+    },
+    "2018_KeSPA": {
+      "blue_wins": 23,
+      "red_wins": 22,
+      "total": 90,
+      "games": 45,
+      "blue_wr": 51.11,
+      "red_wr": 48.89
+    },
+    "2018_LCK": {
+      "blue_wins": 267,
+      "red_wins": 242,
+      "total": 1018,
+      "games": 509,
+      "blue_wr": 52.46,
+      "red_wr": 47.54
+    },
+    "2018_LCL": {
+      "blue_wins": 92,
+      "red_wins": 68,
+      "total": 320,
+      "games": 160,
+      "blue_wr": 57.5,
+      "red_wr": 42.5
+    },
+    "2018_LCS": {
+      "blue_wins": 6,
+      "red_wins": 2,
+      "total": 16,
+      "games": 8,
+      "blue_wr": 75.0,
+      "red_wr": 25.0
+    },
+    "2018_LCSA": {
+      "blue_wins": 116,
+      "red_wins": 99,
+      "total": 430,
+      "games": 215,
+      "blue_wr": 53.95,
+      "red_wr": 46.05
+    },
+    "2018_LEC": {
+      "blue_wins": 6,
+      "red_wins": 8,
+      "total": 28,
+      "games": 14,
+      "blue_wr": 42.86,
+      "red_wr": 57.14
+    },
+    "2018_LJL": {
+      "blue_wins": 89,
+      "red_wins": 85,
+      "total": 348,
+      "games": 174,
+      "blue_wr": 51.15,
+      "red_wr": 48.85
+    },
+    "2018_LJLCS": {
+      "blue_wins": 53,
+      "red_wins": 49,
+      "total": 204,
+      "games": 102,
+      "blue_wr": 51.96,
+      "red_wr": 48.04
+    },
+    "2018_LLN": {
+      "blue_wins": 85,
+      "red_wins": 74,
+      "total": 318,
+      "games": 159,
+      "blue_wr": 53.46,
+      "red_wr": 46.54
+    },
+    "2018_LMS": {
+      "blue_wins": 176,
+      "red_wins": 143,
+      "total": 638,
+      "games": 319,
+      "blue_wr": 55.17,
+      "red_wr": 44.83
+    },
+    "2018_LPL": {
+      "blue_wins": 324,
+      "red_wins": 306,
+      "total": 1260,
+      "games": 630,
+      "blue_wr": 51.43,
+      "red_wr": 48.57
+    },
+    "2018_MSI": {
+      "blue_wins": 35,
+      "red_wins": 39,
+      "total": 148,
+      "games": 74,
+      "blue_wr": 47.3,
+      "red_wr": 52.7
+    },
+    "2018_NA LCS": {
+      "blue_wins": 156,
+      "red_wins": 98,
+      "total": 508,
+      "games": 254,
+      "blue_wr": 61.42,
+      "red_wr": 38.58
+    },
+    "2018_NASG": {
+      "blue_wins": 18,
+      "red_wins": 17,
+      "total": 70,
+      "games": 35,
+      "blue_wr": 51.43,
+      "red_wr": 48.57
+    },
+    "2018_OCS": {
+      "blue_wins": 53,
+      "red_wins": 50,
+      "total": 206,
+      "games": 103,
+      "blue_wr": 51.46,
+      "red_wr": 48.54
+    },
+    "2018_OPL": {
+      "blue_wins": 121,
+      "red_wins": 112,
+      "total": 466,
+      "games": 233,
+      "blue_wr": 51.93,
+      "red_wr": 48.07
+    },
+    "2018_PGN": {
+      "blue_wins": 39,
+      "red_wins": 30,
+      "total": 138,
+      "games": 69,
+      "blue_wr": 56.52,
+      "red_wr": 43.48
+    },
+    "2018_SLO": {
+      "blue_wins": 100,
+      "red_wins": 92,
+      "total": 384,
+      "games": 192,
+      "blue_wr": 52.08,
+      "red_wr": 47.92
+    },
+    "2018_TCL": {
+      "blue_wins": 147,
+      "red_wins": 132,
+      "total": 558,
+      "games": 279,
+      "blue_wr": 52.69,
+      "red_wr": 47.31
+    },
+    "2018_TCS": {
+      "blue_wins": 55,
+      "red_wins": 42,
+      "total": 194,
+      "games": 97,
+      "blue_wr": 56.7,
+      "red_wr": 43.3
+    },
+    "2018_UL": {
+      "blue_wins": 53,
+      "red_wins": 52,
+      "total": 210,
+      "games": 105,
+      "blue_wr": 50.48,
+      "red_wr": 49.52
+    },
+    "2018_VCS": {
+      "blue_wins": 164,
+      "red_wins": 141,
+      "total": 610,
+      "games": 305,
+      "blue_wr": 53.77,
+      "red_wr": 46.23
+    },
+    "2018_WLDs": {
+      "blue_wins": 68,
+      "red_wins": 51,
+      "total": 238,
+      "games": 119,
+      "blue_wr": 57.14,
+      "red_wr": 42.86
+    },
+    "2019_BIG": {
+      "blue_wins": 88,
+      "red_wins": 91,
+      "total": 358,
+      "games": 179,
+      "blue_wr": 49.16,
+      "red_wr": 50.84
+    },
+    "2019_BM": {
+      "blue_wins": 17,
+      "red_wins": 21,
+      "total": 76,
+      "games": 38,
+      "blue_wr": 44.74,
+      "red_wr": 55.26
+    },
+    "2019_BRCC": {
+      "blue_wins": 65,
+      "red_wins": 45,
+      "total": 220,
+      "games": 110,
+      "blue_wr": 59.09,
+      "red_wr": 40.91
+    },
+    "2019_CBLOL": {
+      "blue_wins": 114,
+      "red_wins": 92,
+      "total": 412,
+      "games": 206,
+      "blue_wr": 55.34,
+      "red_wr": 44.66
+    },
+    "2019_CK": {
+      "blue_wins": 152,
+      "red_wins": 143,
+      "total": 590,
+      "games": 295,
+      "blue_wr": 51.53,
+      "red_wr": 48.47
+    },
+    "2019_CT": {
+      "blue_wins": 4,
+      "red_wins": 4,
+      "total": 16,
+      "games": 8,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2019_DCup": {
+      "blue_wins": 42,
+      "red_wins": 28,
+      "total": 140,
+      "games": 70,
+      "blue_wr": 60.0,
+      "red_wr": 40.0
+    },
+    "2019_DDH": {
+      "blue_wins": 80,
+      "red_wins": 67,
+      "total": 294,
+      "games": 147,
+      "blue_wr": 54.42,
+      "red_wr": 45.58
+    },
+    "2019_EBL": {
+      "blue_wins": 68,
+      "red_wins": 66,
+      "total": 268,
+      "games": 134,
+      "blue_wr": 50.75,
+      "red_wr": 49.25
+    },
+    "2019_EUM": {
+      "blue_wins": 80,
+      "red_wins": 59,
+      "total": 278,
+      "games": 139,
+      "blue_wr": 57.55,
+      "red_wr": 42.45
+    },
+    "2019_GLL": {
+      "blue_wins": 66,
+      "red_wins": 60,
+      "total": 252,
+      "games": 126,
+      "blue_wr": 52.38,
+      "red_wr": 47.62
+    },
+    "2019_HM": {
+      "blue_wins": 48,
+      "red_wins": 46,
+      "total": 188,
+      "games": 94,
+      "blue_wr": 51.06,
+      "red_wr": 48.94
+    },
+    "2019_KeSPA": {
+      "blue_wins": 9,
+      "red_wins": 10,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 47.37,
+      "red_wr": 52.63
+    },
+    "2019_LCK": {
+      "blue_wins": 259,
+      "red_wins": 235,
+      "total": 988,
+      "games": 494,
+      "blue_wr": 52.43,
+      "red_wr": 47.57
+    },
+    "2019_LCL": {
+      "blue_wins": 78,
+      "red_wins": 63,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 55.32,
+      "red_wr": 44.68
+    },
+    "2019_LCS": {
+      "blue_wins": 136,
+      "red_wins": 109,
+      "total": 490,
+      "games": 245,
+      "blue_wr": 55.51,
+      "red_wr": 44.49
+    },
+    "2019_LCSA": {
+      "blue_wins": 119,
+      "red_wins": 98,
+      "total": 434,
+      "games": 217,
+      "blue_wr": 54.84,
+      "red_wr": 45.16
+    },
+    "2019_LDL": {
+      "blue_wins": 504,
+      "red_wins": 459,
+      "total": 1926,
+      "games": 963,
+      "blue_wr": 52.34,
+      "red_wr": 47.66
+    },
+    "2019_LEC": {
+      "blue_wins": 126,
+      "red_wins": 110,
+      "total": 472,
+      "games": 236,
+      "blue_wr": 53.39,
+      "red_wr": 46.61
+    },
+    "2019_LFL": {
+      "blue_wins": 80,
+      "red_wins": 72,
+      "total": 304,
+      "games": 152,
+      "blue_wr": 52.63,
+      "red_wr": 47.37
+    },
+    "2019_LGL": {
+      "blue_wins": 6,
+      "red_wins": 2,
+      "total": 16,
+      "games": 8,
+      "blue_wr": 75.0,
+      "red_wr": 25.0
+    },
+    "2019_LHE": {
+      "blue_wins": 77,
+      "red_wins": 67,
+      "total": 288,
+      "games": 144,
+      "blue_wr": 53.47,
+      "red_wr": 46.53
+    },
+    "2019_LJL": {
+      "blue_wins": 123,
+      "red_wins": 66,
+      "total": 378,
+      "games": 189,
+      "blue_wr": 65.08,
+      "red_wr": 34.92
+    },
+    "2019_LLA": {
+      "blue_wins": 108,
+      "red_wins": 96,
+      "total": 408,
+      "games": 204,
+      "blue_wr": 52.94,
+      "red_wr": 47.06
+    },
+    "2019_LMF": {
+      "blue_wins": 89,
+      "red_wins": 57,
+      "total": 292,
+      "games": 146,
+      "blue_wr": 60.96,
+      "red_wr": 39.04
+    },
+    "2019_LMS": {
+      "blue_wins": 163,
+      "red_wins": 115,
+      "total": 556,
+      "games": 278,
+      "blue_wr": 58.63,
+      "red_wr": 41.37
+    },
+    "2019_LPL": {
+      "blue_wins": 291,
+      "red_wins": 281,
+      "total": 1144,
+      "games": 572,
+      "blue_wr": 50.87,
+      "red_wr": 49.13
+    },
+    "2019_LPLOL": {
+      "blue_wins": 96,
+      "red_wins": 95,
+      "total": 382,
+      "games": 191,
+      "blue_wr": 50.26,
+      "red_wr": 49.74
+    },
+    "2019_MSI": {
+      "blue_wins": 45,
+      "red_wins": 33,
+      "total": 156,
+      "games": 78,
+      "blue_wr": 57.69,
+      "red_wr": 42.31
+    },
+    "2019_NASG": {
+      "blue_wins": 10,
+      "red_wins": 23,
+      "total": 66,
+      "games": 33,
+      "blue_wr": 30.3,
+      "red_wr": 69.7
+    },
+    "2019_OCS": {
+      "blue_wins": 42,
+      "red_wins": 41,
+      "total": 166,
+      "games": 83,
+      "blue_wr": 50.6,
+      "red_wr": 49.4
+    },
+    "2019_OPL": {
+      "blue_wins": 108,
+      "red_wins": 95,
+      "total": 406,
+      "games": 203,
+      "blue_wr": 53.2,
+      "red_wr": 46.8
+    },
+    "2019_PGN": {
+      "blue_wins": 92,
+      "red_wins": 89,
+      "total": 362,
+      "games": 181,
+      "blue_wr": 50.83,
+      "red_wr": 49.17
+    },
+    "2019_SLO": {
+      "blue_wins": 113,
+      "red_wins": 112,
+      "total": 450,
+      "games": 225,
+      "blue_wr": 50.22,
+      "red_wr": 49.78
+    },
+    "2019_TAL": {
+      "blue_wins": 102,
+      "red_wins": 96,
+      "total": 396,
+      "games": 198,
+      "blue_wr": 51.52,
+      "red_wr": 48.48
+    },
+    "2019_TCL": {
+      "blue_wins": 114,
+      "red_wins": 114,
+      "total": 456,
+      "games": 228,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2019_UKLC": {
+      "blue_wins": 65,
+      "red_wins": 77,
+      "total": 284,
+      "games": 142,
+      "blue_wr": 45.77,
+      "red_wr": 54.23
+    },
+    "2019_UL": {
+      "blue_wins": 90,
+      "red_wins": 82,
+      "total": 344,
+      "games": 172,
+      "blue_wr": 52.33,
+      "red_wr": 47.67
+    },
+    "2019_VCS": {
+      "blue_wins": 173,
+      "red_wins": 165,
+      "total": 676,
+      "games": 338,
+      "blue_wr": 51.18,
+      "red_wr": 48.82
+    },
+    "2019_WLDs": {
+      "blue_wins": 62,
+      "red_wins": 57,
+      "total": 238,
+      "games": 119,
+      "blue_wr": 52.1,
+      "red_wr": 47.9
+    },
+    "2020_BIG": {
+      "blue_wins": 8,
+      "red_wins": 8,
+      "total": 32,
+      "games": 16,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2020_BL": {
+      "blue_wins": 40,
+      "red_wins": 53,
+      "total": 186,
+      "games": 93,
+      "blue_wr": 43.01,
+      "red_wr": 56.99
+    },
+    "2020_BM": {
+      "blue_wins": 70,
+      "red_wins": 60,
+      "total": 260,
+      "games": 130,
+      "blue_wr": 53.85,
+      "red_wr": 46.15
+    },
+    "2020_BRCC": {
+      "blue_wins": 65,
+      "red_wins": 75,
+      "total": 280,
+      "games": 140,
+      "blue_wr": 46.43,
+      "red_wr": 53.57
+    },
+    "2020_CBLOL": {
+      "blue_wins": 109,
+      "red_wins": 91,
+      "total": 400,
+      "games": 200,
+      "blue_wr": 54.5,
+      "red_wr": 45.5
+    },
+    "2020_CK": {
+      "blue_wins": 162,
+      "red_wins": 139,
+      "total": 602,
+      "games": 301,
+      "blue_wr": 53.82,
+      "red_wr": 46.18
+    },
+    "2020_CT": {
+      "blue_wins": 10,
+      "red_wins": 10,
+      "total": 40,
+      "games": 20,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2020_CU": {
+      "blue_wins": 2,
+      "red_wins": 3,
+      "total": 10,
+      "games": 5,
+      "blue_wr": 40.0,
+      "red_wr": 60.0
+    },
+    "2020_DCup": {
+      "blue_wins": 31,
+      "red_wins": 30,
+      "total": 122,
+      "games": 61,
+      "blue_wr": 50.82,
+      "red_wr": 49.18
+    },
+    "2020_DDH": {
+      "blue_wins": 90,
+      "red_wins": 66,
+      "total": 312,
+      "games": 156,
+      "blue_wr": 57.69,
+      "red_wr": 42.31
+    },
+    "2020_DL": {
+      "blue_wins": 55,
+      "red_wins": 42,
+      "total": 194,
+      "games": 97,
+      "blue_wr": 56.7,
+      "red_wr": 43.3
+    },
+    "2020_EBL": {
+      "blue_wins": 66,
+      "red_wins": 65,
+      "total": 262,
+      "games": 131,
+      "blue_wr": 50.38,
+      "red_wr": 49.62
+    },
+    "2020_EUM": {
+      "blue_wins": 129,
+      "red_wins": 131,
+      "total": 520,
+      "games": 260,
+      "blue_wr": 49.62,
+      "red_wr": 50.38
+    },
+    "2020_GLL": {
+      "blue_wins": 118,
+      "red_wins": 109,
+      "total": 454,
+      "games": 227,
+      "blue_wr": 51.98,
+      "red_wr": 48.02
+    },
+    "2020_HC": {
+      "blue_wins": 35,
+      "red_wins": 43,
+      "total": 156,
+      "games": 78,
+      "blue_wr": 44.87,
+      "red_wr": 55.13
+    },
+    "2020_HM": {
+      "blue_wins": 87,
+      "red_wins": 68,
+      "total": 310,
+      "games": 155,
+      "blue_wr": 56.13,
+      "red_wr": 43.87
+    },
+    "2020_KeSPA": {
+      "blue_wins": 24,
+      "red_wins": 22,
+      "total": 92,
+      "games": 46,
+      "blue_wr": 52.17,
+      "red_wr": 47.83
+    },
+    "2020_LAS": {
+      "blue_wins": 36,
+      "red_wins": 38,
+      "total": 148,
+      "games": 74,
+      "blue_wr": 48.65,
+      "red_wr": 51.35
+    },
+    "2020_LCK": {
+      "blue_wins": 276,
+      "red_wins": 219,
+      "total": 990,
+      "games": 495,
+      "blue_wr": 55.76,
+      "red_wr": 44.24
+    },
+    "2020_LCL": {
+      "blue_wins": 61,
+      "red_wins": 64,
+      "total": 250,
+      "games": 125,
+      "blue_wr": 48.8,
+      "red_wr": 51.2
+    },
+    "2020_LCS": {
+      "blue_wins": 150,
+      "red_wins": 109,
+      "total": 518,
+      "games": 259,
+      "blue_wr": 57.92,
+      "red_wr": 42.08
+    },
+    "2020_LCSA": {
+      "blue_wins": 127,
+      "red_wins": 87,
+      "total": 428,
+      "games": 214,
+      "blue_wr": 59.35,
+      "red_wr": 40.65
+    },
+    "2020_LDL": {
+      "blue_wins": 474,
+      "red_wins": 405,
+      "total": 1758,
+      "games": 879,
+      "blue_wr": 53.92,
+      "red_wr": 46.08
+    },
+    "2020_LEC": {
+      "blue_wins": 112,
+      "red_wins": 128,
+      "total": 480,
+      "games": 240,
+      "blue_wr": 46.67,
+      "red_wr": 53.33
+    },
+    "2020_LFL": {
+      "blue_wins": 91,
+      "red_wins": 81,
+      "total": 344,
+      "games": 172,
+      "blue_wr": 52.91,
+      "red_wr": 47.09
+    },
+    "2020_LHE": {
+      "blue_wins": 120,
+      "red_wins": 124,
+      "total": 488,
+      "games": 244,
+      "blue_wr": 49.18,
+      "red_wr": 50.82
+    },
+    "2020_LJL": {
+      "blue_wins": 91,
+      "red_wins": 73,
+      "total": 328,
+      "games": 164,
+      "blue_wr": 55.49,
+      "red_wr": 44.51
+    },
+    "2020_LLA": {
+      "blue_wins": 94,
+      "red_wins": 73,
+      "total": 334,
+      "games": 167,
+      "blue_wr": 56.29,
+      "red_wr": 43.71
+    },
+    "2020_LMF": {
+      "blue_wins": 103,
+      "red_wins": 117,
+      "total": 440,
+      "games": 220,
+      "blue_wr": 46.82,
+      "red_wr": 53.18
+    },
+    "2020_LPL": {
+      "blue_wins": 385,
+      "red_wins": 331,
+      "total": 1432,
+      "games": 716,
+      "blue_wr": 53.77,
+      "red_wr": 46.23
+    },
+    "2020_LPLOL": {
+      "blue_wins": 81,
+      "red_wins": 72,
+      "total": 306,
+      "games": 153,
+      "blue_wr": 52.94,
+      "red_wr": 47.06
+    },
+    "2020_MSC": {
+      "blue_wins": 8,
+      "red_wins": 17,
+      "total": 50,
+      "games": 25,
+      "blue_wr": 32.0,
+      "red_wr": 68.0
+    },
+    "2020_NASG": {
+      "blue_wins": 36,
+      "red_wins": 33,
+      "total": 138,
+      "games": 69,
+      "blue_wr": 52.17,
+      "red_wr": 47.83
+    },
+    "2020_NEST": {
+      "blue_wins": 31,
+      "red_wins": 19,
+      "total": 100,
+      "games": 50,
+      "blue_wr": 62.0,
+      "red_wr": 38.0
+    },
+    "2020_NEXO": {
+      "blue_wins": 55,
+      "red_wins": 65,
+      "total": 240,
+      "games": 120,
+      "blue_wr": 45.83,
+      "red_wr": 54.17
+    },
+    "2020_NLC": {
+      "blue_wins": 135,
+      "red_wins": 94,
+      "total": 458,
+      "games": 229,
+      "blue_wr": 58.95,
+      "red_wr": 41.05
+    },
+    "2020_OCS": {
+      "blue_wins": 29,
+      "red_wins": 39,
+      "total": 136,
+      "games": 68,
+      "blue_wr": 42.65,
+      "red_wr": 57.35
+    },
+    "2020_OPL": {
+      "blue_wins": 112,
+      "red_wins": 104,
+      "total": 432,
+      "games": 216,
+      "blue_wr": 51.85,
+      "red_wr": 48.15
+    },
+    "2020_OTBLX": {
+      "blue_wins": 47,
+      "red_wins": 67,
+      "total": 228,
+      "games": 114,
+      "blue_wr": 41.23,
+      "red_wr": 58.77
+    },
+    "2020_PCS": {
+      "blue_wins": 148,
+      "red_wins": 116,
+      "total": 528,
+      "games": 264,
+      "blue_wr": 56.06,
+      "red_wr": 43.94
+    },
+    "2020_PGN": {
+      "blue_wins": 89,
+      "red_wins": 77,
+      "total": 332,
+      "games": 166,
+      "blue_wr": 53.61,
+      "red_wr": 46.39
+    },
+    "2020_PRM": {
+      "blue_wins": 142,
+      "red_wins": 136,
+      "total": 556,
+      "games": 278,
+      "blue_wr": 51.08,
+      "red_wr": 48.92
+    },
+    "2020_RCL": {
+      "blue_wins": 117,
+      "red_wins": 83,
+      "total": 400,
+      "games": 200,
+      "blue_wr": 58.5,
+      "red_wr": 41.5
+    },
+    "2020_Riot": {
+      "blue_wins": 10,
+      "red_wins": 10,
+      "total": 40,
+      "games": 20,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2020_SLO": {
+      "blue_wins": 130,
+      "red_wins": 89,
+      "total": 438,
+      "games": 219,
+      "blue_wr": 59.36,
+      "red_wr": 40.64
+    },
+    "2020_TAL": {
+      "blue_wins": 90,
+      "red_wins": 91,
+      "total": 362,
+      "games": 181,
+      "blue_wr": 49.72,
+      "red_wr": 50.28
+    },
+    "2020_TCL": {
+      "blue_wins": 100,
+      "red_wins": 101,
+      "total": 402,
+      "games": 201,
+      "blue_wr": 49.75,
+      "red_wr": 50.25
+    },
+    "2020_UKLC": {
+      "blue_wins": 74,
+      "red_wins": 63,
+      "total": 274,
+      "games": 137,
+      "blue_wr": 54.01,
+      "red_wr": 45.99
+    },
+    "2020_UL": {
+      "blue_wins": 94,
+      "red_wins": 72,
+      "total": 332,
+      "games": 166,
+      "blue_wr": 56.63,
+      "red_wr": 43.37
+    },
+    "2020_UPL": {
+      "blue_wins": 173,
+      "red_wins": 169,
+      "total": 684,
+      "games": 342,
+      "blue_wr": 50.58,
+      "red_wr": 49.42
+    },
+    "2020_VCS": {
+      "blue_wins": 154,
+      "red_wins": 169,
+      "total": 646,
+      "games": 323,
+      "blue_wr": 47.68,
+      "red_wr": 52.32
+    },
+    "2020_WLDs": {
+      "blue_wins": 58,
+      "red_wins": 56,
+      "total": 228,
+      "games": 114,
+      "blue_wr": 50.88,
+      "red_wr": 49.12
+    },
+    "2021_AOL": {
+      "blue_wins": 18,
+      "red_wins": 19,
+      "total": 74,
+      "games": 37,
+      "blue_wr": 48.65,
+      "red_wr": 51.35
+    },
+    "2021_BIG": {
+      "blue_wins": 80,
+      "red_wins": 68,
+      "total": 296,
+      "games": 148,
+      "blue_wr": 54.05,
+      "red_wr": 45.95
+    },
+    "2021_BL": {
+      "blue_wins": 63,
+      "red_wins": 40,
+      "total": 206,
+      "games": 103,
+      "blue_wr": 61.17,
+      "red_wr": 38.83
+    },
+    "2021_BM": {
+      "blue_wins": 41,
+      "red_wins": 34,
+      "total": 150,
+      "games": 75,
+      "blue_wr": 54.67,
+      "red_wr": 45.33
+    },
+    "2021_CBLOL": {
+      "blue_wins": 108,
+      "red_wins": 113,
+      "total": 442,
+      "games": 221,
+      "blue_wr": 48.87,
+      "red_wr": 51.13
+    },
+    "2021_CBLOLA": {
+      "blue_wins": 119,
+      "red_wins": 102,
+      "total": 442,
+      "games": 221,
+      "blue_wr": 53.85,
+      "red_wr": 46.15
+    },
+    "2021_CT": {
+      "blue_wins": 22,
+      "red_wins": 35,
+      "total": 114,
+      "games": 57,
+      "blue_wr": 38.6,
+      "red_wr": 61.4
+    },
+    "2021_CU": {
+      "blue_wins": 117,
+      "red_wins": 87,
+      "total": 408,
+      "games": 204,
+      "blue_wr": 57.35,
+      "red_wr": 42.65
+    },
+    "2021_DDH": {
+      "blue_wins": 122,
+      "red_wins": 108,
+      "total": 460,
+      "games": 230,
+      "blue_wr": 53.04,
+      "red_wr": 46.96
+    },
+    "2021_DL": {
+      "blue_wins": 45,
+      "red_wins": 56,
+      "total": 202,
+      "games": 101,
+      "blue_wr": 44.55,
+      "red_wr": 55.45
+    },
+    "2021_EBL": {
+      "blue_wins": 82,
+      "red_wins": 59,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 58.16,
+      "red_wr": 41.84
+    },
+    "2021_EGL": {
+      "blue_wins": 49,
+      "red_wins": 43,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 53.26,
+      "red_wr": 46.74
+    },
+    "2021_EUM": {
+      "blue_wins": 75,
+      "red_wins": 66,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 53.19,
+      "red_wr": 46.81
+    },
+    "2021_GLL": {
+      "blue_wins": 139,
+      "red_wins": 121,
+      "total": 520,
+      "games": 260,
+      "blue_wr": 53.46,
+      "red_wr": 46.54
+    },
+    "2021_GSG": {
+      "blue_wins": 26,
+      "red_wins": 27,
+      "total": 106,
+      "games": 53,
+      "blue_wr": 49.06,
+      "red_wr": 50.94
+    },
+    "2021_HC": {
+      "blue_wins": 92,
+      "red_wins": 84,
+      "total": 352,
+      "games": 176,
+      "blue_wr": 52.27,
+      "red_wr": 47.73
+    },
+    "2021_HM": {
+      "blue_wins": 103,
+      "red_wins": 76,
+      "total": 358,
+      "games": 179,
+      "blue_wr": 57.54,
+      "red_wr": 42.46
+    },
+    "2021_HS": {
+      "blue_wins": 49,
+      "red_wins": 30,
+      "total": 158,
+      "games": 79,
+      "blue_wr": 62.03,
+      "red_wr": 37.97
+    },
+    "2021_HW": {
+      "blue_wins": 17,
+      "red_wins": 19,
+      "total": 72,
+      "games": 36,
+      "blue_wr": 47.22,
+      "red_wr": 52.78
+    },
+    "2021_KeSPA": {
+      "blue_wins": 17,
+      "red_wins": 16,
+      "total": 66,
+      "games": 33,
+      "blue_wr": 51.52,
+      "red_wr": 48.48
+    },
+    "2021_LAS": {
+      "blue_wins": 124,
+      "red_wins": 114,
+      "total": 476,
+      "games": 238,
+      "blue_wr": 52.1,
+      "red_wr": 47.9
+    },
+    "2021_LCK": {
+      "blue_wins": 262,
+      "red_wins": 227,
+      "total": 978,
+      "games": 489,
+      "blue_wr": 53.58,
+      "red_wr": 46.42
+    },
+    "2021_LCKC": {
+      "blue_wins": 110,
+      "red_wins": 116,
+      "total": 452,
+      "games": 226,
+      "blue_wr": 48.67,
+      "red_wr": 51.33
+    },
+    "2021_LCL": {
+      "blue_wins": 68,
+      "red_wins": 81,
+      "total": 298,
+      "games": 149,
+      "blue_wr": 45.64,
+      "red_wr": 54.36
+    },
+    "2021_LCO": {
+      "blue_wins": 92,
+      "red_wins": 88,
+      "total": 360,
+      "games": 180,
+      "blue_wr": 51.11,
+      "red_wr": 48.89
+    },
+    "2021_LCS": {
+      "blue_wins": 178,
+      "red_wins": 166,
+      "total": 688,
+      "games": 344,
+      "blue_wr": 51.74,
+      "red_wr": 48.26
+    },
+    "2021_LCSA": {
+      "blue_wins": 213,
+      "red_wins": 202,
+      "total": 830,
+      "games": 415,
+      "blue_wr": 51.33,
+      "red_wr": 48.67
+    },
+    "2021_LDL": {
+      "blue_wins": 403,
+      "red_wins": 332,
+      "total": 1470,
+      "games": 735,
+      "blue_wr": 54.83,
+      "red_wr": 45.17
+    },
+    "2021_LEC": {
+      "blue_wins": 122,
+      "red_wins": 125,
+      "total": 494,
+      "games": 247,
+      "blue_wr": 49.39,
+      "red_wr": 50.61
+    },
+    "2021_LFL": {
+      "blue_wins": 130,
+      "red_wins": 92,
+      "total": 444,
+      "games": 222,
+      "blue_wr": 58.56,
+      "red_wr": 41.44
+    },
+    "2021_LFL2": {
+      "blue_wins": 17,
+      "red_wins": 7,
+      "total": 48,
+      "games": 24,
+      "blue_wr": 70.83,
+      "red_wr": 29.17
+    },
+    "2021_LHE": {
+      "blue_wins": 148,
+      "red_wins": 130,
+      "total": 556,
+      "games": 278,
+      "blue_wr": 53.24,
+      "red_wr": 46.76
+    },
+    "2021_LJL": {
+      "blue_wins": 83,
+      "red_wins": 75,
+      "total": 316,
+      "games": 158,
+      "blue_wr": 52.53,
+      "red_wr": 47.47
+    },
+    "2021_LJLA": {
+      "blue_wins": 19,
+      "red_wins": 20,
+      "total": 78,
+      "games": 39,
+      "blue_wr": 48.72,
+      "red_wr": 51.28
+    },
+    "2021_LLA": {
+      "blue_wins": 79,
+      "red_wins": 80,
+      "total": 318,
+      "games": 159,
+      "blue_wr": 49.69,
+      "red_wr": 50.31
+    },
+    "2021_LMF": {
+      "blue_wins": 168,
+      "red_wins": 151,
+      "total": 638,
+      "games": 319,
+      "blue_wr": 52.66,
+      "red_wr": 47.34
+    },
+    "2021_LPL": {
+      "blue_wins": 184,
+      "red_wins": 161,
+      "total": 690,
+      "games": 345,
+      "blue_wr": 53.33,
+      "red_wr": 46.67
+    },
+    "2021_LPLOL": {
+      "blue_wins": 79,
+      "red_wins": 79,
+      "total": 316,
+      "games": 158,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2021_LVP SL": {
+      "blue_wins": 110,
+      "red_wins": 111,
+      "total": 442,
+      "games": 221,
+      "blue_wr": 49.77,
+      "red_wr": 50.23
+    },
+    "2021_MSI": {
+      "blue_wins": 46,
+      "red_wins": 35,
+      "total": 162,
+      "games": 81,
+      "blue_wr": 56.79,
+      "red_wr": 43.21
+    },
+    "2021_NERD": {
+      "blue_wins": 23,
+      "red_wins": 19,
+      "total": 84,
+      "games": 42,
+      "blue_wr": 54.76,
+      "red_wr": 45.24
+    },
+    "2021_NEXO": {
+      "blue_wins": 63,
+      "red_wins": 65,
+      "total": 256,
+      "games": 128,
+      "blue_wr": 49.22,
+      "red_wr": 50.78
+    },
+    "2021_NLC": {
+      "blue_wins": 124,
+      "red_wins": 103,
+      "total": 454,
+      "games": 227,
+      "blue_wr": 54.63,
+      "red_wr": 45.37
+    },
+    "2021_OTBLX": {
+      "blue_wins": 123,
+      "red_wins": 134,
+      "total": 514,
+      "games": 257,
+      "blue_wr": 47.86,
+      "red_wr": 52.14
+    },
+    "2021_PCS": {
+      "blue_wins": 144,
+      "red_wins": 130,
+      "total": 548,
+      "games": 274,
+      "blue_wr": 52.55,
+      "red_wr": 47.45
+    },
+    "2021_PGN": {
+      "blue_wins": 98,
+      "red_wins": 84,
+      "total": 364,
+      "games": 182,
+      "blue_wr": 53.85,
+      "red_wr": 46.15
+    },
+    "2021_PRM": {
+      "blue_wins": 172,
+      "red_wins": 166,
+      "total": 676,
+      "games": 338,
+      "blue_wr": 50.89,
+      "red_wr": 49.11
+    },
+    "2021_RCL": {
+      "blue_wins": 185,
+      "red_wins": 166,
+      "total": 702,
+      "games": 351,
+      "blue_wr": 52.71,
+      "red_wr": 47.29
+    },
+    "2021_TAL": {
+      "blue_wins": 108,
+      "red_wins": 96,
+      "total": 408,
+      "games": 204,
+      "blue_wr": 52.94,
+      "red_wr": 47.06
+    },
+    "2021_TCL": {
+      "blue_wins": 118,
+      "red_wins": 105,
+      "total": 446,
+      "games": 223,
+      "blue_wr": 52.91,
+      "red_wr": 47.09
+    },
+    "2021_UGP": {
+      "blue_wins": 80,
+      "red_wins": 52,
+      "total": 264,
+      "games": 132,
+      "blue_wr": 60.61,
+      "red_wr": 39.39
+    },
+    "2021_UKLC": {
+      "blue_wins": 82,
+      "red_wins": 69,
+      "total": 302,
+      "games": 151,
+      "blue_wr": 54.3,
+      "red_wr": 45.7
+    },
+    "2021_UL": {
+      "blue_wins": 91,
+      "red_wins": 79,
+      "total": 340,
+      "games": 170,
+      "blue_wr": 53.53,
+      "red_wr": 46.47
+    },
+    "2021_UPL": {
+      "blue_wins": 106,
+      "red_wins": 92,
+      "total": 396,
+      "games": 198,
+      "blue_wr": 53.54,
+      "red_wr": 46.46
+    },
+    "2021_VCS": {
+      "blue_wins": 179,
+      "red_wins": 147,
+      "total": 652,
+      "games": 326,
+      "blue_wr": 54.91,
+      "red_wr": 45.09
+    },
+    "2021_WLDs": {
+      "blue_wins": 59,
+      "red_wins": 62,
+      "total": 242,
+      "games": 121,
+      "blue_wr": 48.76,
+      "red_wr": 51.24
+    },
+    "2022_CBLOL": {
+      "blue_wins": 131,
+      "red_wins": 112,
+      "total": 486,
+      "games": 243,
+      "blue_wr": 53.91,
+      "red_wr": 46.09
+    },
+    "2022_CBLOLA": {
+      "blue_wins": 118,
+      "red_wins": 98,
+      "total": 432,
+      "games": 216,
+      "blue_wr": 54.63,
+      "red_wr": 45.37
+    },
+    "2022_CDF": {
+      "blue_wins": 36,
+      "red_wins": 40,
+      "total": 152,
+      "games": 76,
+      "blue_wr": 47.37,
+      "red_wr": 52.63
+    },
+    "2022_CT": {
+      "blue_wins": 13,
+      "red_wins": 13,
+      "total": 52,
+      "games": 26,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2022_DDH": {
+      "blue_wins": 116,
+      "red_wins": 90,
+      "total": 412,
+      "games": 206,
+      "blue_wr": 56.31,
+      "red_wr": 43.69
+    },
+    "2022_EBL": {
+      "blue_wins": 61,
+      "red_wins": 81,
+      "total": 284,
+      "games": 142,
+      "blue_wr": 42.96,
+      "red_wr": 57.04
+    },
+    "2022_EBLPA": {
+      "blue_wins": 11,
+      "red_wins": 8,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 57.89,
+      "red_wr": 42.11
+    },
+    "2022_EL": {
+      "blue_wins": 75,
+      "red_wins": 57,
+      "total": 264,
+      "games": 132,
+      "blue_wr": 56.82,
+      "red_wr": 43.18
+    },
+    "2022_ESLOL": {
+      "blue_wins": 127,
+      "red_wins": 92,
+      "total": 438,
+      "games": 219,
+      "blue_wr": 57.99,
+      "red_wr": 42.01
+    },
+    "2022_EUM": {
+      "blue_wins": 138,
+      "red_wins": 129,
+      "total": 534,
+      "games": 267,
+      "blue_wr": 51.69,
+      "red_wr": 48.31
+    },
+    "2022_GL": {
+      "blue_wins": 83,
+      "red_wins": 82,
+      "total": 330,
+      "games": 165,
+      "blue_wr": 50.3,
+      "red_wr": 49.7
+    },
+    "2022_GLL": {
+      "blue_wins": 78,
+      "red_wins": 61,
+      "total": 278,
+      "games": 139,
+      "blue_wr": 56.12,
+      "red_wr": 43.88
+    },
+    "2022_GLLPA": {
+      "blue_wins": 30,
+      "red_wins": 17,
+      "total": 94,
+      "games": 47,
+      "blue_wr": 63.83,
+      "red_wr": 36.17
+    },
+    "2022_HC": {
+      "blue_wins": 96,
+      "red_wins": 66,
+      "total": 324,
+      "games": 162,
+      "blue_wr": 59.26,
+      "red_wr": 40.74
+    },
+    "2022_HM": {
+      "blue_wins": 70,
+      "red_wins": 74,
+      "total": 288,
+      "games": 144,
+      "blue_wr": 48.61,
+      "red_wr": 51.39
+    },
+    "2022_IC": {
+      "blue_wins": 50,
+      "red_wins": 25,
+      "total": 150,
+      "games": 75,
+      "blue_wr": 66.67,
+      "red_wr": 33.33
+    },
+    "2022_KeSPA": {
+      "blue_wins": 22,
+      "red_wins": 17,
+      "total": 78,
+      "games": 39,
+      "blue_wr": 56.41,
+      "red_wr": 43.59
+    },
+    "2022_LAS": {
+      "blue_wins": 112,
+      "red_wins": 112,
+      "total": 448,
+      "games": 224,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2022_LCK": {
+      "blue_wins": 237,
+      "red_wins": 230,
+      "total": 934,
+      "games": 467,
+      "blue_wr": 50.75,
+      "red_wr": 49.25
+    },
+    "2022_LCKC": {
+      "blue_wins": 200,
+      "red_wins": 195,
+      "total": 790,
+      "games": 395,
+      "blue_wr": 50.63,
+      "red_wr": 49.37
+    },
+    "2022_LCL": {
+      "blue_wins": 9,
+      "red_wins": 7,
+      "total": 32,
+      "games": 16,
+      "blue_wr": 56.25,
+      "red_wr": 43.75
+    },
+    "2022_LCO": {
+      "blue_wins": 109,
+      "red_wins": 103,
+      "total": 424,
+      "games": 212,
+      "blue_wr": 51.42,
+      "red_wr": 48.58
+    },
+    "2022_LCS": {
+      "blue_wins": 151,
+      "red_wins": 155,
+      "total": 612,
+      "games": 306,
+      "blue_wr": 49.35,
+      "red_wr": 50.65
+    },
+    "2022_LCSA": {
+      "blue_wins": 278,
+      "red_wins": 262,
+      "total": 1080,
+      "games": 540,
+      "blue_wr": 51.48,
+      "red_wr": 48.52
+    },
+    "2022_LEC": {
+      "blue_wins": 130,
+      "red_wins": 113,
+      "total": 486,
+      "games": 243,
+      "blue_wr": 53.5,
+      "red_wr": 46.5
+    },
+    "2022_LFL": {
+      "blue_wins": 140,
+      "red_wins": 106,
+      "total": 492,
+      "games": 246,
+      "blue_wr": 56.91,
+      "red_wr": 43.09
+    },
+    "2022_LFL2": {
+      "blue_wins": 101,
+      "red_wins": 122,
+      "total": 446,
+      "games": 223,
+      "blue_wr": 45.29,
+      "red_wr": 54.71
+    },
+    "2022_LHE": {
+      "blue_wins": 130,
+      "red_wins": 119,
+      "total": 498,
+      "games": 249,
+      "blue_wr": 52.21,
+      "red_wr": 47.79
+    },
+    "2022_LJL": {
+      "blue_wins": 111,
+      "red_wins": 104,
+      "total": 430,
+      "games": 215,
+      "blue_wr": 51.63,
+      "red_wr": 48.37
+    },
+    "2022_LJLA": {
+      "blue_wins": 20,
+      "red_wins": 18,
+      "total": 76,
+      "games": 38,
+      "blue_wr": 52.63,
+      "red_wr": 47.37
+    },
+    "2022_LLA": {
+      "blue_wins": 101,
+      "red_wins": 104,
+      "total": 410,
+      "games": 205,
+      "blue_wr": 49.27,
+      "red_wr": 50.73
+    },
+    "2022_LMF": {
+      "blue_wins": 158,
+      "red_wins": 156,
+      "total": 628,
+      "games": 314,
+      "blue_wr": 50.32,
+      "red_wr": 49.68
+    },
+    "2022_LPLOL": {
+      "blue_wins": 92,
+      "red_wins": 103,
+      "total": 390,
+      "games": 195,
+      "blue_wr": 47.18,
+      "red_wr": 52.82
+    },
+    "2022_LVP SL": {
+      "blue_wins": 114,
+      "red_wins": 117,
+      "total": 462,
+      "games": 231,
+      "blue_wr": 49.35,
+      "red_wr": 50.65
+    },
+    "2022_MSI": {
+      "blue_wins": 43,
+      "red_wins": 37,
+      "total": 160,
+      "games": 80,
+      "blue_wr": 53.75,
+      "red_wr": 46.25
+    },
+    "2022_NEXO": {
+      "blue_wins": 62,
+      "red_wins": 55,
+      "total": 234,
+      "games": 117,
+      "blue_wr": 52.99,
+      "red_wr": 47.01
+    },
+    "2022_NLC": {
+      "blue_wins": 169,
+      "red_wins": 172,
+      "total": 682,
+      "games": 341,
+      "blue_wr": 49.56,
+      "red_wr": 50.44
+    },
+    "2022_NLC Aurora Open": {
+      "blue_wins": 78,
+      "red_wins": 62,
+      "total": 280,
+      "games": 140,
+      "blue_wr": 55.71,
+      "red_wr": 44.29
+    },
+    "2022_PCS": {
+      "blue_wins": 165,
+      "red_wins": 108,
+      "total": 546,
+      "games": 273,
+      "blue_wr": 60.44,
+      "red_wr": 39.56
+    },
+    "2022_PGC": {
+      "blue_wins": 267,
+      "red_wins": 234,
+      "total": 1002,
+      "games": 501,
+      "blue_wr": 53.29,
+      "red_wr": 46.71
+    },
+    "2022_PGN": {
+      "blue_wins": 78,
+      "red_wins": 62,
+      "total": 280,
+      "games": 140,
+      "blue_wr": 55.71,
+      "red_wr": 44.29
+    },
+    "2022_PRM": {
+      "blue_wins": 109,
+      "red_wins": 115,
+      "total": 448,
+      "games": 224,
+      "blue_wr": 48.66,
+      "red_wr": 51.34
+    },
+    "2022_PRMP": {
+      "blue_wins": 59,
+      "red_wins": 76,
+      "total": 270,
+      "games": 135,
+      "blue_wr": 43.7,
+      "red_wr": 56.3
+    },
+    "2022_SL (LATAM)": {
+      "blue_wins": 100,
+      "red_wins": 74,
+      "total": 348,
+      "games": 174,
+      "blue_wr": 57.47,
+      "red_wr": 42.53
+    },
+    "2022_TAL": {
+      "blue_wins": 101,
+      "red_wins": 104,
+      "total": 410,
+      "games": 205,
+      "blue_wr": 49.27,
+      "red_wr": 50.73
+    },
+    "2022_TCL": {
+      "blue_wins": 112,
+      "red_wins": 111,
+      "total": 446,
+      "games": 223,
+      "blue_wr": 50.22,
+      "red_wr": 49.78
+    },
+    "2022_UL": {
+      "blue_wins": 136,
+      "red_wins": 95,
+      "total": 462,
+      "games": 231,
+      "blue_wr": 58.87,
+      "red_wr": 41.13
+    },
+    "2022_UPL": {
+      "blue_wins": 187,
+      "red_wins": 157,
+      "total": 688,
+      "games": 344,
+      "blue_wr": 54.36,
+      "red_wr": 45.64
+    },
+    "2022_USP": {
+      "blue_wins": 18,
+      "red_wins": 16,
+      "total": 68,
+      "games": 34,
+      "blue_wr": 52.94,
+      "red_wr": 47.06
+    },
+    "2022_VCS": {
+      "blue_wins": 161,
+      "red_wins": 164,
+      "total": 650,
+      "games": 325,
+      "blue_wr": 49.54,
+      "red_wr": 50.46
+    },
+    "2022_VL": {
+      "blue_wins": 82,
+      "red_wins": 91,
+      "total": 346,
+      "games": 173,
+      "blue_wr": 47.4,
+      "red_wr": 52.6
+    },
+    "2022_WLDs": {
+      "blue_wins": 75,
+      "red_wins": 66,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 53.19,
+      "red_wr": 46.81
+    },
+    "2023_AL": {
+      "blue_wins": 81,
+      "red_wins": 83,
+      "total": 328,
+      "games": 164,
+      "blue_wr": 49.39,
+      "red_wr": 50.61
+    },
+    "2023_CBLOL": {
+      "blue_wins": 124,
+      "red_wins": 118,
+      "total": 484,
+      "games": 242,
+      "blue_wr": 51.24,
+      "red_wr": 48.76
+    },
+    "2023_CBLOLA": {
+      "blue_wins": 133,
+      "red_wins": 115,
+      "total": 496,
+      "games": 248,
+      "blue_wr": 53.63,
+      "red_wr": 46.37
+    },
+    "2023_CDF": {
+      "blue_wins": 36,
+      "red_wins": 36,
+      "total": 144,
+      "games": 72,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2023_CT": {
+      "blue_wins": 21,
+      "red_wins": 22,
+      "total": 86,
+      "games": 43,
+      "blue_wr": 48.84,
+      "red_wr": 51.16
+    },
+    "2023_DDH": {
+      "blue_wins": 43,
+      "red_wins": 46,
+      "total": 178,
+      "games": 89,
+      "blue_wr": 48.31,
+      "red_wr": 51.69
+    },
+    "2023_EBL": {
+      "blue_wins": 88,
+      "red_wins": 81,
+      "total": 338,
+      "games": 169,
+      "blue_wr": 52.07,
+      "red_wr": 47.93
+    },
+    "2023_EL": {
+      "blue_wins": 20,
+      "red_wins": 24,
+      "total": 88,
+      "games": 44,
+      "blue_wr": 45.45,
+      "red_wr": 54.55
+    },
+    "2023_EM": {
+      "blue_wins": 149,
+      "red_wins": 122,
+      "total": 542,
+      "games": 271,
+      "blue_wr": 54.98,
+      "red_wr": 45.02
+    },
+    "2023_EPL": {
+      "blue_wins": 41,
+      "red_wins": 45,
+      "total": 172,
+      "games": 86,
+      "blue_wr": 47.67,
+      "red_wr": 52.33
+    },
+    "2023_ESLOL": {
+      "blue_wins": 163,
+      "red_wins": 136,
+      "total": 598,
+      "games": 299,
+      "blue_wr": 54.52,
+      "red_wr": 45.48
+    },
+    "2023_GL": {
+      "blue_wins": 55,
+      "red_wins": 51,
+      "total": 212,
+      "games": 106,
+      "blue_wr": 51.89,
+      "red_wr": 48.11
+    },
+    "2023_GLL": {
+      "blue_wins": 98,
+      "red_wins": 65,
+      "total": 326,
+      "games": 163,
+      "blue_wr": 60.12,
+      "red_wr": 39.88
+    },
+    "2023_HC": {
+      "blue_wins": 75,
+      "red_wins": 66,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 53.19,
+      "red_wr": 46.81
+    },
+    "2023_HM": {
+      "blue_wins": 86,
+      "red_wins": 66,
+      "total": 304,
+      "games": 152,
+      "blue_wr": 56.58,
+      "red_wr": 43.42
+    },
+    "2023_IC": {
+      "blue_wins": 50,
+      "red_wins": 23,
+      "total": 146,
+      "games": 73,
+      "blue_wr": 68.49,
+      "red_wr": 31.51
+    },
+    "2023_LAS": {
+      "blue_wins": 152,
+      "red_wins": 129,
+      "total": 562,
+      "games": 281,
+      "blue_wr": 54.09,
+      "red_wr": 45.91
+    },
+    "2023_LCK": {
+      "blue_wins": 249,
+      "red_wins": 238,
+      "total": 976,
+      "games": 488,
+      "blue_wr": 51.02,
+      "red_wr": 48.77
+    },
+    "2023_LCKC": {
+      "blue_wins": 267,
+      "red_wins": 225,
+      "total": 984,
+      "games": 492,
+      "blue_wr": 54.27,
+      "red_wr": 45.73
+    },
+    "2023_LCO": {
+      "blue_wins": 69,
+      "red_wins": 71,
+      "total": 280,
+      "games": 140,
+      "blue_wr": 49.29,
+      "red_wr": 50.71
+    },
+    "2023_LCS": {
+      "blue_wins": 144,
+      "red_wins": 120,
+      "total": 528,
+      "games": 264,
+      "blue_wr": 54.55,
+      "red_wr": 45.45
+    },
+    "2023_LEC": {
+      "blue_wins": 166,
+      "red_wins": 122,
+      "total": 576,
+      "games": 288,
+      "blue_wr": 57.64,
+      "red_wr": 42.36
+    },
+    "2023_LFL": {
+      "blue_wins": 129,
+      "red_wins": 114,
+      "total": 486,
+      "games": 243,
+      "blue_wr": 53.09,
+      "red_wr": 46.91
+    },
+    "2023_LFL2": {
+      "blue_wins": 131,
+      "red_wins": 118,
+      "total": 498,
+      "games": 249,
+      "blue_wr": 52.61,
+      "red_wr": 47.39
+    },
+    "2023_LHE": {
+      "blue_wins": 32,
+      "red_wins": 31,
+      "total": 126,
+      "games": 63,
+      "blue_wr": 50.79,
+      "red_wr": 49.21
+    },
+    "2023_LJL": {
+      "blue_wins": 153,
+      "red_wins": 105,
+      "total": 516,
+      "games": 258,
+      "blue_wr": 59.3,
+      "red_wr": 40.7
+    },
+    "2023_LJLA": {
+      "blue_wins": 45,
+      "red_wins": 47,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 48.91,
+      "red_wr": 51.09
+    },
+    "2023_LLA": {
+      "blue_wins": 103,
+      "red_wins": 97,
+      "total": 400,
+      "games": 200,
+      "blue_wr": 51.5,
+      "red_wr": 48.5
+    },
+    "2023_LMF": {
+      "blue_wins": 40,
+      "red_wins": 52,
+      "total": 184,
+      "games": 92,
+      "blue_wr": 43.48,
+      "red_wr": 56.52
+    },
+    "2023_LPLOL": {
+      "blue_wins": 92,
+      "red_wins": 68,
+      "total": 320,
+      "games": 160,
+      "blue_wr": 57.5,
+      "red_wr": 42.5
+    },
+    "2023_LRN": {
+      "blue_wins": 70,
+      "red_wins": 46,
+      "total": 232,
+      "games": 116,
+      "blue_wr": 60.34,
+      "red_wr": 39.66
+    },
+    "2023_LRS": {
+      "blue_wins": 58,
+      "red_wins": 61,
+      "total": 238,
+      "games": 119,
+      "blue_wr": 48.74,
+      "red_wr": 51.26
+    },
+    "2023_LVP SL": {
+      "blue_wins": 129,
+      "red_wins": 116,
+      "total": 490,
+      "games": 245,
+      "blue_wr": 52.65,
+      "red_wr": 47.35
+    },
+    "2023_MSI": {
+      "blue_wins": 39,
+      "red_wins": 37,
+      "total": 152,
+      "games": 76,
+      "blue_wr": 51.32,
+      "red_wr": 48.68
+    },
+    "2023_NACL": {
+      "blue_wins": 446,
+      "red_wins": 396,
+      "total": 1684,
+      "games": 842,
+      "blue_wr": 52.97,
+      "red_wr": 47.03
+    },
+    "2023_NEXO": {
+      "blue_wins": 102,
+      "red_wins": 124,
+      "total": 452,
+      "games": 226,
+      "blue_wr": 45.13,
+      "red_wr": 54.87
+    },
+    "2023_NLC": {
+      "blue_wins": 94,
+      "red_wins": 70,
+      "total": 328,
+      "games": 164,
+      "blue_wr": 57.32,
+      "red_wr": 42.68
+    },
+    "2023_PCL": {
+      "blue_wins": 57,
+      "red_wins": 52,
+      "total": 218,
+      "games": 109,
+      "blue_wr": 52.29,
+      "red_wr": 47.71
+    },
+    "2023_PCS": {
+      "blue_wins": 152,
+      "red_wins": 126,
+      "total": 556,
+      "games": 278,
+      "blue_wr": 54.68,
+      "red_wr": 45.32
+    },
+    "2023_PGN": {
+      "blue_wins": 104,
+      "red_wins": 89,
+      "total": 386,
+      "games": 193,
+      "blue_wr": 53.89,
+      "red_wr": 46.11
+    },
+    "2023_PRM": {
+      "blue_wins": 123,
+      "red_wins": 114,
+      "total": 474,
+      "games": 237,
+      "blue_wr": 51.9,
+      "red_wr": 48.1
+    },
+    "2023_SL (LATAM)": {
+      "blue_wins": 56,
+      "red_wins": 45,
+      "total": 202,
+      "games": 101,
+      "blue_wr": 55.45,
+      "red_wr": 44.55
+    },
+    "2023_TCL": {
+      "blue_wins": 84,
+      "red_wins": 76,
+      "total": 320,
+      "games": 160,
+      "blue_wr": 52.5,
+      "red_wr": 47.5
+    },
+    "2023_UL": {
+      "blue_wins": 132,
+      "red_wins": 113,
+      "total": 490,
+      "games": 245,
+      "blue_wr": 53.88,
+      "red_wr": 46.12
+    },
+    "2023_USP": {
+      "blue_wins": 16,
+      "red_wins": 18,
+      "total": 68,
+      "games": 34,
+      "blue_wr": 47.06,
+      "red_wr": 52.94
+    },
+    "2023_VCS": {
+      "blue_wins": 163,
+      "red_wins": 146,
+      "total": 618,
+      "games": 309,
+      "blue_wr": 52.75,
+      "red_wr": 47.25
+    },
+    "2023_VL": {
+      "blue_wins": 56,
+      "red_wins": 46,
+      "total": 204,
+      "games": 102,
+      "blue_wr": 54.9,
+      "red_wr": 45.1
+    },
+    "2023_WLDs": {
+      "blue_wins": 69,
+      "red_wins": 55,
+      "total": 248,
+      "games": 124,
+      "blue_wr": 55.65,
+      "red_wr": 44.35
+    },
+    "2024_AC": {
+      "blue_wins": 18,
+      "red_wins": 17,
+      "total": 70,
+      "games": 35,
+      "blue_wr": 51.43,
+      "red_wr": 48.57
+    },
+    "2024_AL": {
+      "blue_wins": 78,
+      "red_wins": 72,
+      "total": 300,
+      "games": 150,
+      "blue_wr": 52.0,
+      "red_wr": 48.0
+    },
+    "2024_CBLOL": {
+      "blue_wins": 136,
+      "red_wins": 127,
+      "total": 526,
+      "games": 263,
+      "blue_wr": 51.71,
+      "red_wr": 48.29
+    },
+    "2024_CBLOLA": {
+      "blue_wins": 154,
+      "red_wins": 122,
+      "total": 552,
+      "games": 276,
+      "blue_wr": 55.8,
+      "red_wr": 44.2
+    },
+    "2024_CDF": {
+      "blue_wins": 45,
+      "red_wins": 24,
+      "total": 138,
+      "games": 69,
+      "blue_wr": 65.22,
+      "red_wr": 34.78
+    },
+    "2024_CT": {
+      "blue_wins": 19,
+      "red_wins": 20,
+      "total": 78,
+      "games": 39,
+      "blue_wr": 48.72,
+      "red_wr": 51.28
+    },
+    "2024_EBL": {
+      "blue_wins": 79,
+      "red_wins": 77,
+      "total": 312,
+      "games": 156,
+      "blue_wr": 50.64,
+      "red_wr": 49.36
+    },
+    "2024_EBLPA": {
+      "blue_wins": 14,
+      "red_wins": 11,
+      "total": 50,
+      "games": 25,
+      "blue_wr": 56.0,
+      "red_wr": 44.0
+    },
+    "2024_EM": {
+      "blue_wins": 224,
+      "red_wins": 175,
+      "total": 798,
+      "games": 399,
+      "blue_wr": 56.14,
+      "red_wr": 43.86
+    },
+    "2024_EPL": {
+      "blue_wins": 70,
+      "red_wins": 80,
+      "total": 300,
+      "games": 150,
+      "blue_wr": 46.67,
+      "red_wr": 53.33
+    },
+    "2024_ESLOL": {
+      "blue_wins": 154,
+      "red_wins": 146,
+      "total": 602,
+      "games": 301,
+      "blue_wr": 51.16,
+      "red_wr": 48.5
+    },
+    "2024_EWC": {
+      "blue_wins": 7,
+      "red_wins": 12,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 36.84,
+      "red_wr": 63.16
+    },
+    "2024_GLL": {
+      "blue_wins": 89,
+      "red_wins": 70,
+      "total": 318,
+      "games": 159,
+      "blue_wr": 55.97,
+      "red_wr": 44.03
+    },
+    "2024_GLLPA": {
+      "blue_wins": 23,
+      "red_wins": 15,
+      "total": 76,
+      "games": 38,
+      "blue_wr": 60.53,
+      "red_wr": 39.47
+    },
+    "2024_HC": {
+      "blue_wins": 51,
+      "red_wins": 60,
+      "total": 222,
+      "games": 111,
+      "blue_wr": 45.95,
+      "red_wr": 54.05
+    },
+    "2024_HM": {
+      "blue_wins": 90,
+      "red_wins": 69,
+      "total": 318,
+      "games": 159,
+      "blue_wr": 56.6,
+      "red_wr": 43.4
+    },
+    "2024_HW": {
+      "blue_wins": 50,
+      "red_wins": 34,
+      "total": 168,
+      "games": 84,
+      "blue_wr": 59.52,
+      "red_wr": 40.48
+    },
+    "2024_IC": {
+      "blue_wins": 32,
+      "red_wins": 36,
+      "total": 136,
+      "games": 68,
+      "blue_wr": 47.06,
+      "red_wr": 52.94
+    },
+    "2024_IGNIS": {
+      "blue_wins": 31,
+      "red_wins": 24,
+      "total": 110,
+      "games": 55,
+      "blue_wr": 56.36,
+      "red_wr": 43.64
+    },
+    "2024_LAS": {
+      "blue_wins": 162,
+      "red_wins": 127,
+      "total": 578,
+      "games": 289,
+      "blue_wr": 56.06,
+      "red_wr": 43.94
+    },
+    "2024_LCK": {
+      "blue_wins": 248,
+      "red_wins": 234,
+      "total": 964,
+      "games": 482,
+      "blue_wr": 51.45,
+      "red_wr": 48.55
+    },
+    "2024_LCKC": {
+      "blue_wins": 282,
+      "red_wins": 229,
+      "total": 1022,
+      "games": 511,
+      "blue_wr": 55.19,
+      "red_wr": 44.81
+    },
+    "2024_LCO": {
+      "blue_wins": 86,
+      "red_wins": 70,
+      "total": 312,
+      "games": 156,
+      "blue_wr": 55.13,
+      "red_wr": 44.87
+    },
+    "2024_LCS": {
+      "blue_wins": 104,
+      "red_wins": 88,
+      "total": 384,
+      "games": 192,
+      "blue_wr": 54.17,
+      "red_wr": 45.83
+    },
+    "2024_LEC": {
+      "blue_wins": 163,
+      "red_wins": 131,
+      "total": 588,
+      "games": 294,
+      "blue_wr": 55.44,
+      "red_wr": 44.56
+    },
+    "2024_LFL": {
+      "blue_wins": 116,
+      "red_wins": 128,
+      "total": 488,
+      "games": 244,
+      "blue_wr": 47.54,
+      "red_wr": 52.46
+    },
+    "2024_LFL2": {
+      "blue_wins": 95,
+      "red_wins": 84,
+      "total": 358,
+      "games": 179,
+      "blue_wr": 53.07,
+      "red_wr": 46.93
+    },
+    "2024_LIT": {
+      "blue_wins": 69,
+      "red_wins": 68,
+      "total": 274,
+      "games": 137,
+      "blue_wr": 50.36,
+      "red_wr": 49.64
+    },
+    "2024_LJL": {
+      "blue_wins": 78,
+      "red_wins": 70,
+      "total": 296,
+      "games": 148,
+      "blue_wr": 52.7,
+      "red_wr": 47.3
+    },
+    "2024_LLA": {
+      "blue_wins": 108,
+      "red_wins": 105,
+      "total": 426,
+      "games": 213,
+      "blue_wr": 50.7,
+      "red_wr": 49.3
+    },
+    "2024_LPLOL": {
+      "blue_wins": 85,
+      "red_wins": 75,
+      "total": 320,
+      "games": 160,
+      "blue_wr": 53.12,
+      "red_wr": 46.88
+    },
+    "2024_LRN": {
+      "blue_wins": 49,
+      "red_wins": 39,
+      "total": 176,
+      "games": 88,
+      "blue_wr": 55.68,
+      "red_wr": 44.32
+    },
+    "2024_LRS": {
+      "blue_wins": 53,
+      "red_wins": 46,
+      "total": 198,
+      "games": 99,
+      "blue_wr": 53.54,
+      "red_wr": 46.46
+    },
+    "2024_LVP SL": {
+      "blue_wins": 139,
+      "red_wins": 114,
+      "total": 506,
+      "games": 253,
+      "blue_wr": 54.94,
+      "red_wr": 45.06
+    },
+    "2024_NACL": {
+      "blue_wins": 268,
+      "red_wins": 219,
+      "total": 974,
+      "games": 487,
+      "blue_wr": 55.03,
+      "red_wr": 44.97
+    },
+    "2024_NEXO": {
+      "blue_wins": 57,
+      "red_wins": 75,
+      "total": 264,
+      "games": 132,
+      "blue_wr": 43.18,
+      "red_wr": 56.82
+    },
+    "2024_NLC": {
+      "blue_wins": 76,
+      "red_wins": 79,
+      "total": 310,
+      "games": 155,
+      "blue_wr": 49.03,
+      "red_wr": 50.97
+    },
+    "2024_NLC Aurora Open": {
+      "blue_wins": 34,
+      "red_wins": 43,
+      "total": 154,
+      "games": 77,
+      "blue_wr": 44.16,
+      "red_wr": 55.84
+    },
+    "2024_PCL": {
+      "blue_wins": 187,
+      "red_wins": 153,
+      "total": 680,
+      "games": 340,
+      "blue_wr": 55.0,
+      "red_wr": 45.0
+    },
+    "2024_PCS": {
+      "blue_wins": 167,
+      "red_wins": 145,
+      "total": 624,
+      "games": 312,
+      "blue_wr": 53.53,
+      "red_wr": 46.47
+    },
+    "2024_PGN": {
+      "blue_wins": 7,
+      "red_wins": 11,
+      "total": 36,
+      "games": 18,
+      "blue_wr": 38.89,
+      "red_wr": 61.11
+    },
+    "2024_PRM": {
+      "blue_wins": 118,
+      "red_wins": 129,
+      "total": 494,
+      "games": 247,
+      "blue_wr": 47.77,
+      "red_wr": 52.23
+    },
+    "2024_PRMP": {
+      "blue_wins": 69,
+      "red_wins": 65,
+      "total": 268,
+      "games": 134,
+      "blue_wr": 51.49,
+      "red_wr": 48.51
+    },
+    "2024_TCL": {
+      "blue_wins": 96,
+      "red_wins": 87,
+      "total": 366,
+      "games": 183,
+      "blue_wr": 52.46,
+      "red_wr": 47.54
+    },
+    "2024_TSC": {
+      "blue_wins": 57,
+      "red_wins": 50,
+      "total": 214,
+      "games": 107,
+      "blue_wr": 53.27,
+      "red_wr": 46.73
+    },
+    "2024_UL": {
+      "blue_wins": 82,
+      "red_wins": 81,
+      "total": 326,
+      "games": 163,
+      "blue_wr": 50.31,
+      "red_wr": 49.69
+    },
+    "2024_USP": {
+      "blue_wins": 25,
+      "red_wins": 13,
+      "total": 76,
+      "games": 38,
+      "blue_wr": 65.79,
+      "red_wr": 34.21
+    },
+    "2024_VCS": {
+      "blue_wins": 157,
+      "red_wins": 150,
+      "total": 614,
+      "games": 307,
+      "blue_wr": 51.14,
+      "red_wr": 48.86
+    },
+    "2024_WLDs": {
+      "blue_wins": 72,
+      "red_wins": 47,
+      "total": 238,
+      "games": 119,
+      "blue_wr": 60.5,
+      "red_wr": 39.5
+    },
+    "2025_AL": {
+      "blue_wins": 162,
+      "red_wins": 130,
+      "total": 584,
+      "games": 292,
+      "blue_wr": 55.48,
+      "red_wr": 44.52
+    },
+    "2025_ASI": {
+      "blue_wins": 17,
+      "red_wins": 25,
+      "total": 84,
+      "games": 42,
+      "blue_wr": 40.48,
+      "red_wr": 59.52
+    },
+    "2025_Asia Master": {
+      "blue_wins": 96,
+      "red_wins": 84,
+      "total": 360,
+      "games": 180,
+      "blue_wr": 53.33,
+      "red_wr": 46.67
+    },
+    "2025_CD": {
+      "blue_wins": 138,
+      "red_wins": 142,
+      "total": 560,
+      "games": 280,
+      "blue_wr": 49.29,
+      "red_wr": 50.71
+    },
+    "2025_CT": {
+      "blue_wins": 28,
+      "red_wins": 22,
+      "total": 100,
+      "games": 50,
+      "blue_wr": 56.0,
+      "red_wr": 44.0
+    },
+    "2025_DCup": {
+      "blue_wins": 33,
+      "red_wins": 42,
+      "total": 150,
+      "games": 75,
+      "blue_wr": 44.0,
+      "red_wr": 56.0
+    },
+    "2025_EBL": {
+      "blue_wins": 90,
+      "red_wins": 96,
+      "total": 372,
+      "games": 186,
+      "blue_wr": 48.39,
+      "red_wr": 51.61
+    },
+    "2025_EM": {
+      "blue_wins": 230,
+      "red_wins": 210,
+      "total": 880,
+      "games": 440,
+      "blue_wr": 52.27,
+      "red_wr": 47.73
+    },
+    "2025_ESLOL": {
+      "blue_wins": 7,
+      "red_wins": 7,
+      "total": 28,
+      "games": 14,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2025_EWC": {
+      "blue_wins": 22,
+      "red_wins": 11,
+      "total": 66,
+      "games": 33,
+      "blue_wr": 66.67,
+      "red_wr": 33.33
+    },
+    "2025_FST": {
+      "blue_wins": 16,
+      "red_wins": 19,
+      "total": 70,
+      "games": 35,
+      "blue_wr": 45.71,
+      "red_wr": 54.29
+    },
+    "2025_GLL": {
+      "blue_wins": 6,
+      "red_wins": 7,
+      "total": 26,
+      "games": 13,
+      "blue_wr": 46.15,
+      "red_wr": 53.85
+    },
+    "2025_HC": {
+      "blue_wins": 118,
+      "red_wins": 82,
+      "total": 400,
+      "games": 200,
+      "blue_wr": 59.0,
+      "red_wr": 41.0
+    },
+    "2025_HLL": {
+      "blue_wins": 121,
+      "red_wins": 92,
+      "total": 426,
+      "games": 213,
+      "blue_wr": 56.81,
+      "red_wr": 43.19
+    },
+    "2025_HM": {
+      "blue_wins": 102,
+      "red_wins": 103,
+      "total": 410,
+      "games": 205,
+      "blue_wr": 49.76,
+      "red_wr": 50.24
+    },
+    "2025_HW": {
+      "blue_wins": 68,
+      "red_wins": 46,
+      "total": 228,
+      "games": 114,
+      "blue_wr": 59.65,
+      "red_wr": 40.35
+    },
+    "2025_IC": {
+      "blue_wins": 18,
+      "red_wins": 10,
+      "total": 56,
+      "games": 28,
+      "blue_wr": 64.29,
+      "red_wr": 35.71
+    },
+    "2025_KeSPA": {
+      "blue_wins": 28,
+      "red_wins": 21,
+      "total": 98,
+      "games": 49,
+      "blue_wr": 57.14,
+      "red_wr": 42.86
+    },
+    "2025_LAS": {
+      "blue_wins": 250,
+      "red_wins": 239,
+      "total": 978,
+      "games": 489,
+      "blue_wr": 51.12,
+      "red_wr": 48.88
+    },
+    "2025_LCK": {
+      "blue_wins": 283,
+      "red_wins": 272,
+      "total": 1110,
+      "games": 555,
+      "blue_wr": 50.99,
+      "red_wr": 49.01
+    },
+    "2025_LCKC": {
+      "blue_wins": 286,
+      "red_wins": 256,
+      "total": 1084,
+      "games": 542,
+      "blue_wr": 52.77,
+      "red_wr": 47.23
+    },
+    "2025_LCP": {
+      "blue_wins": 149,
+      "red_wins": 124,
+      "total": 546,
+      "games": 273,
+      "blue_wr": 54.58,
+      "red_wr": 45.42
+    },
+    "2025_LEC": {
+      "blue_wins": 171,
+      "red_wins": 135,
+      "total": 612,
+      "games": 306,
+      "blue_wr": 55.88,
+      "red_wr": 44.12
+    },
+    "2025_LFL": {
+      "blue_wins": 184,
+      "red_wins": 133,
+      "total": 634,
+      "games": 317,
+      "blue_wr": 58.04,
+      "red_wr": 41.96
+    },
+    "2025_LFL2": {
+      "blue_wins": 134,
+      "red_wins": 95,
+      "total": 458,
+      "games": 229,
+      "blue_wr": 58.52,
+      "red_wr": 41.48
+    },
+    "2025_LIT": {
+      "blue_wins": 73,
+      "red_wins": 78,
+      "total": 302,
+      "games": 151,
+      "blue_wr": 48.34,
+      "red_wr": 51.66
+    },
+    "2025_LJL": {
+      "blue_wins": 188,
+      "red_wins": 186,
+      "total": 748,
+      "games": 374,
+      "blue_wr": 50.27,
+      "red_wr": 49.73
+    },
+    "2025_LPLOL": {
+      "blue_wins": 89,
+      "red_wins": 83,
+      "total": 344,
+      "games": 172,
+      "blue_wr": 51.74,
+      "red_wr": 48.26
+    },
+    "2025_LRN": {
+      "blue_wins": 77,
+      "red_wins": 77,
+      "total": 308,
+      "games": 154,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2025_LRS": {
+      "blue_wins": 82,
+      "red_wins": 60,
+      "total": 284,
+      "games": 142,
+      "blue_wr": 57.75,
+      "red_wr": 42.25
+    },
+    "2025_LTA": {
+      "blue_wins": 20,
+      "red_wins": 20,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2025_LTA N": {
+      "blue_wins": 95,
+      "red_wins": 94,
+      "total": 378,
+      "games": 189,
+      "blue_wr": 50.26,
+      "red_wr": 49.74
+    },
+    "2025_LTA S": {
+      "blue_wins": 98,
+      "red_wins": 96,
+      "total": 388,
+      "games": 194,
+      "blue_wr": 50.52,
+      "red_wr": 49.48
+    },
+    "2025_LVP SL": {
+      "blue_wins": 150,
+      "red_wins": 115,
+      "total": 530,
+      "games": 265,
+      "blue_wr": 56.6,
+      "red_wr": 43.4
+    },
+    "2025_MSI": {
+      "blue_wins": 42,
+      "red_wins": 38,
+      "total": 160,
+      "games": 80,
+      "blue_wr": 52.5,
+      "red_wr": 47.5
+    },
+    "2025_NACL": {
+      "blue_wins": 142,
+      "red_wins": 135,
+      "total": 554,
+      "games": 277,
+      "blue_wr": 51.26,
+      "red_wr": 48.74
+    },
+    "2025_NEXO": {
+      "blue_wins": 110,
+      "red_wins": 105,
+      "total": 430,
+      "games": 215,
+      "blue_wr": 51.16,
+      "red_wr": 48.84
+    },
+    "2025_NLC": {
+      "blue_wins": 183,
+      "red_wins": 131,
+      "total": 628,
+      "games": 314,
+      "blue_wr": 58.28,
+      "red_wr": 41.72
+    },
+    "2025_PCS": {
+      "blue_wins": 148,
+      "red_wins": 155,
+      "total": 606,
+      "games": 303,
+      "blue_wr": 48.84,
+      "red_wr": 51.16
+    },
+    "2025_PRM": {
+      "blue_wins": 170,
+      "red_wins": 133,
+      "total": 606,
+      "games": 303,
+      "blue_wr": 56.11,
+      "red_wr": 43.89
+    },
+    "2025_PRMP": {
+      "blue_wins": 39,
+      "red_wins": 34,
+      "total": 146,
+      "games": 73,
+      "blue_wr": 53.42,
+      "red_wr": 46.58
+    },
+    "2025_RL": {
+      "blue_wins": 129,
+      "red_wins": 111,
+      "total": 480,
+      "games": 240,
+      "blue_wr": 53.75,
+      "red_wr": 46.25
+    },
+    "2025_ROL": {
+      "blue_wins": 118,
+      "red_wins": 90,
+      "total": 416,
+      "games": 208,
+      "blue_wr": 56.73,
+      "red_wr": 43.27
+    },
+    "2025_TCL": {
+      "blue_wins": 141,
+      "red_wins": 117,
+      "total": 516,
+      "games": 258,
+      "blue_wr": 54.65,
+      "red_wr": 45.35
+    },
+    "2025_UL": {
+      "blue_wins": 7,
+      "red_wins": 9,
+      "total": 32,
+      "games": 16,
+      "blue_wr": 43.75,
+      "red_wr": 56.25
+    },
+    "2025_VCS": {
+      "blue_wins": 74,
+      "red_wins": 67,
+      "total": 282,
+      "games": 141,
+      "blue_wr": 52.48,
+      "red_wr": 47.52
+    },
+    "2025_WLDs": {
+      "blue_wins": 42,
+      "red_wins": 42,
+      "total": 168,
+      "games": 84,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2026_AL": {
+      "blue_wins": 91,
+      "red_wins": 64,
+      "total": 310,
+      "games": 155,
+      "blue_wr": 58.71,
+      "red_wr": 41.29
+    },
+    "2026_Americas Cup": {
+      "blue_wins": 8,
+      "red_wins": 11,
+      "total": 38,
+      "games": 19,
+      "blue_wr": 42.11,
+      "red_wr": 57.89
+    },
+    "2026_CBLOL": {
+      "blue_wins": 49,
+      "red_wins": 49,
+      "total": 196,
+      "games": 98,
+      "blue_wr": 50.0,
+      "red_wr": 50.0
+    },
+    "2026_CCWS": {
+      "blue_wins": 16,
+      "red_wins": 24,
+      "total": 80,
+      "games": 40,
+      "blue_wr": 40.0,
+      "red_wr": 60.0
+    },
+    "2026_CD": {
+      "blue_wins": 38,
+      "red_wins": 29,
+      "total": 134,
+      "games": 67,
+      "blue_wr": 56.72,
+      "red_wr": 43.28
+    },
+    "2026_EBL": {
+      "blue_wins": 32,
+      "red_wins": 36,
+      "total": 136,
+      "games": 68,
+      "blue_wr": 47.06,
+      "red_wr": 52.94
+    },
+    "2026_EM": {
+      "blue_wins": 92,
+      "red_wins": 74,
+      "total": 332,
+      "games": 166,
+      "blue_wr": 55.42,
+      "red_wr": 44.58
+    },
+    "2026_FST": {
+      "blue_wins": 30,
+      "red_wins": 15,
+      "total": 90,
+      "games": 45,
+      "blue_wr": 66.67,
+      "red_wr": 33.33
+    },
+    "2026_HLL": {
+      "blue_wins": 41,
+      "red_wins": 48,
+      "total": 178,
+      "games": 89,
+      "blue_wr": 46.07,
+      "red_wr": 53.93
+    },
+    "2026_HW": {
+      "blue_wins": 60,
+      "red_wins": 43,
+      "total": 206,
+      "games": 103,
+      "blue_wr": 58.25,
+      "red_wr": 41.75
+    },
+    "2026_KeSPA": {
+      "blue_wins": 25,
+      "red_wins": 31,
+      "total": 112,
+      "games": 56,
+      "blue_wr": 44.64,
+      "red_wr": 55.36
+    },
+    "2026_LAS": {
+      "blue_wins": 63,
+      "red_wins": 57,
+      "total": 240,
+      "games": 120,
+      "blue_wr": 52.5,
+      "red_wr": 47.5
+    },
+    "2026_LCK": {
+      "blue_wins": 93,
+      "red_wins": 74,
+      "total": 334,
+      "games": 167,
+      "blue_wr": 55.69,
+      "red_wr": 44.31
+    },
+    "2026_LCKC": {
+      "blue_wins": 97,
+      "red_wins": 81,
+      "total": 356,
+      "games": 178,
+      "blue_wr": 54.49,
+      "red_wr": 45.51
+    },
+    "2026_LCP": {
+      "blue_wins": 75,
+      "red_wins": 64,
+      "total": 278,
+      "games": 139,
+      "blue_wr": 53.96,
+      "red_wr": 46.04
+    },
+    "2026_LCS": {
+      "blue_wins": 47,
+      "red_wins": 33,
+      "total": 160,
+      "games": 80,
+      "blue_wr": 58.75,
+      "red_wr": 41.25
+    },
+    "2026_LEC": {
+      "blue_wins": 81,
+      "red_wins": 76,
+      "total": 314,
+      "games": 157,
+      "blue_wr": 51.59,
+      "red_wr": 48.41
+    },
+    "2026_LES": {
+      "blue_wins": 16,
+      "red_wins": 18,
+      "total": 68,
+      "games": 34,
+      "blue_wr": 47.06,
+      "red_wr": 52.94
+    },
+    "2026_LFL": {
+      "blue_wins": 68,
+      "red_wins": 56,
+      "total": 248,
+      "games": 124,
+      "blue_wr": 54.84,
+      "red_wr": 45.16
+    },
+    "2026_LFL2": {
+      "blue_wins": 8,
+      "red_wins": 7,
+      "total": 30,
+      "games": 15,
+      "blue_wr": 53.33,
+      "red_wr": 46.67
+    },
+    "2026_LIT": {
+      "blue_wins": 56,
+      "red_wins": 60,
+      "total": 232,
+      "games": 116,
+      "blue_wr": 48.28,
+      "red_wr": 51.72
+    },
+    "2026_LJL": {
+      "blue_wins": 104,
+      "red_wins": 106,
+      "total": 420,
+      "games": 210,
+      "blue_wr": 49.52,
+      "red_wr": 50.48
+    },
+    "2026_LPLOL": {
+      "blue_wins": 19,
+      "red_wins": 20,
+      "total": 78,
+      "games": 39,
+      "blue_wr": 48.72,
+      "red_wr": 51.28
+    },
+    "2026_LRN": {
+      "blue_wins": 29,
+      "red_wins": 31,
+      "total": 120,
+      "games": 60,
+      "blue_wr": 48.33,
+      "red_wr": 51.67
+    },
+    "2026_LRS": {
+      "blue_wins": 27,
+      "red_wins": 25,
+      "total": 104,
+      "games": 52,
+      "blue_wr": 51.92,
+      "red_wr": 48.08
+    },
+    "2026_LTA N": {
+      "blue_wins": 14,
+      "red_wins": 10,
+      "total": 48,
+      "games": 24,
+      "blue_wr": 58.33,
+      "red_wr": 41.67
+    },
+    "2026_LTA S": {
+      "blue_wins": 18,
+      "red_wins": 10,
+      "total": 56,
+      "games": 28,
+      "blue_wr": 64.29,
+      "red_wr": 35.71
+    },
+    "2026_LVP SL": {
+      "blue_wins": 7,
+      "red_wins": 3,
+      "total": 20,
+      "games": 10,
+      "blue_wr": 70.0,
+      "red_wr": 30.0
+    },
+    "2026_NACL": {
+      "blue_wins": 40,
+      "red_wins": 24,
+      "total": 128,
+      "games": 64,
+      "blue_wr": 62.5,
+      "red_wr": 37.5
+    },
+    "2026_NLC": {
+      "blue_wins": 16,
+      "red_wins": 37,
+      "total": 106,
+      "games": 53,
+      "blue_wr": 30.19,
+      "red_wr": 69.81
+    },
+    "2026_PRM": {
+      "blue_wins": 62,
+      "red_wins": 31,
+      "total": 186,
+      "games": 93,
+      "blue_wr": 66.67,
+      "red_wr": 33.33
+    },
+    "2026_RL": {
+      "blue_wins": 31,
+      "red_wins": 39,
+      "total": 140,
+      "games": 70,
+      "blue_wr": 44.29,
+      "red_wr": 55.71
+    },
+    "2026_ROL": {
+      "blue_wins": 42,
+      "red_wins": 45,
+      "total": 174,
+      "games": 87,
+      "blue_wr": 48.28,
+      "red_wr": 51.72
+    },
+    "2026_TCL": {
+      "blue_wins": 37,
+      "red_wins": 28,
+      "total": 130,
+      "games": 65,
+      "blue_wr": 56.92,
+      "red_wr": 43.08
+    },
+    "2026_VCS": {
+      "blue_wins": 20,
+      "red_wins": 35,
+      "total": 110,
+      "games": 55,
+      "blue_wr": 36.36,
+      "red_wr": 63.64
+    }
+  }
+}

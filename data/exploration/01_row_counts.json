@@ -1,0 +1,3096 @@
+{
+  "per_year": {
+    "2014": {
+      "total_rows": 9768,
+      "team_rows": 1628,
+      "player_rows": 8140,
+      "games": 814
+    },
+    "2015": {
+      "total_rows": 21684,
+      "team_rows": 3614,
+      "player_rows": 18070,
+      "games": 1807
+    },
+    "2016": {
+      "total_rows": 40680,
+      "team_rows": 6780,
+      "player_rows": 33900,
+      "games": 3390
+    },
+    "2017": {
+      "total_rows": 53508,
+      "team_rows": 8918,
+      "player_rows": 44590,
+      "games": 4459
+    },
+    "2018": {
+      "total_rows": 66144,
+      "team_rows": 11024,
+      "player_rows": 55120,
+      "games": 5512
+    },
+    "2019": {
+      "total_rows": 92940,
+      "team_rows": 15490,
+      "player_rows": 77450,
+      "games": 7745
+    },
+    "2020": {
+      "total_rows": 116880,
+      "team_rows": 19480,
+      "player_rows": 97400,
+      "games": 9740
+    },
+    "2021": {
+      "total_rows": 131256,
+      "team_rows": 21876,
+      "player_rows": 109380,
+      "games": 10938
+    },
+    "2022": {
+      "total_rows": 125244,
+      "team_rows": 20874,
+      "player_rows": 104370,
+      "games": 10437
+    },
+    "2023": {
+      "total_rows": 112224,
+      "team_rows": 18704,
+      "player_rows": 93520,
+      "games": 9352
+    },
+    "2024": {
+      "total_rows": 105840,
+      "team_rows": 17640,
+      "player_rows": 88200,
+      "games": 8820
+    },
+    "2025": {
+      "total_rows": 112236,
+      "team_rows": 18706,
+      "player_rows": 93530,
+      "games": 9353
+    },
+    "2026": {
+      "total_rows": 35352,
+      "team_rows": 5892,
+      "player_rows": 29460,
+      "games": 2946
+    }
+  },
+  "per_league": {
+    "LCK": {
+      "total_rows": 61656,
+      "team_rows": 10276,
+      "games": 5138
+    },
+    "LDL": {
+      "total_rows": 30924,
+      "team_rows": 5154,
+      "games": 2577
+    },
+    "TCL": {
+      "total_rows": 29976,
+      "team_rows": 4996,
+      "games": 2498
+    },
+    "VCS": {
+      "total_rows": 29148,
+      "team_rows": 4858,
+      "games": 2429
+    },
+    "LCKC": {
+      "total_rows": 28128,
+      "team_rows": 4688,
+      "games": 2344
+    },
+    "LPL": {
+      "total_rows": 27156,
+      "team_rows": 4526,
+      "games": 2263
+    },
+    "LJL": {
+      "total_rows": 25836,
+      "team_rows": 4306,
+      "games": 2153
+    },
+    "LEC": {
+      "total_rows": 24696,
+      "team_rows": 4116,
+      "games": 2058
+    },
+    "CBLOL": {
+      "total_rows": 23940,
+      "team_rows": 3990,
+      "games": 1995
+    },
+    "NA LCS": {
+      "total_rows": 20832,
+      "team_rows": 3472,
+      "games": 1736
+    },
+    "LCS": {
+      "total_rows": 20796,
+      "team_rows": 3466,
+      "games": 1733
+    },
+    "LFL": {
+      "total_rows": 20640,
+      "team_rows": 3440,
+      "games": 1720
+    },
+    "PRM": {
+      "total_rows": 20640,
+      "team_rows": 3440,
+      "games": 1720
+    },
+    "LAS": {
+      "total_rows": 20580,
+      "team_rows": 3430,
+      "games": 1715
+    },
+    "PCS": {
+      "total_rows": 20448,
+      "team_rows": 3408,
+      "games": 1704
+    },
+    "NACL": {
+      "total_rows": 20040,
+      "team_rows": 3340,
+      "games": 1670
+    },
+    "LCSA": {
+      "total_rows": 19212,
+      "team_rows": 3202,
+      "games": 1601
+    },
+    "EU LCS": {
+      "total_rows": 18648,
+      "team_rows": 3108,
+      "games": 1554
+    },
+    "NLC": {
+      "total_rows": 17796,
+      "team_rows": 2966,
+      "games": 1483
+    },
+    "CK": {
+      "total_rows": 16692,
+      "team_rows": 2782,
+      "games": 1391
+    },
+    "LMS": {
+      "total_rows": 15948,
+      "team_rows": 2658,
+      "games": 1329
+    },
+    "WLDs": {
+      "total_rows": 15456,
+      "team_rows": 2576,
+      "games": 1288
+    },
+    "EM": {
+      "total_rows": 15312,
+      "team_rows": 2552,
+      "games": 1276
+    },
+    "UL": {
+      "total_rows": 15216,
+      "team_rows": 2536,
+      "games": 1268
+    },
+    "LPLOL": {
+      "total_rows": 14736,
+      "team_rows": 2456,
+      "games": 1228
+    },
+    "LVP SL": {
+      "total_rows": 14700,
+      "team_rows": 2450,
+      "games": 1225
+    },
+    "OPL": {
+      "total_rows": 14016,
+      "team_rows": 2336,
+      "games": 1168
+    },
+    "LLA": {
+      "total_rows": 13776,
+      "team_rows": 2296,
+      "games": 1148
+    },
+    "EBL": {
+      "total_rows": 13524,
+      "team_rows": 2254,
+      "games": 1127
+    },
+    "LMF": {
+      "total_rows": 13092,
+      "team_rows": 2182,
+      "games": 1091
+    },
+    "HM": {
+      "total_rows": 13056,
+      "team_rows": 2176,
+      "games": 1088
+    },
+    "GLL": {
+      "total_rows": 13044,
+      "team_rows": 2174,
+      "games": 1087
+    },
+    "LHE": {
+      "total_rows": 11736,
+      "team_rows": 1956,
+      "games": 978
+    },
+    "CBLOLA": {
+      "total_rows": 11532,
+      "team_rows": 1922,
+      "games": 961
+    },
+    "PGN": {
+      "total_rows": 11388,
+      "team_rows": 1898,
+      "games": 949
+    },
+    "EUM": {
+      "total_rows": 11376,
+      "team_rows": 1896,
+      "games": 948
+    },
+    "NEXO": {
+      "total_rows": 11256,
+      "team_rows": 1876,
+      "games": 938
+    },
+    "LFL2": {
+      "total_rows": 11028,
+      "team_rows": 1838,
+      "games": 919
+    },
+    "LCL": {
+      "total_rows": 10764,
+      "team_rows": 1794,
+      "games": 897
+    },
+    "UPL": {
+      "total_rows": 10608,
+      "team_rows": 1768,
+      "games": 884
+    },
+    "HC": {
+      "total_rows": 10416,
+      "team_rows": 1736,
+      "games": 868
+    },
+    "ESLOL": {
+      "total_rows": 9996,
+      "team_rows": 1666,
+      "games": 833
+    },
+    "DDH": {
+      "total_rows": 9936,
+      "team_rows": 1656,
+      "games": 828
+    },
+    "TAL": {
+      "total_rows": 9456,
+      "team_rows": 1576,
+      "games": 788
+    },
+    "AL": {
+      "total_rows": 9132,
+      "team_rows": 1522,
+      "games": 761
+    },
+    "LCO": {
+      "total_rows": 8256,
+      "team_rows": 1376,
+      "games": 688
+    },
+    "SLO": {
+      "total_rows": 7632,
+      "team_rows": 1272,
+      "games": 636
+    },
+    "MSI": {
+      "total_rows": 7392,
+      "team_rows": 1232,
+      "games": 616
+    },
+    "CLS": {
+      "total_rows": 6960,
+      "team_rows": 1160,
+      "games": 580
+    },
+    "RCL": {
+      "total_rows": 6612,
+      "team_rows": 1102,
+      "games": 551
+    },
+    "EU CS": {
+      "total_rows": 6072,
+      "team_rows": 1012,
+      "games": 506
+    },
+    "PGC": {
+      "total_rows": 6012,
+      "team_rows": 1002,
+      "games": 501
+    },
+    "NA CS": {
+      "total_rows": 5448,
+      "team_rows": 908,
+      "games": 454
+    },
+    "PCL": {
+      "total_rows": 5388,
+      "team_rows": 898,
+      "games": 449
+    },
+    "LLN": {
+      "total_rows": 5340,
+      "team_rows": 890,
+      "games": 445
+    },
+    "UKLC": {
+      "total_rows": 5160,
+      "team_rows": 860,
+      "games": 430
+    },
+    "BRCC": {
+      "total_rows": 5088,
+      "team_rows": 848,
+      "games": 424
+    },
+    "LRN": {
+      "total_rows": 5016,
+      "team_rows": 836,
+      "games": 418
+    },
+    "LRS": {
+      "total_rows": 4944,
+      "team_rows": 824,
+      "games": 412
+    },
+    "LCP": {
+      "total_rows": 4944,
+      "team_rows": 824,
+      "games": 412
+    },
+    "LIT": {
+      "total_rows": 4848,
+      "team_rows": 808,
+      "games": 404
+    },
+    "OCS": {
+      "total_rows": 4812,
+      "team_rows": 802,
+      "games": 401
+    },
+    "OGN": {
+      "total_rows": 4728,
+      "team_rows": 788,
+      "games": 394
+    },
+    "OTBLX": {
+      "total_rows": 4452,
+      "team_rows": 742,
+      "games": 371
+    },
+    "KeSPA": {
+      "total_rows": 4236,
+      "team_rows": 706,
+      "games": 353
+    },
+    "CD": {
+      "total_rows": 4164,
+      "team_rows": 694,
+      "games": 347
+    },
+    "BIG": {
+      "total_rows": 4116,
+      "team_rows": 686,
+      "games": 343
+    },
+    "PRMP": {
+      "total_rows": 4104,
+      "team_rows": 684,
+      "games": 342
+    },
+    "HW": {
+      "total_rows": 4044,
+      "team_rows": 674,
+      "games": 337
+    },
+    "RL": {
+      "total_rows": 3720,
+      "team_rows": 620,
+      "games": 310
+    },
+    "HLL": {
+      "total_rows": 3624,
+      "team_rows": 604,
+      "games": 302
+    },
+    "ROL": {
+      "total_rows": 3540,
+      "team_rows": 590,
+      "games": 295
+    },
+    "VL": {
+      "total_rows": 3300,
+      "team_rows": 550,
+      "games": 275
+    },
+    "SL (LATAM)": {
+      "total_rows": 3300,
+      "team_rows": 550,
+      "games": 275
+    },
+    "GL": {
+      "total_rows": 3252,
+      "team_rows": 542,
+      "games": 271
+    },
+    "IC": {
+      "total_rows": 2928,
+      "team_rows": 488,
+      "games": 244
+    },
+    "BM": {
+      "total_rows": 2916,
+      "team_rows": 486,
+      "games": 243
+    },
+    "CT": {
+      "total_rows": 2916,
+      "team_rows": 486,
+      "games": 243
+    },
+    "EPL": {
+      "total_rows": 2832,
+      "team_rows": 472,
+      "games": 236
+    },
+    "DCup": {
+      "total_rows": 2736,
+      "team_rows": 456,
+      "games": 228
+    },
+    "LTA S": {
+      "total_rows": 2664,
+      "team_rows": 444,
+      "games": 222
+    },
+    "NLC Aurora Open": {
+      "total_rows": 2604,
+      "team_rows": 434,
+      "games": 217
+    },
+    "CDF": {
+      "total_rows": 2604,
+      "team_rows": 434,
+      "games": 217
+    },
+    "LTA N": {
+      "total_rows": 2556,
+      "team_rows": 426,
+      "games": 213
+    },
+    "CU": {
+      "total_rows": 2508,
+      "team_rows": 418,
+      "games": 209
+    },
+    "DL": {
+      "total_rows": 2376,
+      "team_rows": 396,
+      "games": 198
+    },
+    "BL": {
+      "total_rows": 2352,
+      "team_rows": 392,
+      "games": 196
+    },
+    "Asia Master": {
+      "total_rows": 2160,
+      "team_rows": 360,
+      "games": 180
+    },
+    "EL": {
+      "total_rows": 2112,
+      "team_rows": 352,
+      "games": 176
+    },
+    "LJLA": {
+      "total_rows": 2028,
+      "team_rows": 338,
+      "games": 169
+    },
+    "NASG": {
+      "total_rows": 1872,
+      "team_rows": 312,
+      "games": 156
+    },
+    "IEM": {
+      "total_rows": 1668,
+      "team_rows": 278,
+      "games": 139
+    },
+    "GPL": {
+      "total_rows": 1656,
+      "team_rows": 276,
+      "games": 138
+    },
+    "TPL": {
+      "total_rows": 1620,
+      "team_rows": 270,
+      "games": 135
+    },
+    "LJLCS": {
+      "total_rows": 1620,
+      "team_rows": 270,
+      "games": 135
+    },
+    "UGP": {
+      "total_rows": 1584,
+      "team_rows": 264,
+      "games": 132
+    },
+    "TSC": {
+      "total_rows": 1284,
+      "team_rows": 214,
+      "games": 107
+    },
+    "CISC": {
+      "total_rows": 1272,
+      "team_rows": 212,
+      "games": 106
+    },
+    "USP": {
+      "total_rows": 1272,
+      "team_rows": 212,
+      "games": 106
+    },
+    "TCS": {
+      "total_rows": 1164,
+      "team_rows": 194,
+      "games": 97
+    },
+    "EGL": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "GLLPA": {
+      "total_rows": 1020,
+      "team_rows": 170,
+      "games": 85
+    },
+    "FST": {
+      "total_rows": 960,
+      "team_rows": 160,
+      "games": 80
+    },
+    "HS": {
+      "total_rows": 948,
+      "team_rows": 158,
+      "games": 79
+    },
+    "IGNIS": {
+      "total_rows": 660,
+      "team_rows": 110,
+      "games": 55
+    },
+    "GSG": {
+      "total_rows": 636,
+      "team_rows": 106,
+      "games": 53
+    },
+    "EWC": {
+      "total_rows": 624,
+      "team_rows": 104,
+      "games": 52
+    },
+    "NEST": {
+      "total_rows": 600,
+      "team_rows": 100,
+      "games": 50
+    },
+    "EBLPA": {
+      "total_rows": 528,
+      "team_rows": 88,
+      "games": 44
+    },
+    "NERD": {
+      "total_rows": 504,
+      "team_rows": 84,
+      "games": 42
+    },
+    "ASI": {
+      "total_rows": 504,
+      "team_rows": 84,
+      "games": 42
+    },
+    "IWCI": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "LTA": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "CCWS": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "AOL": {
+      "total_rows": 444,
+      "team_rows": 74,
+      "games": 37
+    },
+    "AC": {
+      "total_rows": 420,
+      "team_rows": 70,
+      "games": 35
+    },
+    "LES": {
+      "total_rows": 408,
+      "team_rows": 68,
+      "games": 34
+    },
+    "MSC": {
+      "total_rows": 300,
+      "team_rows": 50,
+      "games": 25
+    },
+    "Riot": {
+      "total_rows": 240,
+      "team_rows": 40,
+      "games": 20
+    },
+    "Americas Cup": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "LGL": {
+      "total_rows": 96,
+      "team_rows": 16,
+      "games": 8
+    }
+  },
+  "per_year_league": {
+    "2014_EU CS": {
+      "total_rows": 1044,
+      "team_rows": 174,
+      "games": 87
+    },
+    "2014_EU LCS": {
+      "total_rows": 3300,
+      "team_rows": 550,
+      "games": 275
+    },
+    "2014_NA CS": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2014_NA LCS": {
+      "total_rows": 3384,
+      "team_rows": 564,
+      "games": 282
+    },
+    "2014_WLDs": {
+      "total_rows": 936,
+      "team_rows": 156,
+      "games": 78
+    },
+    "2015_CBLOL": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2015_EU CS": {
+      "total_rows": 1596,
+      "team_rows": 266,
+      "games": 133
+    },
+    "2015_EU LCS": {
+      "total_rows": 3468,
+      "team_rows": 578,
+      "games": 289
+    },
+    "2015_IEM": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2015_LCS": {
+      "total_rows": 168,
+      "team_rows": 28,
+      "games": 14
+    },
+    "2015_LEC": {
+      "total_rows": 132,
+      "team_rows": 22,
+      "games": 11
+    },
+    "2015_LMS": {
+      "total_rows": 2196,
+      "team_rows": 366,
+      "games": 183
+    },
+    "2015_MSI": {
+      "total_rows": 336,
+      "team_rows": 56,
+      "games": 28
+    },
+    "2015_NA CS": {
+      "total_rows": 1620,
+      "team_rows": 270,
+      "games": 135
+    },
+    "2015_NA LCS": {
+      "total_rows": 3528,
+      "team_rows": 588,
+      "games": 294
+    },
+    "2015_OGN": {
+      "total_rows": 4728,
+      "team_rows": 788,
+      "games": 394
+    },
+    "2015_OPL": {
+      "total_rows": 504,
+      "team_rows": 84,
+      "games": 42
+    },
+    "2015_TCL": {
+      "total_rows": 1932,
+      "team_rows": 322,
+      "games": 161
+    },
+    "2015_TPL": {
+      "total_rows": 144,
+      "team_rows": 24,
+      "games": 12
+    },
+    "2015_WLDs": {
+      "total_rows": 876,
+      "team_rows": 146,
+      "games": 73
+    },
+    "2016_CBLOL": {
+      "total_rows": 1968,
+      "team_rows": 328,
+      "games": 164
+    },
+    "2016_CK": {
+      "total_rows": 2388,
+      "team_rows": 398,
+      "games": 199
+    },
+    "2016_CLS": {
+      "total_rows": 1776,
+      "team_rows": 296,
+      "games": 148
+    },
+    "2016_EU CS": {
+      "total_rows": 1728,
+      "team_rows": 288,
+      "games": 144
+    },
+    "2016_EU LCS": {
+      "total_rows": 4164,
+      "team_rows": 694,
+      "games": 347
+    },
+    "2016_GPL": {
+      "total_rows": 600,
+      "team_rows": 100,
+      "games": 50
+    },
+    "2016_IEM": {
+      "total_rows": 636,
+      "team_rows": 106,
+      "games": 53
+    },
+    "2016_IWCI": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "2016_KeSPA": {
+      "total_rows": 408,
+      "team_rows": 68,
+      "games": 34
+    },
+    "2016_LCK": {
+      "total_rows": 5808,
+      "team_rows": 968,
+      "games": 484
+    },
+    "2016_LCL": {
+      "total_rows": 1776,
+      "team_rows": 296,
+      "games": 148
+    },
+    "2016_LCS": {
+      "total_rows": 120,
+      "team_rows": 20,
+      "games": 10
+    },
+    "2016_LEC": {
+      "total_rows": 132,
+      "team_rows": 22,
+      "games": 11
+    },
+    "2016_LJL": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2016_LJLCS": {
+      "total_rows": 396,
+      "team_rows": 66,
+      "games": 33
+    },
+    "2016_LMS": {
+      "total_rows": 3120,
+      "team_rows": 520,
+      "games": 260
+    },
+    "2016_MSI": {
+      "total_rows": 492,
+      "team_rows": 82,
+      "games": 41
+    },
+    "2016_NA CS": {
+      "total_rows": 1176,
+      "team_rows": 196,
+      "games": 98
+    },
+    "2016_NA LCS": {
+      "total_rows": 4512,
+      "team_rows": 752,
+      "games": 376
+    },
+    "2016_OCS": {
+      "total_rows": 960,
+      "team_rows": 160,
+      "games": 80
+    },
+    "2016_OPL": {
+      "total_rows": 2784,
+      "team_rows": 464,
+      "games": 232
+    },
+    "2016_TCL": {
+      "total_rows": 2760,
+      "team_rows": 460,
+      "games": 230
+    },
+    "2016_TPL": {
+      "total_rows": 468,
+      "team_rows": 78,
+      "games": 39
+    },
+    "2016_WLDs": {
+      "total_rows": 924,
+      "team_rows": 154,
+      "games": 77
+    },
+    "2017_BRCC": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2017_CBLOL": {
+      "total_rows": 1848,
+      "team_rows": 308,
+      "games": 154
+    },
+    "2017_CISC": {
+      "total_rows": 384,
+      "team_rows": 64,
+      "games": 32
+    },
+    "2017_CK": {
+      "total_rows": 3552,
+      "team_rows": 592,
+      "games": 296
+    },
+    "2017_CLS": {
+      "total_rows": 2400,
+      "team_rows": 400,
+      "games": 200
+    },
+    "2017_EU CS": {
+      "total_rows": 1704,
+      "team_rows": 284,
+      "games": 142
+    },
+    "2017_EU LCS": {
+      "total_rows": 4692,
+      "team_rows": 782,
+      "games": 391
+    },
+    "2017_GPL": {
+      "total_rows": 768,
+      "team_rows": 128,
+      "games": 64
+    },
+    "2017_IEM": {
+      "total_rows": 804,
+      "team_rows": 134,
+      "games": 67
+    },
+    "2017_KeSPA": {
+      "total_rows": 384,
+      "team_rows": 64,
+      "games": 32
+    },
+    "2017_LCK": {
+      "total_rows": 6096,
+      "team_rows": 1016,
+      "games": 508
+    },
+    "2017_LCL": {
+      "total_rows": 1896,
+      "team_rows": 316,
+      "games": 158
+    },
+    "2017_LCS": {
+      "total_rows": 132,
+      "team_rows": 22,
+      "games": 11
+    },
+    "2017_LEC": {
+      "total_rows": 132,
+      "team_rows": 22,
+      "games": 11
+    },
+    "2017_LJL": {
+      "total_rows": 2052,
+      "team_rows": 342,
+      "games": 171
+    },
+    "2017_LLN": {
+      "total_rows": 3432,
+      "team_rows": 572,
+      "games": 286
+    },
+    "2017_LMS": {
+      "total_rows": 3468,
+      "team_rows": 578,
+      "games": 289
+    },
+    "2017_MSI": {
+      "total_rows": 936,
+      "team_rows": 156,
+      "games": 78
+    },
+    "2017_NA CS": {
+      "total_rows": 1548,
+      "team_rows": 258,
+      "games": 129
+    },
+    "2017_NA LCS": {
+      "total_rows": 6360,
+      "team_rows": 1060,
+      "games": 530
+    },
+    "2017_NASG": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2017_OCS": {
+      "total_rows": 804,
+      "team_rows": 134,
+      "games": 67
+    },
+    "2017_OPL": {
+      "total_rows": 2904,
+      "team_rows": 484,
+      "games": 242
+    },
+    "2017_TCL": {
+      "total_rows": 3444,
+      "team_rows": 574,
+      "games": 287
+    },
+    "2017_TPL": {
+      "total_rows": 1008,
+      "team_rows": 168,
+      "games": 84
+    },
+    "2017_WLDs": {
+      "total_rows": 1428,
+      "team_rows": 238,
+      "games": 119
+    },
+    "2018_BRCC": {
+      "total_rows": 984,
+      "team_rows": 164,
+      "games": 82
+    },
+    "2018_CBLOL": {
+      "total_rows": 2220,
+      "team_rows": 370,
+      "games": 185
+    },
+    "2018_CISC": {
+      "total_rows": 888,
+      "team_rows": 148,
+      "games": 74
+    },
+    "2018_CK": {
+      "total_rows": 3600,
+      "team_rows": 600,
+      "games": 300
+    },
+    "2018_CLS": {
+      "total_rows": 2784,
+      "team_rows": 464,
+      "games": 232
+    },
+    "2018_DCup": {
+      "total_rows": 264,
+      "team_rows": 44,
+      "games": 22
+    },
+    "2018_EU LCS": {
+      "total_rows": 3024,
+      "team_rows": 504,
+      "games": 252
+    },
+    "2018_EUM": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2018_GPL": {
+      "total_rows": 288,
+      "team_rows": 48,
+      "games": 24
+    },
+    "2018_KeSPA": {
+      "total_rows": 540,
+      "team_rows": 90,
+      "games": 45
+    },
+    "2018_LCK": {
+      "total_rows": 6108,
+      "team_rows": 1018,
+      "games": 509
+    },
+    "2018_LCL": {
+      "total_rows": 1920,
+      "team_rows": 320,
+      "games": 160
+    },
+    "2018_LCS": {
+      "total_rows": 96,
+      "team_rows": 16,
+      "games": 8
+    },
+    "2018_LCSA": {
+      "total_rows": 2580,
+      "team_rows": 430,
+      "games": 215
+    },
+    "2018_LEC": {
+      "total_rows": 168,
+      "team_rows": 28,
+      "games": 14
+    },
+    "2018_LJL": {
+      "total_rows": 2088,
+      "team_rows": 348,
+      "games": 174
+    },
+    "2018_LJLCS": {
+      "total_rows": 1224,
+      "team_rows": 204,
+      "games": 102
+    },
+    "2018_LLN": {
+      "total_rows": 1908,
+      "team_rows": 318,
+      "games": 159
+    },
+    "2018_LMS": {
+      "total_rows": 3828,
+      "team_rows": 638,
+      "games": 319
+    },
+    "2018_LPL": {
+      "total_rows": 7560,
+      "team_rows": 1260,
+      "games": 630
+    },
+    "2018_MSI": {
+      "total_rows": 888,
+      "team_rows": 148,
+      "games": 74
+    },
+    "2018_NA LCS": {
+      "total_rows": 3048,
+      "team_rows": 508,
+      "games": 254
+    },
+    "2018_NASG": {
+      "total_rows": 420,
+      "team_rows": 70,
+      "games": 35
+    },
+    "2018_OCS": {
+      "total_rows": 1236,
+      "team_rows": 206,
+      "games": 103
+    },
+    "2018_OPL": {
+      "total_rows": 2796,
+      "team_rows": 466,
+      "games": 233
+    },
+    "2018_PGN": {
+      "total_rows": 828,
+      "team_rows": 138,
+      "games": 69
+    },
+    "2018_SLO": {
+      "total_rows": 2304,
+      "team_rows": 384,
+      "games": 192
+    },
+    "2018_TCL": {
+      "total_rows": 3348,
+      "team_rows": 558,
+      "games": 279
+    },
+    "2018_TCS": {
+      "total_rows": 1164,
+      "team_rows": 194,
+      "games": 97
+    },
+    "2018_UL": {
+      "total_rows": 1260,
+      "team_rows": 210,
+      "games": 105
+    },
+    "2018_VCS": {
+      "total_rows": 3660,
+      "team_rows": 610,
+      "games": 305
+    },
+    "2018_WLDs": {
+      "total_rows": 1428,
+      "team_rows": 238,
+      "games": 119
+    },
+    "2019_BIG": {
+      "total_rows": 2148,
+      "team_rows": 358,
+      "games": 179
+    },
+    "2019_BM": {
+      "total_rows": 456,
+      "team_rows": 76,
+      "games": 38
+    },
+    "2019_BRCC": {
+      "total_rows": 1320,
+      "team_rows": 220,
+      "games": 110
+    },
+    "2019_CBLOL": {
+      "total_rows": 2472,
+      "team_rows": 412,
+      "games": 206
+    },
+    "2019_CK": {
+      "total_rows": 3540,
+      "team_rows": 590,
+      "games": 295
+    },
+    "2019_CT": {
+      "total_rows": 96,
+      "team_rows": 16,
+      "games": 8
+    },
+    "2019_DCup": {
+      "total_rows": 840,
+      "team_rows": 140,
+      "games": 70
+    },
+    "2019_DDH": {
+      "total_rows": 1764,
+      "team_rows": 294,
+      "games": 147
+    },
+    "2019_EBL": {
+      "total_rows": 1608,
+      "team_rows": 268,
+      "games": 134
+    },
+    "2019_EUM": {
+      "total_rows": 1668,
+      "team_rows": 278,
+      "games": 139
+    },
+    "2019_GLL": {
+      "total_rows": 1512,
+      "team_rows": 252,
+      "games": 126
+    },
+    "2019_HM": {
+      "total_rows": 1128,
+      "team_rows": 188,
+      "games": 94
+    },
+    "2019_KeSPA": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2019_LCK": {
+      "total_rows": 5928,
+      "team_rows": 988,
+      "games": 494
+    },
+    "2019_LCL": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2019_LCS": {
+      "total_rows": 2940,
+      "team_rows": 490,
+      "games": 245
+    },
+    "2019_LCSA": {
+      "total_rows": 2604,
+      "team_rows": 434,
+      "games": 217
+    },
+    "2019_LDL": {
+      "total_rows": 11556,
+      "team_rows": 1926,
+      "games": 963
+    },
+    "2019_LEC": {
+      "total_rows": 2832,
+      "team_rows": 472,
+      "games": 236
+    },
+    "2019_LFL": {
+      "total_rows": 1824,
+      "team_rows": 304,
+      "games": 152
+    },
+    "2019_LGL": {
+      "total_rows": 96,
+      "team_rows": 16,
+      "games": 8
+    },
+    "2019_LHE": {
+      "total_rows": 1728,
+      "team_rows": 288,
+      "games": 144
+    },
+    "2019_LJL": {
+      "total_rows": 2268,
+      "team_rows": 378,
+      "games": 189
+    },
+    "2019_LLA": {
+      "total_rows": 2448,
+      "team_rows": 408,
+      "games": 204
+    },
+    "2019_LMF": {
+      "total_rows": 1752,
+      "team_rows": 292,
+      "games": 146
+    },
+    "2019_LMS": {
+      "total_rows": 3336,
+      "team_rows": 556,
+      "games": 278
+    },
+    "2019_LPL": {
+      "total_rows": 6864,
+      "team_rows": 1144,
+      "games": 572
+    },
+    "2019_LPLOL": {
+      "total_rows": 2292,
+      "team_rows": 382,
+      "games": 191
+    },
+    "2019_MSI": {
+      "total_rows": 936,
+      "team_rows": 156,
+      "games": 78
+    },
+    "2019_NASG": {
+      "total_rows": 396,
+      "team_rows": 66,
+      "games": 33
+    },
+    "2019_OCS": {
+      "total_rows": 996,
+      "team_rows": 166,
+      "games": 83
+    },
+    "2019_OPL": {
+      "total_rows": 2436,
+      "team_rows": 406,
+      "games": 203
+    },
+    "2019_PGN": {
+      "total_rows": 2172,
+      "team_rows": 362,
+      "games": 181
+    },
+    "2019_SLO": {
+      "total_rows": 2700,
+      "team_rows": 450,
+      "games": 225
+    },
+    "2019_TAL": {
+      "total_rows": 2376,
+      "team_rows": 396,
+      "games": 198
+    },
+    "2019_TCL": {
+      "total_rows": 2736,
+      "team_rows": 456,
+      "games": 228
+    },
+    "2019_UKLC": {
+      "total_rows": 1704,
+      "team_rows": 284,
+      "games": 142
+    },
+    "2019_UL": {
+      "total_rows": 2064,
+      "team_rows": 344,
+      "games": 172
+    },
+    "2019_VCS": {
+      "total_rows": 4056,
+      "team_rows": 676,
+      "games": 338
+    },
+    "2019_WLDs": {
+      "total_rows": 1428,
+      "team_rows": 238,
+      "games": 119
+    },
+    "2020_BIG": {
+      "total_rows": 192,
+      "team_rows": 32,
+      "games": 16
+    },
+    "2020_BL": {
+      "total_rows": 1116,
+      "team_rows": 186,
+      "games": 93
+    },
+    "2020_BM": {
+      "total_rows": 1560,
+      "team_rows": 260,
+      "games": 130
+    },
+    "2020_BRCC": {
+      "total_rows": 1680,
+      "team_rows": 280,
+      "games": 140
+    },
+    "2020_CBLOL": {
+      "total_rows": 2400,
+      "team_rows": 400,
+      "games": 200
+    },
+    "2020_CK": {
+      "total_rows": 3612,
+      "team_rows": 602,
+      "games": 301
+    },
+    "2020_CT": {
+      "total_rows": 240,
+      "team_rows": 40,
+      "games": 20
+    },
+    "2020_CU": {
+      "total_rows": 60,
+      "team_rows": 10,
+      "games": 5
+    },
+    "2020_DCup": {
+      "total_rows": 732,
+      "team_rows": 122,
+      "games": 61
+    },
+    "2020_DDH": {
+      "total_rows": 1872,
+      "team_rows": 312,
+      "games": 156
+    },
+    "2020_DL": {
+      "total_rows": 1164,
+      "team_rows": 194,
+      "games": 97
+    },
+    "2020_EBL": {
+      "total_rows": 1572,
+      "team_rows": 262,
+      "games": 131
+    },
+    "2020_EUM": {
+      "total_rows": 3120,
+      "team_rows": 520,
+      "games": 260
+    },
+    "2020_GLL": {
+      "total_rows": 2724,
+      "team_rows": 454,
+      "games": 227
+    },
+    "2020_HC": {
+      "total_rows": 936,
+      "team_rows": 156,
+      "games": 78
+    },
+    "2020_HM": {
+      "total_rows": 1860,
+      "team_rows": 310,
+      "games": 155
+    },
+    "2020_KeSPA": {
+      "total_rows": 552,
+      "team_rows": 92,
+      "games": 46
+    },
+    "2020_LAS": {
+      "total_rows": 888,
+      "team_rows": 148,
+      "games": 74
+    },
+    "2020_LCK": {
+      "total_rows": 5940,
+      "team_rows": 990,
+      "games": 495
+    },
+    "2020_LCL": {
+      "total_rows": 1500,
+      "team_rows": 250,
+      "games": 125
+    },
+    "2020_LCS": {
+      "total_rows": 3108,
+      "team_rows": 518,
+      "games": 259
+    },
+    "2020_LCSA": {
+      "total_rows": 2568,
+      "team_rows": 428,
+      "games": 214
+    },
+    "2020_LDL": {
+      "total_rows": 10548,
+      "team_rows": 1758,
+      "games": 879
+    },
+    "2020_LEC": {
+      "total_rows": 2880,
+      "team_rows": 480,
+      "games": 240
+    },
+    "2020_LFL": {
+      "total_rows": 2064,
+      "team_rows": 344,
+      "games": 172
+    },
+    "2020_LHE": {
+      "total_rows": 2928,
+      "team_rows": 488,
+      "games": 244
+    },
+    "2020_LJL": {
+      "total_rows": 1968,
+      "team_rows": 328,
+      "games": 164
+    },
+    "2020_LLA": {
+      "total_rows": 2004,
+      "team_rows": 334,
+      "games": 167
+    },
+    "2020_LMF": {
+      "total_rows": 2640,
+      "team_rows": 440,
+      "games": 220
+    },
+    "2020_LPL": {
+      "total_rows": 8592,
+      "team_rows": 1432,
+      "games": 716
+    },
+    "2020_LPLOL": {
+      "total_rows": 1836,
+      "team_rows": 306,
+      "games": 153
+    },
+    "2020_MSC": {
+      "total_rows": 300,
+      "team_rows": 50,
+      "games": 25
+    },
+    "2020_NASG": {
+      "total_rows": 828,
+      "team_rows": 138,
+      "games": 69
+    },
+    "2020_NEST": {
+      "total_rows": 600,
+      "team_rows": 100,
+      "games": 50
+    },
+    "2020_NEXO": {
+      "total_rows": 1440,
+      "team_rows": 240,
+      "games": 120
+    },
+    "2020_NLC": {
+      "total_rows": 2748,
+      "team_rows": 458,
+      "games": 229
+    },
+    "2020_OCS": {
+      "total_rows": 816,
+      "team_rows": 136,
+      "games": 68
+    },
+    "2020_OPL": {
+      "total_rows": 2592,
+      "team_rows": 432,
+      "games": 216
+    },
+    "2020_OTBLX": {
+      "total_rows": 1368,
+      "team_rows": 228,
+      "games": 114
+    },
+    "2020_PCS": {
+      "total_rows": 3168,
+      "team_rows": 528,
+      "games": 264
+    },
+    "2020_PGN": {
+      "total_rows": 1992,
+      "team_rows": 332,
+      "games": 166
+    },
+    "2020_PRM": {
+      "total_rows": 3336,
+      "team_rows": 556,
+      "games": 278
+    },
+    "2020_RCL": {
+      "total_rows": 2400,
+      "team_rows": 400,
+      "games": 200
+    },
+    "2020_Riot": {
+      "total_rows": 240,
+      "team_rows": 40,
+      "games": 20
+    },
+    "2020_SLO": {
+      "total_rows": 2628,
+      "team_rows": 438,
+      "games": 219
+    },
+    "2020_TAL": {
+      "total_rows": 2172,
+      "team_rows": 362,
+      "games": 181
+    },
+    "2020_TCL": {
+      "total_rows": 2412,
+      "team_rows": 402,
+      "games": 201
+    },
+    "2020_UKLC": {
+      "total_rows": 1644,
+      "team_rows": 274,
+      "games": 137
+    },
+    "2020_UL": {
+      "total_rows": 1992,
+      "team_rows": 332,
+      "games": 166
+    },
+    "2020_UPL": {
+      "total_rows": 4104,
+      "team_rows": 684,
+      "games": 342
+    },
+    "2020_VCS": {
+      "total_rows": 3876,
+      "team_rows": 646,
+      "games": 323
+    },
+    "2020_WLDs": {
+      "total_rows": 1368,
+      "team_rows": 228,
+      "games": 114
+    },
+    "2021_AOL": {
+      "total_rows": 444,
+      "team_rows": 74,
+      "games": 37
+    },
+    "2021_BIG": {
+      "total_rows": 1776,
+      "team_rows": 296,
+      "games": 148
+    },
+    "2021_BL": {
+      "total_rows": 1236,
+      "team_rows": 206,
+      "games": 103
+    },
+    "2021_BM": {
+      "total_rows": 900,
+      "team_rows": 150,
+      "games": 75
+    },
+    "2021_CBLOL": {
+      "total_rows": 2652,
+      "team_rows": 442,
+      "games": 221
+    },
+    "2021_CBLOLA": {
+      "total_rows": 2652,
+      "team_rows": 442,
+      "games": 221
+    },
+    "2021_CT": {
+      "total_rows": 684,
+      "team_rows": 114,
+      "games": 57
+    },
+    "2021_CU": {
+      "total_rows": 2448,
+      "team_rows": 408,
+      "games": 204
+    },
+    "2021_DDH": {
+      "total_rows": 2760,
+      "team_rows": 460,
+      "games": 230
+    },
+    "2021_DL": {
+      "total_rows": 1212,
+      "team_rows": 202,
+      "games": 101
+    },
+    "2021_EBL": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2021_EGL": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2021_EUM": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2021_GLL": {
+      "total_rows": 3120,
+      "team_rows": 520,
+      "games": 260
+    },
+    "2021_GSG": {
+      "total_rows": 636,
+      "team_rows": 106,
+      "games": 53
+    },
+    "2021_HC": {
+      "total_rows": 2112,
+      "team_rows": 352,
+      "games": 176
+    },
+    "2021_HM": {
+      "total_rows": 2148,
+      "team_rows": 358,
+      "games": 179
+    },
+    "2021_HS": {
+      "total_rows": 948,
+      "team_rows": 158,
+      "games": 79
+    },
+    "2021_HW": {
+      "total_rows": 432,
+      "team_rows": 72,
+      "games": 36
+    },
+    "2021_KeSPA": {
+      "total_rows": 396,
+      "team_rows": 66,
+      "games": 33
+    },
+    "2021_LAS": {
+      "total_rows": 2856,
+      "team_rows": 476,
+      "games": 238
+    },
+    "2021_LCK": {
+      "total_rows": 5868,
+      "team_rows": 978,
+      "games": 489
+    },
+    "2021_LCKC": {
+      "total_rows": 2712,
+      "team_rows": 452,
+      "games": 226
+    },
+    "2021_LCL": {
+      "total_rows": 1788,
+      "team_rows": 298,
+      "games": 149
+    },
+    "2021_LCO": {
+      "total_rows": 2160,
+      "team_rows": 360,
+      "games": 180
+    },
+    "2021_LCS": {
+      "total_rows": 4128,
+      "team_rows": 688,
+      "games": 344
+    },
+    "2021_LCSA": {
+      "total_rows": 4980,
+      "team_rows": 830,
+      "games": 415
+    },
+    "2021_LDL": {
+      "total_rows": 8820,
+      "team_rows": 1470,
+      "games": 735
+    },
+    "2021_LEC": {
+      "total_rows": 2964,
+      "team_rows": 494,
+      "games": 247
+    },
+    "2021_LFL": {
+      "total_rows": 2664,
+      "team_rows": 444,
+      "games": 222
+    },
+    "2021_LFL2": {
+      "total_rows": 288,
+      "team_rows": 48,
+      "games": 24
+    },
+    "2021_LHE": {
+      "total_rows": 3336,
+      "team_rows": 556,
+      "games": 278
+    },
+    "2021_LJL": {
+      "total_rows": 1896,
+      "team_rows": 316,
+      "games": 158
+    },
+    "2021_LJLA": {
+      "total_rows": 468,
+      "team_rows": 78,
+      "games": 39
+    },
+    "2021_LLA": {
+      "total_rows": 1908,
+      "team_rows": 318,
+      "games": 159
+    },
+    "2021_LMF": {
+      "total_rows": 3828,
+      "team_rows": 638,
+      "games": 319
+    },
+    "2021_LPL": {
+      "total_rows": 4140,
+      "team_rows": 690,
+      "games": 345
+    },
+    "2021_LPLOL": {
+      "total_rows": 1896,
+      "team_rows": 316,
+      "games": 158
+    },
+    "2021_LVP SL": {
+      "total_rows": 2652,
+      "team_rows": 442,
+      "games": 221
+    },
+    "2021_MSI": {
+      "total_rows": 972,
+      "team_rows": 162,
+      "games": 81
+    },
+    "2021_NERD": {
+      "total_rows": 504,
+      "team_rows": 84,
+      "games": 42
+    },
+    "2021_NEXO": {
+      "total_rows": 1536,
+      "team_rows": 256,
+      "games": 128
+    },
+    "2021_NLC": {
+      "total_rows": 2724,
+      "team_rows": 454,
+      "games": 227
+    },
+    "2021_OTBLX": {
+      "total_rows": 3084,
+      "team_rows": 514,
+      "games": 257
+    },
+    "2021_PCS": {
+      "total_rows": 3288,
+      "team_rows": 548,
+      "games": 274
+    },
+    "2021_PGN": {
+      "total_rows": 2184,
+      "team_rows": 364,
+      "games": 182
+    },
+    "2021_PRM": {
+      "total_rows": 4056,
+      "team_rows": 676,
+      "games": 338
+    },
+    "2021_RCL": {
+      "total_rows": 4212,
+      "team_rows": 702,
+      "games": 351
+    },
+    "2021_TAL": {
+      "total_rows": 2448,
+      "team_rows": 408,
+      "games": 204
+    },
+    "2021_TCL": {
+      "total_rows": 2676,
+      "team_rows": 446,
+      "games": 223
+    },
+    "2021_UGP": {
+      "total_rows": 1584,
+      "team_rows": 264,
+      "games": 132
+    },
+    "2021_UKLC": {
+      "total_rows": 1812,
+      "team_rows": 302,
+      "games": 151
+    },
+    "2021_UL": {
+      "total_rows": 2040,
+      "team_rows": 340,
+      "games": 170
+    },
+    "2021_UPL": {
+      "total_rows": 2376,
+      "team_rows": 396,
+      "games": 198
+    },
+    "2021_VCS": {
+      "total_rows": 3912,
+      "team_rows": 652,
+      "games": 326
+    },
+    "2021_WLDs": {
+      "total_rows": 1452,
+      "team_rows": 242,
+      "games": 121
+    },
+    "2022_CBLOL": {
+      "total_rows": 2916,
+      "team_rows": 486,
+      "games": 243
+    },
+    "2022_CBLOLA": {
+      "total_rows": 2592,
+      "team_rows": 432,
+      "games": 216
+    },
+    "2022_CDF": {
+      "total_rows": 912,
+      "team_rows": 152,
+      "games": 76
+    },
+    "2022_CT": {
+      "total_rows": 312,
+      "team_rows": 52,
+      "games": 26
+    },
+    "2022_DDH": {
+      "total_rows": 2472,
+      "team_rows": 412,
+      "games": 206
+    },
+    "2022_EBL": {
+      "total_rows": 1704,
+      "team_rows": 284,
+      "games": 142
+    },
+    "2022_EBLPA": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2022_EL": {
+      "total_rows": 1584,
+      "team_rows": 264,
+      "games": 132
+    },
+    "2022_ESLOL": {
+      "total_rows": 2628,
+      "team_rows": 438,
+      "games": 219
+    },
+    "2022_EUM": {
+      "total_rows": 3204,
+      "team_rows": 534,
+      "games": 267
+    },
+    "2022_GL": {
+      "total_rows": 1980,
+      "team_rows": 330,
+      "games": 165
+    },
+    "2022_GLL": {
+      "total_rows": 1668,
+      "team_rows": 278,
+      "games": 139
+    },
+    "2022_GLLPA": {
+      "total_rows": 564,
+      "team_rows": 94,
+      "games": 47
+    },
+    "2022_HC": {
+      "total_rows": 1944,
+      "team_rows": 324,
+      "games": 162
+    },
+    "2022_HM": {
+      "total_rows": 1728,
+      "team_rows": 288,
+      "games": 144
+    },
+    "2022_IC": {
+      "total_rows": 900,
+      "team_rows": 150,
+      "games": 75
+    },
+    "2022_KeSPA": {
+      "total_rows": 468,
+      "team_rows": 78,
+      "games": 39
+    },
+    "2022_LAS": {
+      "total_rows": 2688,
+      "team_rows": 448,
+      "games": 224
+    },
+    "2022_LCK": {
+      "total_rows": 5604,
+      "team_rows": 934,
+      "games": 467
+    },
+    "2022_LCKC": {
+      "total_rows": 4740,
+      "team_rows": 790,
+      "games": 395
+    },
+    "2022_LCL": {
+      "total_rows": 192,
+      "team_rows": 32,
+      "games": 16
+    },
+    "2022_LCO": {
+      "total_rows": 2544,
+      "team_rows": 424,
+      "games": 212
+    },
+    "2022_LCS": {
+      "total_rows": 3672,
+      "team_rows": 612,
+      "games": 306
+    },
+    "2022_LCSA": {
+      "total_rows": 6480,
+      "team_rows": 1080,
+      "games": 540
+    },
+    "2022_LEC": {
+      "total_rows": 2916,
+      "team_rows": 486,
+      "games": 243
+    },
+    "2022_LFL": {
+      "total_rows": 2952,
+      "team_rows": 492,
+      "games": 246
+    },
+    "2022_LFL2": {
+      "total_rows": 2676,
+      "team_rows": 446,
+      "games": 223
+    },
+    "2022_LHE": {
+      "total_rows": 2988,
+      "team_rows": 498,
+      "games": 249
+    },
+    "2022_LJL": {
+      "total_rows": 2580,
+      "team_rows": 430,
+      "games": 215
+    },
+    "2022_LJLA": {
+      "total_rows": 456,
+      "team_rows": 76,
+      "games": 38
+    },
+    "2022_LLA": {
+      "total_rows": 2460,
+      "team_rows": 410,
+      "games": 205
+    },
+    "2022_LMF": {
+      "total_rows": 3768,
+      "team_rows": 628,
+      "games": 314
+    },
+    "2022_LPLOL": {
+      "total_rows": 2340,
+      "team_rows": 390,
+      "games": 195
+    },
+    "2022_LVP SL": {
+      "total_rows": 2772,
+      "team_rows": 462,
+      "games": 231
+    },
+    "2022_MSI": {
+      "total_rows": 960,
+      "team_rows": 160,
+      "games": 80
+    },
+    "2022_NEXO": {
+      "total_rows": 1404,
+      "team_rows": 234,
+      "games": 117
+    },
+    "2022_NLC": {
+      "total_rows": 4092,
+      "team_rows": 682,
+      "games": 341
+    },
+    "2022_NLC Aurora Open": {
+      "total_rows": 1680,
+      "team_rows": 280,
+      "games": 140
+    },
+    "2022_PCS": {
+      "total_rows": 3276,
+      "team_rows": 546,
+      "games": 273
+    },
+    "2022_PGC": {
+      "total_rows": 6012,
+      "team_rows": 1002,
+      "games": 501
+    },
+    "2022_PGN": {
+      "total_rows": 1680,
+      "team_rows": 280,
+      "games": 140
+    },
+    "2022_PRM": {
+      "total_rows": 2688,
+      "team_rows": 448,
+      "games": 224
+    },
+    "2022_PRMP": {
+      "total_rows": 1620,
+      "team_rows": 270,
+      "games": 135
+    },
+    "2022_SL (LATAM)": {
+      "total_rows": 2088,
+      "team_rows": 348,
+      "games": 174
+    },
+    "2022_TAL": {
+      "total_rows": 2460,
+      "team_rows": 410,
+      "games": 205
+    },
+    "2022_TCL": {
+      "total_rows": 2676,
+      "team_rows": 446,
+      "games": 223
+    },
+    "2022_UL": {
+      "total_rows": 2772,
+      "team_rows": 462,
+      "games": 231
+    },
+    "2022_UPL": {
+      "total_rows": 4128,
+      "team_rows": 688,
+      "games": 344
+    },
+    "2022_USP": {
+      "total_rows": 408,
+      "team_rows": 68,
+      "games": 34
+    },
+    "2022_VCS": {
+      "total_rows": 3900,
+      "team_rows": 650,
+      "games": 325
+    },
+    "2022_VL": {
+      "total_rows": 2076,
+      "team_rows": 346,
+      "games": 173
+    },
+    "2022_WLDs": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2023_AL": {
+      "total_rows": 1968,
+      "team_rows": 328,
+      "games": 164
+    },
+    "2023_CBLOL": {
+      "total_rows": 2904,
+      "team_rows": 484,
+      "games": 242
+    },
+    "2023_CBLOLA": {
+      "total_rows": 2976,
+      "team_rows": 496,
+      "games": 248
+    },
+    "2023_CDF": {
+      "total_rows": 864,
+      "team_rows": 144,
+      "games": 72
+    },
+    "2023_CT": {
+      "total_rows": 516,
+      "team_rows": 86,
+      "games": 43
+    },
+    "2023_DDH": {
+      "total_rows": 1068,
+      "team_rows": 178,
+      "games": 89
+    },
+    "2023_EBL": {
+      "total_rows": 2028,
+      "team_rows": 338,
+      "games": 169
+    },
+    "2023_EL": {
+      "total_rows": 528,
+      "team_rows": 88,
+      "games": 44
+    },
+    "2023_EM": {
+      "total_rows": 3252,
+      "team_rows": 542,
+      "games": 271
+    },
+    "2023_EPL": {
+      "total_rows": 1032,
+      "team_rows": 172,
+      "games": 86
+    },
+    "2023_ESLOL": {
+      "total_rows": 3588,
+      "team_rows": 598,
+      "games": 299
+    },
+    "2023_GL": {
+      "total_rows": 1272,
+      "team_rows": 212,
+      "games": 106
+    },
+    "2023_GLL": {
+      "total_rows": 1956,
+      "team_rows": 326,
+      "games": 163
+    },
+    "2023_HC": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2023_HM": {
+      "total_rows": 1824,
+      "team_rows": 304,
+      "games": 152
+    },
+    "2023_IC": {
+      "total_rows": 876,
+      "team_rows": 146,
+      "games": 73
+    },
+    "2023_LAS": {
+      "total_rows": 3372,
+      "team_rows": 562,
+      "games": 281
+    },
+    "2023_LCK": {
+      "total_rows": 5856,
+      "team_rows": 976,
+      "games": 488
+    },
+    "2023_LCKC": {
+      "total_rows": 5904,
+      "team_rows": 984,
+      "games": 492
+    },
+    "2023_LCO": {
+      "total_rows": 1680,
+      "team_rows": 280,
+      "games": 140
+    },
+    "2023_LCS": {
+      "total_rows": 3168,
+      "team_rows": 528,
+      "games": 264
+    },
+    "2023_LEC": {
+      "total_rows": 3456,
+      "team_rows": 576,
+      "games": 288
+    },
+    "2023_LFL": {
+      "total_rows": 2916,
+      "team_rows": 486,
+      "games": 243
+    },
+    "2023_LFL2": {
+      "total_rows": 2988,
+      "team_rows": 498,
+      "games": 249
+    },
+    "2023_LHE": {
+      "total_rows": 756,
+      "team_rows": 126,
+      "games": 63
+    },
+    "2023_LJL": {
+      "total_rows": 3096,
+      "team_rows": 516,
+      "games": 258
+    },
+    "2023_LJLA": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2023_LLA": {
+      "total_rows": 2400,
+      "team_rows": 400,
+      "games": 200
+    },
+    "2023_LMF": {
+      "total_rows": 1104,
+      "team_rows": 184,
+      "games": 92
+    },
+    "2023_LPLOL": {
+      "total_rows": 1920,
+      "team_rows": 320,
+      "games": 160
+    },
+    "2023_LRN": {
+      "total_rows": 1392,
+      "team_rows": 232,
+      "games": 116
+    },
+    "2023_LRS": {
+      "total_rows": 1428,
+      "team_rows": 238,
+      "games": 119
+    },
+    "2023_LVP SL": {
+      "total_rows": 2940,
+      "team_rows": 490,
+      "games": 245
+    },
+    "2023_MSI": {
+      "total_rows": 912,
+      "team_rows": 152,
+      "games": 76
+    },
+    "2023_NACL": {
+      "total_rows": 10104,
+      "team_rows": 1684,
+      "games": 842
+    },
+    "2023_NEXO": {
+      "total_rows": 2712,
+      "team_rows": 452,
+      "games": 226
+    },
+    "2023_NLC": {
+      "total_rows": 1968,
+      "team_rows": 328,
+      "games": 164
+    },
+    "2023_PCL": {
+      "total_rows": 1308,
+      "team_rows": 218,
+      "games": 109
+    },
+    "2023_PCS": {
+      "total_rows": 3336,
+      "team_rows": 556,
+      "games": 278
+    },
+    "2023_PGN": {
+      "total_rows": 2316,
+      "team_rows": 386,
+      "games": 193
+    },
+    "2023_PRM": {
+      "total_rows": 2844,
+      "team_rows": 474,
+      "games": 237
+    },
+    "2023_SL (LATAM)": {
+      "total_rows": 1212,
+      "team_rows": 202,
+      "games": 101
+    },
+    "2023_TCL": {
+      "total_rows": 1920,
+      "team_rows": 320,
+      "games": 160
+    },
+    "2023_UL": {
+      "total_rows": 2940,
+      "team_rows": 490,
+      "games": 245
+    },
+    "2023_USP": {
+      "total_rows": 408,
+      "team_rows": 68,
+      "games": 34
+    },
+    "2023_VCS": {
+      "total_rows": 3708,
+      "team_rows": 618,
+      "games": 309
+    },
+    "2023_VL": {
+      "total_rows": 1224,
+      "team_rows": 204,
+      "games": 102
+    },
+    "2023_WLDs": {
+      "total_rows": 1488,
+      "team_rows": 248,
+      "games": 124
+    },
+    "2024_AC": {
+      "total_rows": 420,
+      "team_rows": 70,
+      "games": 35
+    },
+    "2024_AL": {
+      "total_rows": 1800,
+      "team_rows": 300,
+      "games": 150
+    },
+    "2024_CBLOL": {
+      "total_rows": 3156,
+      "team_rows": 526,
+      "games": 263
+    },
+    "2024_CBLOLA": {
+      "total_rows": 3312,
+      "team_rows": 552,
+      "games": 276
+    },
+    "2024_CDF": {
+      "total_rows": 828,
+      "team_rows": 138,
+      "games": 69
+    },
+    "2024_CT": {
+      "total_rows": 468,
+      "team_rows": 78,
+      "games": 39
+    },
+    "2024_EBL": {
+      "total_rows": 1872,
+      "team_rows": 312,
+      "games": 156
+    },
+    "2024_EBLPA": {
+      "total_rows": 300,
+      "team_rows": 50,
+      "games": 25
+    },
+    "2024_EM": {
+      "total_rows": 4788,
+      "team_rows": 798,
+      "games": 399
+    },
+    "2024_EPL": {
+      "total_rows": 1800,
+      "team_rows": 300,
+      "games": 150
+    },
+    "2024_ESLOL": {
+      "total_rows": 3612,
+      "team_rows": 602,
+      "games": 301
+    },
+    "2024_EWC": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2024_GLL": {
+      "total_rows": 1908,
+      "team_rows": 318,
+      "games": 159
+    },
+    "2024_GLLPA": {
+      "total_rows": 456,
+      "team_rows": 76,
+      "games": 38
+    },
+    "2024_HC": {
+      "total_rows": 1332,
+      "team_rows": 222,
+      "games": 111
+    },
+    "2024_HM": {
+      "total_rows": 1908,
+      "team_rows": 318,
+      "games": 159
+    },
+    "2024_HW": {
+      "total_rows": 1008,
+      "team_rows": 168,
+      "games": 84
+    },
+    "2024_IC": {
+      "total_rows": 816,
+      "team_rows": 136,
+      "games": 68
+    },
+    "2024_IGNIS": {
+      "total_rows": 660,
+      "team_rows": 110,
+      "games": 55
+    },
+    "2024_LAS": {
+      "total_rows": 3468,
+      "team_rows": 578,
+      "games": 289
+    },
+    "2024_LCK": {
+      "total_rows": 5784,
+      "team_rows": 964,
+      "games": 482
+    },
+    "2024_LCKC": {
+      "total_rows": 6132,
+      "team_rows": 1022,
+      "games": 511
+    },
+    "2024_LCO": {
+      "total_rows": 1872,
+      "team_rows": 312,
+      "games": 156
+    },
+    "2024_LCS": {
+      "total_rows": 2304,
+      "team_rows": 384,
+      "games": 192
+    },
+    "2024_LEC": {
+      "total_rows": 3528,
+      "team_rows": 588,
+      "games": 294
+    },
+    "2024_LFL": {
+      "total_rows": 2928,
+      "team_rows": 488,
+      "games": 244
+    },
+    "2024_LFL2": {
+      "total_rows": 2148,
+      "team_rows": 358,
+      "games": 179
+    },
+    "2024_LIT": {
+      "total_rows": 1644,
+      "team_rows": 274,
+      "games": 137
+    },
+    "2024_LJL": {
+      "total_rows": 1776,
+      "team_rows": 296,
+      "games": 148
+    },
+    "2024_LLA": {
+      "total_rows": 2556,
+      "team_rows": 426,
+      "games": 213
+    },
+    "2024_LPLOL": {
+      "total_rows": 1920,
+      "team_rows": 320,
+      "games": 160
+    },
+    "2024_LRN": {
+      "total_rows": 1056,
+      "team_rows": 176,
+      "games": 88
+    },
+    "2024_LRS": {
+      "total_rows": 1188,
+      "team_rows": 198,
+      "games": 99
+    },
+    "2024_LVP SL": {
+      "total_rows": 3036,
+      "team_rows": 506,
+      "games": 253
+    },
+    "2024_NACL": {
+      "total_rows": 5844,
+      "team_rows": 974,
+      "games": 487
+    },
+    "2024_NEXO": {
+      "total_rows": 1584,
+      "team_rows": 264,
+      "games": 132
+    },
+    "2024_NLC": {
+      "total_rows": 1860,
+      "team_rows": 310,
+      "games": 155
+    },
+    "2024_NLC Aurora Open": {
+      "total_rows": 924,
+      "team_rows": 154,
+      "games": 77
+    },
+    "2024_PCL": {
+      "total_rows": 4080,
+      "team_rows": 680,
+      "games": 340
+    },
+    "2024_PCS": {
+      "total_rows": 3744,
+      "team_rows": 624,
+      "games": 312
+    },
+    "2024_PGN": {
+      "total_rows": 216,
+      "team_rows": 36,
+      "games": 18
+    },
+    "2024_PRM": {
+      "total_rows": 2964,
+      "team_rows": 494,
+      "games": 247
+    },
+    "2024_PRMP": {
+      "total_rows": 1608,
+      "team_rows": 268,
+      "games": 134
+    },
+    "2024_TCL": {
+      "total_rows": 2196,
+      "team_rows": 366,
+      "games": 183
+    },
+    "2024_TSC": {
+      "total_rows": 1284,
+      "team_rows": 214,
+      "games": 107
+    },
+    "2024_UL": {
+      "total_rows": 1956,
+      "team_rows": 326,
+      "games": 163
+    },
+    "2024_USP": {
+      "total_rows": 456,
+      "team_rows": 76,
+      "games": 38
+    },
+    "2024_VCS": {
+      "total_rows": 3684,
+      "team_rows": 614,
+      "games": 307
+    },
+    "2024_WLDs": {
+      "total_rows": 1428,
+      "team_rows": 238,
+      "games": 119
+    },
+    "2025_AL": {
+      "total_rows": 3504,
+      "team_rows": 584,
+      "games": 292
+    },
+    "2025_ASI": {
+      "total_rows": 504,
+      "team_rows": 84,
+      "games": 42
+    },
+    "2025_Asia Master": {
+      "total_rows": 2160,
+      "team_rows": 360,
+      "games": 180
+    },
+    "2025_CD": {
+      "total_rows": 3360,
+      "team_rows": 560,
+      "games": 280
+    },
+    "2025_CT": {
+      "total_rows": 600,
+      "team_rows": 100,
+      "games": 50
+    },
+    "2025_DCup": {
+      "total_rows": 900,
+      "team_rows": 150,
+      "games": 75
+    },
+    "2025_EBL": {
+      "total_rows": 2232,
+      "team_rows": 372,
+      "games": 186
+    },
+    "2025_EM": {
+      "total_rows": 5280,
+      "team_rows": 880,
+      "games": 440
+    },
+    "2025_ESLOL": {
+      "total_rows": 168,
+      "team_rows": 28,
+      "games": 14
+    },
+    "2025_EWC": {
+      "total_rows": 396,
+      "team_rows": 66,
+      "games": 33
+    },
+    "2025_FST": {
+      "total_rows": 420,
+      "team_rows": 70,
+      "games": 35
+    },
+    "2025_GLL": {
+      "total_rows": 156,
+      "team_rows": 26,
+      "games": 13
+    },
+    "2025_HC": {
+      "total_rows": 2400,
+      "team_rows": 400,
+      "games": 200
+    },
+    "2025_HLL": {
+      "total_rows": 2556,
+      "team_rows": 426,
+      "games": 213
+    },
+    "2025_HM": {
+      "total_rows": 2460,
+      "team_rows": 410,
+      "games": 205
+    },
+    "2025_HW": {
+      "total_rows": 1368,
+      "team_rows": 228,
+      "games": 114
+    },
+    "2025_IC": {
+      "total_rows": 336,
+      "team_rows": 56,
+      "games": 28
+    },
+    "2025_KeSPA": {
+      "total_rows": 588,
+      "team_rows": 98,
+      "games": 49
+    },
+    "2025_LAS": {
+      "total_rows": 5868,
+      "team_rows": 978,
+      "games": 489
+    },
+    "2025_LCK": {
+      "total_rows": 6660,
+      "team_rows": 1110,
+      "games": 555
+    },
+    "2025_LCKC": {
+      "total_rows": 6504,
+      "team_rows": 1084,
+      "games": 542
+    },
+    "2025_LCP": {
+      "total_rows": 3276,
+      "team_rows": 546,
+      "games": 273
+    },
+    "2025_LEC": {
+      "total_rows": 3672,
+      "team_rows": 612,
+      "games": 306
+    },
+    "2025_LFL": {
+      "total_rows": 3804,
+      "team_rows": 634,
+      "games": 317
+    },
+    "2025_LFL2": {
+      "total_rows": 2748,
+      "team_rows": 458,
+      "games": 229
+    },
+    "2025_LIT": {
+      "total_rows": 1812,
+      "team_rows": 302,
+      "games": 151
+    },
+    "2025_LJL": {
+      "total_rows": 4488,
+      "team_rows": 748,
+      "games": 374
+    },
+    "2025_LPLOL": {
+      "total_rows": 2064,
+      "team_rows": 344,
+      "games": 172
+    },
+    "2025_LRN": {
+      "total_rows": 1848,
+      "team_rows": 308,
+      "games": 154
+    },
+    "2025_LRS": {
+      "total_rows": 1704,
+      "team_rows": 284,
+      "games": 142
+    },
+    "2025_LTA": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "2025_LTA N": {
+      "total_rows": 2268,
+      "team_rows": 378,
+      "games": 189
+    },
+    "2025_LTA S": {
+      "total_rows": 2328,
+      "team_rows": 388,
+      "games": 194
+    },
+    "2025_LVP SL": {
+      "total_rows": 3180,
+      "team_rows": 530,
+      "games": 265
+    },
+    "2025_MSI": {
+      "total_rows": 960,
+      "team_rows": 160,
+      "games": 80
+    },
+    "2025_NACL": {
+      "total_rows": 3324,
+      "team_rows": 554,
+      "games": 277
+    },
+    "2025_NEXO": {
+      "total_rows": 2580,
+      "team_rows": 430,
+      "games": 215
+    },
+    "2025_NLC": {
+      "total_rows": 3768,
+      "team_rows": 628,
+      "games": 314
+    },
+    "2025_PCS": {
+      "total_rows": 3636,
+      "team_rows": 606,
+      "games": 303
+    },
+    "2025_PRM": {
+      "total_rows": 3636,
+      "team_rows": 606,
+      "games": 303
+    },
+    "2025_PRMP": {
+      "total_rows": 876,
+      "team_rows": 146,
+      "games": 73
+    },
+    "2025_RL": {
+      "total_rows": 2880,
+      "team_rows": 480,
+      "games": 240
+    },
+    "2025_ROL": {
+      "total_rows": 2496,
+      "team_rows": 416,
+      "games": 208
+    },
+    "2025_TCL": {
+      "total_rows": 3096,
+      "team_rows": 516,
+      "games": 258
+    },
+    "2025_UL": {
+      "total_rows": 192,
+      "team_rows": 32,
+      "games": 16
+    },
+    "2025_VCS": {
+      "total_rows": 1692,
+      "team_rows": 282,
+      "games": 141
+    },
+    "2025_WLDs": {
+      "total_rows": 1008,
+      "team_rows": 168,
+      "games": 84
+    },
+    "2026_AL": {
+      "total_rows": 1860,
+      "team_rows": 310,
+      "games": 155
+    },
+    "2026_Americas Cup": {
+      "total_rows": 228,
+      "team_rows": 38,
+      "games": 19
+    },
+    "2026_CBLOL": {
+      "total_rows": 1176,
+      "team_rows": 196,
+      "games": 98
+    },
+    "2026_CCWS": {
+      "total_rows": 480,
+      "team_rows": 80,
+      "games": 40
+    },
+    "2026_CD": {
+      "total_rows": 804,
+      "team_rows": 134,
+      "games": 67
+    },
+    "2026_EBL": {
+      "total_rows": 816,
+      "team_rows": 136,
+      "games": 68
+    },
+    "2026_EM": {
+      "total_rows": 1992,
+      "team_rows": 332,
+      "games": 166
+    },
+    "2026_FST": {
+      "total_rows": 540,
+      "team_rows": 90,
+      "games": 45
+    },
+    "2026_HLL": {
+      "total_rows": 1068,
+      "team_rows": 178,
+      "games": 89
+    },
+    "2026_HW": {
+      "total_rows": 1236,
+      "team_rows": 206,
+      "games": 103
+    },
+    "2026_KeSPA": {
+      "total_rows": 672,
+      "team_rows": 112,
+      "games": 56
+    },
+    "2026_LAS": {
+      "total_rows": 1440,
+      "team_rows": 240,
+      "games": 120
+    },
+    "2026_LCK": {
+      "total_rows": 2004,
+      "team_rows": 334,
+      "games": 167
+    },
+    "2026_LCKC": {
+      "total_rows": 2136,
+      "team_rows": 356,
+      "games": 178
+    },
+    "2026_LCP": {
+      "total_rows": 1668,
+      "team_rows": 278,
+      "games": 139
+    },
+    "2026_LCS": {
+      "total_rows": 960,
+      "team_rows": 160,
+      "games": 80
+    },
+    "2026_LEC": {
+      "total_rows": 1884,
+      "team_rows": 314,
+      "games": 157
+    },
+    "2026_LES": {
+      "total_rows": 408,
+      "team_rows": 68,
+      "games": 34
+    },
+    "2026_LFL": {
+      "total_rows": 1488,
+      "team_rows": 248,
+      "games": 124
+    },
+    "2026_LFL2": {
+      "total_rows": 180,
+      "team_rows": 30,
+      "games": 15
+    },
+    "2026_LIT": {
+      "total_rows": 1392,
+      "team_rows": 232,
+      "games": 116
+    },
+    "2026_LJL": {
+      "total_rows": 2520,
+      "team_rows": 420,
+      "games": 210
+    },
+    "2026_LPLOL": {
+      "total_rows": 468,
+      "team_rows": 78,
+      "games": 39
+    },
+    "2026_LRN": {
+      "total_rows": 720,
+      "team_rows": 120,
+      "games": 60
+    },
+    "2026_LRS": {
+      "total_rows": 624,
+      "team_rows": 104,
+      "games": 52
+    },
+    "2026_LTA N": {
+      "total_rows": 288,
+      "team_rows": 48,
+      "games": 24
+    },
+    "2026_LTA S": {
+      "total_rows": 336,
+      "team_rows": 56,
+      "games": 28
+    },
+    "2026_LVP SL": {
+      "total_rows": 120,
+      "team_rows": 20,
+      "games": 10
+    },
+    "2026_NACL": {
+      "total_rows": 768,
+      "team_rows": 128,
+      "games": 64
+    },
+    "2026_NLC": {
+      "total_rows": 636,
+      "team_rows": 106,
+      "games": 53
+    },
+    "2026_PRM": {
+      "total_rows": 1116,
+      "team_rows": 186,
+      "games": 93
+    },
+    "2026_RL": {
+      "total_rows": 840,
+      "team_rows": 140,
+      "games": 70
+    },
+    "2026_ROL": {
+      "total_rows": 1044,
+      "team_rows": 174,
+      "games": 87
+    },
+    "2026_TCL": {
+      "total_rows": 780,
+      "team_rows": 130,
+      "games": 65
+    },
+    "2026_VCS": {
+      "total_rows": 660,
+      "team_rows": 110,
+      "games": 55
+    }
+  }
+}

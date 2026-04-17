@@ -1,0 +1,98 @@
+{
+  "total_games": 85313,
+  "checks": {
+    "not_12_rows": {
+      "count": 0,
+      "examples": []
+    },
+    "not_2_team_rows": {
+      "count": 0,
+      "examples": []
+    },
+    "not_10_player_rows": {
+      "count": 0,
+      "examples": []
+    },
+    "missing_side": {
+      "count": 0,
+      "examples": []
+    },
+    "not_exactly_1_winner": {
+      "count": 2,
+      "examples": [
+        {
+          "gameid": "ESPORTSTMNT01_3408461",
+          "blue": "0",
+          "red": "0"
+        },
+        {
+          "gameid": "LOLTMNT01_52116",
+          "blue": "0",
+          "red": "0"
+        }
+      ]
+    },
+    "invalid_result_values": {
+      "count": 0,
+      "examples": []
+    },
+    "opp_gold_mismatch_at10": {
+      "count": 0,
+      "examples": []
+    },
+    "opp_gold_mismatch_at15": {
+      "count": 0,
+      "examples": []
+    },
+    "golddiff_mismatch_at10": {
+      "count": 0,
+      "examples": []
+    },
+    "golddiff_mismatch_at15": {
+      "count": 0,
+      "examples": []
+    },
+    "team_kills_mismatch": {
+      "count": 0,
+      "examples": []
+    },
+    "team_deaths_mismatch": {
+      "count": 0,
+      "examples": []
+    },
+    "team_assists_mismatch": {
+      "count": 0,
+      "examples": []
+    },
+    "time_data_before_gamelength": {
+      "count": 2040,
+      "examples": [
+        {
+          "gameid": "TRKR1/540262",
+          "gamelength_sec": 1466,
+          "has_data_at": "25min"
+        },
+        {
+          "gameid": "TRKR1/610154",
+          "gamelength_sec": 1486,
+          "has_data_at": "25min"
+        },
+        {
+          "gameid": "TRKR1/610202",
+          "gamelength_sec": 1494,
+          "has_data_at": "25min"
+        },
+        {
+          "gameid": "TRKR1/630314",
+          "gamelength_sec": 1496,
+          "has_data_at": "25min"
+        },
+        {
+          "gameid": "TRKR1/730339",
+          "gamelength_sec": 1495,
+          "has_data_at": "25min"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1345 @@
+{
+  "meta_events": {
+    "2016": "Rift Herald added",
+    "2019": "Elemental drake rework (soul, map transforms)",
+    "2022": "Chemtech + Hextech drakes added (chemtech disabled part of year)",
+    "2024": "Void Grubs replace first Rift Herald",
+    "2025": "Atakhan + Feats of Strength introduced; Grubs consolidated",
+    "2026": "Atakhan + Feats removed; Baron at 12:00; only 2 elemental drakes pre-soul"
+  },
+  "years": {
+    "2014": {
+      "games": 814,
+      "team_rows": 1628,
+      "gamelength_min": {
+        "n": 1628,
+        "mean": 38.12,
+        "median": 37.02
+      },
+      "teamkills_per_team": {
+        "n": 1628,
+        "mean": 13.11,
+        "median": 13.0
+      },
+      "dragons_per_team": {
+        "n": 1628,
+        "mean": 0,
+        "median": 0.0
+      },
+      "barons_per_team": {
+        "n": 1628,
+        "mean": 0.74,
+        "median": 1.0
+      },
+      "heralds_per_team": null,
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 1628,
+        "mean": 0,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 1628,
+          "mean": 0,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 1628,
+          "mean": 0,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 1628,
+          "mean": 0,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 1628,
+          "mean": 0,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 1628,
+          "mean": 1.29,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 1628,
+          "mean": 2.83,
+          "median": 2.0
+        },
+        "goldat10": {
+          "n": 1628,
+          "mean": 13414.17,
+          "median": 13299.0
+        },
+        "goldat15": {
+          "n": 1628,
+          "mean": 21247.72,
+          "median": 21098.5
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 0.0,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      }
+    },
+    "2015": {
+      "games": 1807,
+      "team_rows": 3614,
+      "gamelength_min": {
+        "n": 3614,
+        "mean": 37.49,
+        "median": 36.9
+      },
+      "teamkills_per_team": {
+        "n": 3614,
+        "mean": 14.06,
+        "median": 14.0
+      },
+      "dragons_per_team": {
+        "n": 3614,
+        "mean": 0,
+        "median": 0.0
+      },
+      "barons_per_team": {
+        "n": 3614,
+        "mean": 0.71,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 38,
+        "mean": 0,
+        "median": 0.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 3614,
+        "mean": 0,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 3614,
+          "mean": 0,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 3614,
+          "mean": 0,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 3614,
+          "mean": 0,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 3614,
+          "mean": 0,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 3614,
+          "mean": 1.33,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 3614,
+          "mean": 2.95,
+          "median": 2.0
+        },
+        "goldat10": {
+          "n": 3614,
+          "mean": 13825.87,
+          "median": 13744.5
+        },
+        "goldat15": {
+          "n": 3614,
+          "mean": 21657.7,
+          "median": 21444.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 1.1,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      }
+    },
+    "2016": {
+      "games": 3390,
+      "team_rows": 6780,
+      "gamelength_min": {
+        "n": 6780,
+        "mean": 36.35,
+        "median": 35.27
+      },
+      "teamkills_per_team": {
+        "n": 6780,
+        "mean": 12.32,
+        "median": 12.0
+      },
+      "dragons_per_team": {
+        "n": 6780,
+        "mean": 0.97,
+        "median": 0.0
+      },
+      "barons_per_team": {
+        "n": 6780,
+        "mean": 0.67,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 6638,
+        "mean": 0.48,
+        "median": 0.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 6780,
+        "mean": 0.07,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 6780,
+          "mean": 0.22,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 6780,
+          "mean": 0.23,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 6780,
+          "mean": 0.21,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 6780,
+          "mean": 0.23,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 6780,
+          "mean": 1.28,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 6780,
+          "mean": 2.68,
+          "median": 2.0
+        },
+        "goldat10": {
+          "n": 6780,
+          "mean": 14989.39,
+          "median": 14928.0
+        },
+        "goldat15": {
+          "n": 6780,
+          "mean": 23426.98,
+          "median": 23294.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 97.9,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      },
+      "meta_event": "Rift Herald added"
+    },
+    "2017": {
+      "games": 4459,
+      "team_rows": 8918,
+      "gamelength_min": {
+        "n": 8918,
+        "mean": 35.59,
+        "median": 34.5
+      },
+      "teamkills_per_team": {
+        "n": 8918,
+        "mean": 12.78,
+        "median": 13.0
+      },
+      "dragons_per_team": {
+        "n": 8918,
+        "mean": 1.73,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 8918,
+        "mean": 0.75,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 8918,
+        "mean": 0.27,
+        "median": 0.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 8918,
+        "mean": 0.14,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 8918,
+          "mean": 0.42,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 8918,
+          "mean": 0.4,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 8918,
+          "mean": 0.38,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 8918,
+          "mean": 0.39,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 8918,
+          "mean": 1.49,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 8918,
+          "mean": 3.11,
+          "median": 3.0
+        },
+        "goldat10": {
+          "n": 8918,
+          "mean": 14981.88,
+          "median": 14860.0
+        },
+        "goldat15": {
+          "n": 8918,
+          "mean": 23610.21,
+          "median": 23418.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      }
+    },
+    "2018": {
+      "games": 5512,
+      "team_rows": 11024,
+      "gamelength_min": {
+        "n": 11024,
+        "mean": 34.11,
+        "median": 33.17
+      },
+      "teamkills_per_team": {
+        "n": 11024,
+        "mean": 11.75,
+        "median": 12.0
+      },
+      "dragons_per_team": {
+        "n": 11024,
+        "mean": 1.63,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 11024,
+        "mean": 0.72,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 11016,
+        "mean": 0.45,
+        "median": 0.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 11024,
+        "mean": 0.1,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 11024,
+          "mean": 0.39,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 11024,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 11024,
+          "mean": 0.38,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 11024,
+          "mean": 0.38,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": {
+          "n": 18,
+          "mean": 2.11,
+          "median": 1.0
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 11024,
+          "mean": 1.48,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 11024,
+          "mean": 2.99,
+          "median": 3.0
+        },
+        "goldat10": {
+          "n": 11024,
+          "mean": 15429.08,
+          "median": 15342.0
+        },
+        "goldat15": {
+          "n": 11024,
+          "mean": 24162.91,
+          "median": 23991.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 99.9,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.2
+      }
+    },
+    "2019": {
+      "games": 7745,
+      "team_rows": 15490,
+      "gamelength_min": {
+        "n": 15490,
+        "mean": 32.27,
+        "median": 31.62
+      },
+      "teamkills_per_team": {
+        "n": 15490,
+        "mean": 13.23,
+        "median": 13.0
+      },
+      "dragons_per_team": {
+        "n": 15490,
+        "mean": 2.08,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 15334,
+        "mean": 0.68,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 13232,
+        "mean": 0.5,
+        "median": 0.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 15490,
+        "mean": 0.07,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 15490,
+          "mean": 0.52,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 15490,
+          "mean": 0.51,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 15490,
+          "mean": 0.49,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 15490,
+          "mean": 0.49,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": {
+          "n": 2258,
+          "mean": 2.05,
+          "median": 2.0
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 15490,
+          "mean": 1.83,
+          "median": 1.0
+        },
+        "killsat15": {
+          "n": 15488,
+          "mean": 3.76,
+          "median": 3.0
+        },
+        "goldat10": {
+          "n": 15490,
+          "mean": 15608.94,
+          "median": 15516.0
+        },
+        "goldat15": {
+          "n": 15488,
+          "mean": 24699.8,
+          "median": 24489.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 85.4,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 14.6
+      },
+      "meta_event": "Elemental drake rework (soul, map transforms)"
+    },
+    "2020": {
+      "games": 9740,
+      "team_rows": 19480,
+      "gamelength_min": {
+        "n": 19480,
+        "mean": 32.24,
+        "median": 31.62
+      },
+      "teamkills_per_team": {
+        "n": 19480,
+        "mean": 13.93,
+        "median": 14.0
+      },
+      "dragons_per_team": {
+        "n": 19480,
+        "mean": 2.38,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 19480,
+        "mean": 0.63,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 18440,
+        "mean": 0.97,
+        "median": 1.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 19480,
+        "mean": 0.08,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 19480,
+          "mean": 0.58,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 19480,
+          "mean": 0.57,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 19480,
+          "mean": 0.57,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 19480,
+          "mean": 0.58,
+          "median": 0.0
+        },
+        "chemtechs": null,
+        "hextechs": null,
+        "type_unknown": {
+          "n": 1040,
+          "mean": 2.27,
+          "median": 2.0
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 19480,
+          "mean": 2.1,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 19480,
+          "mean": 4.01,
+          "median": 3.0
+        },
+        "goldat10": {
+          "n": 19480,
+          "mean": 15464.97,
+          "median": 15329.0
+        },
+        "goldat15": {
+          "n": 19480,
+          "mean": 24463.78,
+          "median": 24263.5
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 94.7,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 0.0,
+        "hextechs": 0.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 5.3
+      }
+    },
+    "2021": {
+      "games": 10938,
+      "team_rows": 21876,
+      "gamelength_min": {
+        "n": 21876,
+        "mean": 31.38,
+        "median": 30.85
+      },
+      "teamkills_per_team": {
+        "n": 21876,
+        "mean": 14.73,
+        "median": 15.0
+      },
+      "dragons_per_team": {
+        "n": 21876,
+        "mean": 2.25,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 21876,
+        "mean": 0.66,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 19794,
+        "mean": 0.97,
+        "median": 1.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 21876,
+        "mean": 0.05,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 21876,
+          "mean": 0.55,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 21876,
+          "mean": 0.54,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 21876,
+          "mean": 0.55,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 21876,
+          "mean": 0.55,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 2640,
+          "mean": 0.03,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 2640,
+          "mean": 0.03,
+          "median": 0.0
+        },
+        "type_unknown": {
+          "n": 2087,
+          "mean": 2.16,
+          "median": 2
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 21876,
+          "mean": 2.4,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 21876,
+          "mean": 4.4,
+          "median": 4.0
+        },
+        "goldat10": {
+          "n": 21876,
+          "mean": 15725.84,
+          "median": 15601.0
+        },
+        "goldat15": {
+          "n": 21876,
+          "mean": 24872.61,
+          "median": 24642.5
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 90.5,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 12.1,
+        "hextechs": 12.1,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 9.5
+      }
+    },
+    "2022": {
+      "games": 10437,
+      "team_rows": 20874,
+      "gamelength_min": {
+        "n": 20874,
+        "mean": 31.71,
+        "median": 31.08
+      },
+      "teamkills_per_team": {
+        "n": 20874,
+        "mean": 14.59,
+        "median": 14.0
+      },
+      "dragons_per_team": {
+        "n": 20874,
+        "mean": 2.25,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 20874,
+        "mean": 0.67,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 20874,
+        "mean": 0.99,
+        "median": 1.0
+      },
+      "void_grubs_per_team": null,
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 20874,
+        "mean": 0.05,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 20874,
+          "mean": 0.44,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 20874,
+          "mean": 0.44,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 20874,
+          "mean": 0.44,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 20874,
+          "mean": 0.43,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 20506,
+          "mean": 0.03,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 20506,
+          "mean": 0.43,
+          "median": 0.0
+        },
+        "type_unknown": {
+          "n": 634,
+          "mean": 2.34,
+          "median": 2.0
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 20874,
+          "mean": 2.19,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 20874,
+          "mean": 4.08,
+          "median": 4.0
+        },
+        "goldat10": {
+          "n": 20874,
+          "mean": 15693.98,
+          "median": 15573.0
+        },
+        "goldat15": {
+          "n": 20874,
+          "mean": 24833.95,
+          "median": 24591.5
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 0.0,
+        "atakhans": 0.0,
+        "chemtechs": 98.2,
+        "hextechs": 98.2,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 3.0
+      },
+      "meta_event": "Chemtech + Hextech drakes added (chemtech disabled part of year)"
+    },
+    "2023": {
+      "games": 9352,
+      "team_rows": 18704,
+      "gamelength_min": {
+        "n": 18704,
+        "mean": 31.37,
+        "median": 30.63
+      },
+      "teamkills_per_team": {
+        "n": 18704,
+        "mean": 14.23,
+        "median": 14.0
+      },
+      "dragons_per_team": {
+        "n": 18704,
+        "mean": 2.17,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 18704,
+        "mean": 0.74,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 18704,
+        "mean": 0.99,
+        "median": 1.0
+      },
+      "void_grubs_per_team": {
+        "n": 84,
+        "mean": 0,
+        "median": 0.0
+      },
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 18702,
+        "mean": 0.04,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 18702,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 18702,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 18702,
+          "mean": 0.35,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 18702,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 18702,
+          "mean": 0.34,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 18702,
+          "mean": 0.35,
+          "median": 0.0
+        },
+        "type_unknown": {
+          "n": 2,
+          "mean": 2.5,
+          "median": 2.5
+        }
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 18700,
+          "mean": 2.1,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 18700,
+          "mean": 3.98,
+          "median": 3.0
+        },
+        "goldat10": {
+          "n": 18700,
+          "mean": 15701.6,
+          "median": 15599.0
+        },
+        "goldat15": {
+          "n": 18700,
+          "mean": 24823.84,
+          "median": 24616.5
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 0.4,
+        "atakhans": 0.0,
+        "chemtechs": 100.0,
+        "hextechs": 100.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      }
+    },
+    "2024": {
+      "games": 8820,
+      "team_rows": 17640,
+      "gamelength_min": {
+        "n": 17640,
+        "mean": 31.38,
+        "median": 30.75
+      },
+      "teamkills_per_team": {
+        "n": 17640,
+        "mean": 15.36,
+        "median": 15.0
+      },
+      "dragons_per_team": {
+        "n": 17640,
+        "mean": 2.2,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 17640,
+        "mean": 0.71,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 17640,
+        "mean": 0.52,
+        "median": 1.0
+      },
+      "void_grubs_per_team": {
+        "n": 16894,
+        "mean": 2.74,
+        "median": 3.0
+      },
+      "atakhans_per_team": null,
+      "elders_per_team": {
+        "n": 17640,
+        "mean": 0.05,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 17640,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 17640,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 17640,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 17640,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 17640,
+          "mean": 0.34,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 17640,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 17638,
+          "mean": 2.12,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 17636,
+          "mean": 4.19,
+          "median": 4.0
+        },
+        "goldat10": {
+          "n": 17638,
+          "mean": 15977.32,
+          "median": 15870.0
+        },
+        "goldat15": {
+          "n": 17636,
+          "mean": 25283.51,
+          "median": 25058.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 95.8,
+        "atakhans": 0.0,
+        "chemtechs": 100.0,
+        "hextechs": 100.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      },
+      "meta_event": "Void Grubs replace first Rift Herald"
+    },
+    "2025": {
+      "games": 9353,
+      "team_rows": 18706,
+      "gamelength_min": {
+        "n": 18706,
+        "mean": 31.98,
+        "median": 30.92
+      },
+      "teamkills_per_team": {
+        "n": 18706,
+        "mean": 16.43,
+        "median": 16.0
+      },
+      "dragons_per_team": {
+        "n": 18706,
+        "mean": 2.22,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 18706,
+        "mean": 0.54,
+        "median": 0.0
+      },
+      "heralds_per_team": {
+        "n": 18706,
+        "mean": 0.5,
+        "median": 0.0
+      },
+      "void_grubs_per_team": {
+        "n": 18706,
+        "mean": 2.15,
+        "median": 2.0
+      },
+      "atakhans_per_team": {
+        "n": 17926,
+        "mean": 0.49,
+        "median": 0.0
+      },
+      "elders_per_team": {
+        "n": 18706,
+        "mean": 0.05,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 18706,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 18706,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 18706,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 18706,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 18706,
+          "mean": 0.34,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 18706,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 18706,
+          "mean": 2.3,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 18706,
+          "mean": 4.48,
+          "median": 4.0
+        },
+        "goldat10": {
+          "n": 18706,
+          "mean": 15996.38,
+          "median": 15896.0
+        },
+        "goldat15": {
+          "n": 18706,
+          "mean": 24980.17,
+          "median": 24770.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 100.0,
+        "atakhans": 95.8,
+        "chemtechs": 100.0,
+        "hextechs": 100.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      },
+      "meta_event": "Atakhan + Feats of Strength introduced; Grubs consolidated"
+    },
+    "2026": {
+      "games": 2946,
+      "team_rows": 5892,
+      "gamelength_min": {
+        "n": 5892,
+        "mean": 31.69,
+        "median": 31.17
+      },
+      "teamkills_per_team": {
+        "n": 5892,
+        "mean": 16.54,
+        "median": 16.0
+      },
+      "dragons_per_team": {
+        "n": 5892,
+        "mean": 2.23,
+        "median": 2.0
+      },
+      "barons_per_team": {
+        "n": 5892,
+        "mean": 0.68,
+        "median": 1.0
+      },
+      "heralds_per_team": {
+        "n": 5892,
+        "mean": 0.49,
+        "median": 0.0
+      },
+      "void_grubs_per_team": {
+        "n": 5892,
+        "mean": 1.47,
+        "median": 1.0
+      },
+      "atakhans_per_team": {
+        "n": 5892,
+        "mean": 0.04,
+        "median": 0.0
+      },
+      "elders_per_team": {
+        "n": 5892,
+        "mean": 0.05,
+        "median": 0.0
+      },
+      "drake_pool_mean": {
+        "infernals": {
+          "n": 5892,
+          "mean": 0.38,
+          "median": 0.0
+        },
+        "mountains": {
+          "n": 5892,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "clouds": {
+          "n": 5892,
+          "mean": 0.35,
+          "median": 0.0
+        },
+        "oceans": {
+          "n": 5892,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "chemtechs": {
+          "n": 5892,
+          "mean": 0.37,
+          "median": 0.0
+        },
+        "hextechs": {
+          "n": 5892,
+          "mean": 0.36,
+          "median": 0.0
+        },
+        "type_unknown": null
+      },
+      "early_tempo": {
+        "killsat10": {
+          "n": 5892,
+          "mean": 2.46,
+          "median": 2.0
+        },
+        "killsat15": {
+          "n": 5892,
+          "mean": 4.87,
+          "median": 4.0
+        },
+        "goldat10": {
+          "n": 5892,
+          "mean": 16946.65,
+          "median": 16857.5
+        },
+        "goldat15": {
+          "n": 5892,
+          "mean": 26578.32,
+          "median": 26362.0
+        }
+      },
+      "column_availability_pct": {
+        "heralds": 100.0,
+        "void_grubs": 100.0,
+        "atakhans": 100.0,
+        "chemtechs": 100.0,
+        "hextechs": 100.0,
+        "infernals": 100.0,
+        "mountains": 100.0,
+        "clouds": 100.0,
+        "oceans": 100.0,
+        "dragons_type_unknown": 0.0
+      },
+      "meta_event": "Atakhan + Feats removed; Baron at 12:00; only 2 elemental drakes pre-soul"
+    }
+  }
+}
