@@ -1,0 +1,198 @@
+{
+  "year": 2026,
+  "games_total": 2699,
+  "team_rows_total": 5398,
+  "per_team_averages": {
+    "dragons": 2.233,
+    "barons": 0.694,
+    "elders": 0.048,
+    "atakhans": 0.0,
+    "heralds": 0.491,
+    "void_grubs": 1.464
+  },
+  "per_game_averages": {
+    "dragons": {
+      "games": 2699,
+      "avg_total_per_game": 4.466,
+      "pct_games_nonzero": 100.0
+    },
+    "barons": {
+      "games": 2699,
+      "avg_total_per_game": 1.389,
+      "pct_games_nonzero": 96.22
+    },
+    "elders": {
+      "games": 2699,
+      "avg_total_per_game": 0.096,
+      "pct_games_nonzero": 8.52
+    },
+    "atakhans": {
+      "games": 2699,
+      "avg_total_per_game": 0.0,
+      "pct_games_nonzero": 0.0
+    },
+    "heralds": {
+      "games": 2699,
+      "avg_total_per_game": 0.983,
+      "pct_games_nonzero": 98.3
+    },
+    "void_grubs": {
+      "games": 2699,
+      "avg_total_per_game": 2.928,
+      "pct_games_nonzero": 99.15
+    }
+  },
+  "top_leagues": [
+    {
+      "league": "LJL",
+      "games": 210,
+      "dragons_per_team": 2.069,
+      "barons_per_team": 0.595,
+      "elders_per_team": 0.033,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.498,
+      "void_grubs_per_team": 1.49
+    },
+    {
+      "league": "LCKC",
+      "games": 178,
+      "dragons_per_team": 2.202,
+      "barons_per_team": 0.683,
+      "elders_per_team": 0.045,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.497,
+      "void_grubs_per_team": 1.475
+    },
+    {
+      "league": "LCK",
+      "games": 167,
+      "dragons_per_team": 2.231,
+      "barons_per_team": 0.659,
+      "elders_per_team": 0.048,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.488,
+      "void_grubs_per_team": 1.383
+    },
+    {
+      "league": "EM",
+      "games": 166,
+      "dragons_per_team": 2.277,
+      "barons_per_team": 0.747,
+      "elders_per_team": 0.063,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.488,
+      "void_grubs_per_team": 1.443
+    },
+    {
+      "league": "LEC",
+      "games": 157,
+      "dragons_per_team": 2.468,
+      "barons_per_team": 0.783,
+      "elders_per_team": 0.064,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.494,
+      "void_grubs_per_team": 1.471
+    },
+    {
+      "league": "AL",
+      "games": 142,
+      "dragons_per_team": 2.215,
+      "barons_per_team": 0.673,
+      "elders_per_team": 0.046,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.496,
+      "void_grubs_per_team": 1.5
+    },
+    {
+      "league": "LCP",
+      "games": 121,
+      "dragons_per_team": 2.322,
+      "barons_per_team": 0.698,
+      "elders_per_team": 0.025,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.488,
+      "void_grubs_per_team": 1.463
+    },
+    {
+      "league": "LAS",
+      "games": 120,
+      "dragons_per_team": 2.092,
+      "barons_per_team": 0.688,
+      "elders_per_team": 0.05,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.496,
+      "void_grubs_per_team": 1.438
+    },
+    {
+      "league": "LIT",
+      "games": 116,
+      "dragons_per_team": 2.241,
+      "barons_per_team": 0.659,
+      "elders_per_team": 0.03,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.491,
+      "void_grubs_per_team": 1.496
+    },
+    {
+      "league": "LFL",
+      "games": 112,
+      "dragons_per_team": 2.357,
+      "barons_per_team": 0.826,
+      "elders_per_team": 0.089,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.496,
+      "void_grubs_per_team": 1.469
+    },
+    {
+      "league": "HW",
+      "games": 103,
+      "dragons_per_team": 2.155,
+      "barons_per_team": 0.699,
+      "elders_per_team": 0.053,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.481,
+      "void_grubs_per_team": 1.495
+    },
+    {
+      "league": "CBLOL",
+      "games": 98,
+      "dragons_per_team": 2.316,
+      "barons_per_team": 0.699,
+      "elders_per_team": 0.056,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.49,
+      "void_grubs_per_team": 1.449
+    },
+    {
+      "league": "ROL",
+      "games": 87,
+      "dragons_per_team": 2.46,
+      "barons_per_team": 0.782,
+      "elders_per_team": 0.092,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.494,
+      "void_grubs_per_team": 1.5
+    },
+    {
+      "league": "HLL",
+      "games": 81,
+      "dragons_per_team": 2.08,
+      "barons_per_team": 0.636,
+      "elders_per_team": 0.025,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.494,
+      "void_grubs_per_team": 1.481
+    },
+    {
+      "league": "PRM",
+      "games": 81,
+      "dragons_per_team": 2.272,
+      "barons_per_team": 0.704,
+      "elders_per_team": 0.043,
+      "atakhans_per_team": 0.0,
+      "heralds_per_team": 0.488,
+      "void_grubs_per_team": 1.37
+    }
+  ],
+  "notes": "per_team_averages: mean objective count from the perspective of one team (one row). per_game_averages.avg_total_per_game: mean sum across both teams per game (dragons contested). null/empty values excluded from each column's mean."
+}

@@ -23,7 +23,7 @@ META_EVENTS = {
     "2022": "Chemtech + Hextech drakes added (chemtech disabled part of year)",
     "2024": "Void Grubs replace first Rift Herald",
     "2025": "Atakhan + Feats of Strength introduced; Grubs consolidated",
-    "2026": "Atakhan + Feats removed; Baron at 12:00; only 2 elemental drakes pre-soul",
+    "2026": "Atakhan + Feats removed; Baron back to 20:00 (from 25:00 in 2025); only 2 elemental drakes pre-soul; role quests + item rework",
 }
 
 # Per-year accumulators over team rows.

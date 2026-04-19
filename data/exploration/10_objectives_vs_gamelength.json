@@ -1,0 +1,421 @@
+{
+  "years": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "games_total": 58784,
+  "overall_means_per_game": {
+    "dragons": 4.494,
+    "barons": 1.317,
+    "elders": 0.108
+  },
+  "overall_first_event_rate_pct": {
+    "firstblood": 99.9,
+    "firstdragon": 100.0,
+    "firsttower": 100.0,
+    "firstbaron": 92.4
+  },
+  "per_minute_buckets": [
+    {
+      "gamelength_min": 15,
+      "games": 14,
+      "dragons_per_game": 1.643,
+      "barons_per_game": 0.0,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 92.9,
+      "firsttower_pct": 92.9,
+      "firstbaron_pct": 0.0
+    },
+    {
+      "gamelength_min": 16,
+      "games": 21,
+      "dragons_per_game": 1.619,
+      "barons_per_game": 0.0,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 95.2,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 0.0
+    },
+    {
+      "gamelength_min": 17,
+      "games": 39,
+      "dragons_per_game": 1.667,
+      "barons_per_game": 0.0,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 0.0
+    },
+    {
+      "gamelength_min": 18,
+      "games": 109,
+      "dragons_per_game": 1.982,
+      "barons_per_game": 0.0,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 98.2,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 0.0
+    },
+    {
+      "gamelength_min": 19,
+      "games": 183,
+      "dragons_per_game": 2.23,
+      "barons_per_game": 0.0,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 99.5,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 0.5
+    },
+    {
+      "gamelength_min": 20,
+      "games": 241,
+      "dragons_per_game": 2.436,
+      "barons_per_game": 0.021,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 99.6,
+      "firstdragon_pct": 98.8,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 2.1
+    },
+    {
+      "gamelength_min": 21,
+      "games": 475,
+      "dragons_per_game": 2.644,
+      "barons_per_game": 0.343,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 99.2,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 34.5
+    },
+    {
+      "gamelength_min": 22,
+      "games": 874,
+      "dragons_per_game": 2.705,
+      "barons_per_game": 0.691,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 99.9,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 69.1
+    },
+    {
+      "gamelength_min": 23,
+      "games": 1684,
+      "dragons_per_game": 2.96,
+      "barons_per_game": 0.789,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 99.8,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 78.9
+    },
+    {
+      "gamelength_min": 24,
+      "games": 2203,
+      "dragons_per_game": 3.215,
+      "barons_per_game": 0.831,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 83.1
+    },
+    {
+      "gamelength_min": 25,
+      "games": 2437,
+      "dragons_per_game": 3.493,
+      "barons_per_game": 0.83,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 83.0
+    },
+    {
+      "gamelength_min": 26,
+      "games": 3280,
+      "dragons_per_game": 3.665,
+      "barons_per_game": 0.868,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 99.9,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 86.8
+    },
+    {
+      "gamelength_min": 27,
+      "games": 3881,
+      "dragons_per_game": 3.777,
+      "barons_per_game": 0.944,
+      "elders_per_game": 0.0,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 92.3
+    },
+    {
+      "gamelength_min": 28,
+      "games": 4503,
+      "dragons_per_game": 3.909,
+      "barons_per_game": 1.028,
+      "elders_per_game": 0.002,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 94.1
+    },
+    {
+      "gamelength_min": 29,
+      "games": 4828,
+      "dragons_per_game": 4.091,
+      "barons_per_game": 1.118,
+      "elders_per_game": 0.019,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 94.6
+    },
+    {
+      "gamelength_min": 30,
+      "games": 4684,
+      "dragons_per_game": 4.324,
+      "barons_per_game": 1.204,
+      "elders_per_game": 0.053,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 95.9
+    },
+    {
+      "gamelength_min": 31,
+      "games": 4239,
+      "dragons_per_game": 4.506,
+      "barons_per_game": 1.297,
+      "elders_per_game": 0.085,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 96.3
+    },
+    {
+      "gamelength_min": 32,
+      "games": 3888,
+      "dragons_per_game": 4.674,
+      "barons_per_game": 1.347,
+      "elders_per_game": 0.109,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 99.9,
+      "firstbaron_pct": 96.9
+    },
+    {
+      "gamelength_min": 33,
+      "games": 3417,
+      "dragons_per_game": 4.808,
+      "barons_per_game": 1.409,
+      "elders_per_game": 0.101,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 96.9
+    },
+    {
+      "gamelength_min": 34,
+      "games": 3055,
+      "dragons_per_game": 4.992,
+      "barons_per_game": 1.483,
+      "elders_per_game": 0.104,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 97.2
+    },
+    {
+      "gamelength_min": 35,
+      "games": 2836,
+      "dragons_per_game": 5.165,
+      "barons_per_game": 1.561,
+      "elders_per_game": 0.131,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 97.2
+    },
+    {
+      "gamelength_min": 36,
+      "games": 2309,
+      "dragons_per_game": 5.379,
+      "barons_per_game": 1.673,
+      "elders_per_game": 0.18,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 98.4
+    },
+    {
+      "gamelength_min": 37,
+      "games": 1917,
+      "dragons_per_game": 5.529,
+      "barons_per_game": 1.768,
+      "elders_per_game": 0.241,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 98.2
+    },
+    {
+      "gamelength_min": 38,
+      "games": 1475,
+      "dragons_per_game": 5.675,
+      "barons_per_game": 1.873,
+      "elders_per_game": 0.26,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 99.0
+    },
+    {
+      "gamelength_min": 39,
+      "games": 1305,
+      "dragons_per_game": 5.844,
+      "barons_per_game": 2.003,
+      "elders_per_game": 0.256,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 99.2
+    },
+    {
+      "gamelength_min": 40,
+      "games": 1049,
+      "dragons_per_game": 6.01,
+      "barons_per_game": 2.098,
+      "elders_per_game": 0.287,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 99.5
+    },
+    {
+      "gamelength_min": 41,
+      "games": 884,
+      "dragons_per_game": 6.181,
+      "barons_per_game": 2.234,
+      "elders_per_game": 0.34,
+      "firstblood_pct": 99.9,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 99.9,
+      "firstbaron_pct": 99.4
+    },
+    {
+      "gamelength_min": 42,
+      "games": 680,
+      "dragons_per_game": 6.354,
+      "barons_per_game": 2.334,
+      "elders_per_game": 0.409,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 99.6
+    },
+    {
+      "gamelength_min": 43,
+      "games": 537,
+      "dragons_per_game": 6.48,
+      "barons_per_game": 2.495,
+      "elders_per_game": 0.49,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 99.8
+    },
+    {
+      "gamelength_min": 44,
+      "games": 446,
+      "dragons_per_game": 6.652,
+      "barons_per_game": 2.621,
+      "elders_per_game": 0.612,
+      "firstblood_pct": 99.8,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 99.8,
+      "firstbaron_pct": 99.8
+    },
+    {
+      "gamelength_min": 45,
+      "games": 313,
+      "dragons_per_game": 6.757,
+      "barons_per_game": 2.78,
+      "elders_per_game": 0.534,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    },
+    {
+      "gamelength_min": 46,
+      "games": 257,
+      "dragons_per_game": 6.949,
+      "barons_per_game": 2.879,
+      "elders_per_game": 0.685,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    },
+    {
+      "gamelength_min": 47,
+      "games": 186,
+      "dragons_per_game": 7.081,
+      "barons_per_game": 2.823,
+      "elders_per_game": 0.812,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    },
+    {
+      "gamelength_min": 48,
+      "games": 155,
+      "dragons_per_game": 7.232,
+      "barons_per_game": 2.987,
+      "elders_per_game": 1.006,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    },
+    {
+      "gamelength_min": 49,
+      "games": 116,
+      "dragons_per_game": 7.371,
+      "barons_per_game": 3.172,
+      "elders_per_game": 0.974,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    },
+    {
+      "gamelength_min": 50,
+      "games": 81,
+      "dragons_per_game": 7.432,
+      "barons_per_game": 3.272,
+      "elders_per_game": 1.235,
+      "firstblood_pct": 100.0,
+      "firstdragon_pct": 100.0,
+      "firsttower_pct": 100.0,
+      "firstbaron_pct": 100.0
+    }
+  ],
+  "interpretation": "Each row represents games that ENDED at minute T. dragons_per_game / barons_per_game = mean total across both teams for games in that bucket \u2014 since the game ended at T, this is an upper-bound for 'objectives_by_minute_T'. first_X_pct = % of games in bucket where event X happened at all. Used for estimating leakage magnitude when using end-of-game columns at a checkpoint-T model."
+}
