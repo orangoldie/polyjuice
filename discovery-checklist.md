@@ -1,6 +1,6 @@
 # Discovery Checklist
 
-Questions to answer and explorations to run before we can write a proper system spec.
+Questions to answer and explorations to run before we can write a proper system spec. This doc captures **decisions and reasoning**. For the *what-it-does* view of the preprocessing pipeline, see `docs/preprocessing-pipeline.md`.
 
 Status: `[ ]` = open, `[~]` = in progress, `[x]` = resolved
 
@@ -9,6 +9,9 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
 ---
 
 ## 1. Data & Feature Engineering
+
+- [x] **Pre-processing pipeline design**
+  (Promoted from `[~]` — stage 4 landed; full 4-stage pipeline is implemented, tested, run-green on real data.)
 
 - [x] **Which columns to include and how to structure time-frames?**
   Do we build separate feature sets per checkpoint (10/15/20/25 min), or keep everything in one flat row with all time-frame columns together? What are the tradeoffs?
@@ -90,7 +93,7 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
   Do we use all rows or only complete ones?
   > **Decision:** Filter to `datacompleteness == "complete"` in all scripts and in the final pipeline. Drops ~11% of games but gives us 0% nulls on time-stamped columns (10/15 min). Notable: LPL loses ~68% of its games to this filter. All exploration scripts already apply this filter.
 
-- [~] **Pre-processing pipeline design**
+- [x] **Pre-processing pipeline design**
   Filtering (incomplete data, missing columns), encoding (categorical features), normalization — what does each step look like?
 
   **Null-vs-zero policy (resolved — moot):** the question only matters for era-missing features, and none survive into the v1 training set:
@@ -120,7 +123,8 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
   - `firstbaron` at 25 only
 
   *D. Identifiers (kept for joins/splits/analysis, NOT fed to model):*
-  - `gameid`, `date`, `league`, `patch`, `teamid`, `opp_teamid`
+  - `gameid`, `date`, `league`, `patch`, `teamname`, `opp_teamname`
+  - (Uses `teamname` over `teamid`: human-readable and materially cleaner — ~21 null teamnames vs ~1.1K null teamids in the filtered window. `opp_teamname` is derived at stage 2 by pivoting each gameid's two team rows on `side`.)
 
   **Explicitly excluded** (and why):
   - `xp*at{T}` — livestats only exposes `level`, not XP. Level→XP heuristic skipped for v1: highly correlated with gold/CS, marginal independent signal, not worth the complexity. Re-add only if calibration analysis shows it's missing.
@@ -135,8 +139,11 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
   **Row filters (decided so far):**
   - `datacompleteness == "complete"` (existing)
   - Drop 2 no-winner games (from data integrity check)
-  - Drop games shorter than the checkpoint minute (e.g. for 25-min model, drop games ending before 25 min)
+  - Drop games without a populated checkpoint frame at stage 4 — i.e. any of the 12 `*at{T}` stats null. Gamelength is *not* the filter: fuzzy-boundary games ending ~24:30-24:59 with a populated `*at25` snapshot are valid (see `04_data_integrity.json` — ~1.25K games at T=25 in filtered window). Games ending at exactly T*60 with no frame are dropped. Reverses the earlier `gamelength < T*60` filter, which was a proxy for "reached checkpoint T" that didn't align with Oracle's actual frame capture near the boundary.
   - **Drop games whose league has no tier mapping** (~16K games, mostly LATAM nationals/academy). Re-open if v1 needs more data.
+  - **Drop games with a null `teamname` on either team row** (needed to derive `opp_teamname` at stage 2). ~900 games, mostly LCK Challengers / LDL / academy.
+  - **Drop academy self-match games** — where both team rows share a `teamname` (e.g. "DRX Academy" vs "DRX Academy" in LAS 2020-21). 8 gameids; the outcome is structurally meaningless.
+  - **Drop games with any null first-event flag** on either team row (`firstblood` / `firstdragon` / `firsttower` / `firstbaron`). ~230 games, all in data-quality-flagged leagues (LPL 2020-21, LDL); games are long enough that the nulls mean "data missing" rather than "event never happened", so treating them as unresolved would be a train/inference mismatch.
   - Year range: 2020-2025 train; 2026 held out (decided in section 4)
 
   **Per-checkpoint vs unified model (decided): per-checkpoint.** Build 4 separate XGBoost models, one per T ∈ {10, 15, 20, 25}. Each model trains on its own dataset (one row per game, only that checkpoint's features + static columns + gated firsts). At inference, livestats game time routes to the appropriate model.
@@ -186,7 +193,7 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
   - **After stage 1:** only complete rows, year range 2020-2026, expected row count (~12 × complete-games), no null `result` / `side` / `gamelength` on team rows, the 2 no-winner games dropped.
   - **After stage 2:** one row per gameid, row count == unique gameid count, `side` is ~50/50 (binomial check, not exactly 50/50), all mapped to a known tier.
   - **After stage 3:** exact locked feature-column set present (nothing extra, nothing missing), no NaN in model features, engineered diffs match `raw − opp_raw` to zero rounding error, `tier` ∈ {S, A, B}.
-  - **After stage 4:** each checkpoint file has that checkpoint's features + static + gated firsts + identifiers + label and nothing else; no rows with `gamelength < T*60`; per-file row counts logged so regressions are visible.
+  - **After stage 4:** each checkpoint file has that checkpoint's features + static + gated firsts + identifiers + label and nothing else; no NaN in any kept column (filter is populated-frame, not gamelength); per-file row counts logged so regressions are visible.
 
   Implemented as assertions in each stage script (not a separate pass) so the stage fails at the point of corruption rather than at the next stage's read.
 
@@ -206,7 +213,7 @@ When a question is resolved, add a `> **Decision:** ...` block under it with the
 
 - [x] **Handle roster changes?**
   Same org can have different players mid-split. Does this matter? If we use team identity as a feature, how do we account for this?
-  > **Decision: not applicable to v1.** `teamid` is an identifier, not a model feature (see 1.7). Becomes a design question for v2 pre-game/Elo model — candidates: lineup-hash ratings with regression-to-org-mean, or Elo partial-reset when ≥3 starters change.
+  > **Decision: not applicable to v1.** `teamname` is an identifier, not a model feature (see 1.7). Becomes a design question for v2 pre-game/Elo model — candidates: lineup-hash ratings with regression-to-org-mean, or Elo partial-reset when ≥3 starters change.
 
 ---
 

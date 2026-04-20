@@ -1,10 +1,16 @@
-# Chat Summary — discovery complete (2026-04-19)
+# Chat Summary — full preprocessing pipeline live (2026-04-20)
 
 ## Project
 Statistical arbitrage on Polymarket for LoL esports. Build a win-probability model from historical data, compare to Polymarket odds, bet when edge exceeds threshold.
 
 ## Status
-**Discovery complete across all 5 sections of `discovery-checklist.md`.** Ready to implement the v1 pre-processing pipeline.
+**Discovery complete across all 5 sections of `discovery-checklist.md`.** Full preprocessing pipeline (stages 1–4 + `scripts/build_dataset.py` orchestrator) implemented TDD-style with full test coverage + run-green on real data. **Next: model training / experiment harness.**
+
+Current datasets:
+- `data/processed/03_features.csv` — 46,972 games × 63 columns (post-stage 3).
+- `data/processed/checkpoint_{10,15,20,25}.csv` — 46,972 / 46,971 / 46,865 / 44,118 rows (post-stage 4).
+
+Column order at stage 3: `gameid, date, year, league, patch, teamname, opp_teamname, side, tier, <checkpoint XatY group>, firstblood..firstbaron, gamelength, result`.
 
 ## v1 shape
 - **v1 = in-game checkpoint model** at 10/15/20/25 min. v2 = pre-game / Elo / draft.
@@ -20,8 +26,11 @@ Statistical arbitrage on Polymarket for LoL esports. Build a win-probability mod
 ### Row filters (locked)
 - `datacompleteness == "complete"` only.
 - Drop 2 no-winner games (integrity check identified them).
-- Drop games shorter than the checkpoint at stage 4 (`gamelength < T*60`).
+- Drop games without a populated checkpoint frame at stage 4 (any `*at{T}` stat null). Replaces the earlier `gamelength < T*60` plan — Oracle's frame capture doesn't perfectly align with gamelength near the boundary: ~1.25K games at T=25 end ~24:30-24:59 but have a populated `*at25` snapshot (valid — kept), and a handful of games end at exactly T*60 with no frame (invalid — dropped).
 - Drop unmapped-tier games (~16K, mostly LATAM nationals/academy). Re-open if v1 needs more data.
+- Drop games with a null `teamname` on either team row (~900 games, mostly LCK Challengers / LDL / academy) — needed to derive `opp_teamname` at stage 2.
+- Drop academy self-match games where both team rows share a `teamname` (8 gameids, LAS 2020-21) — outcome is structurally meaningless.
+- Drop games with any null first-event flag (`firstblood` / `firstdragon` / `firsttower` / `firstbaron`) on either team row (~230 games, all in data-quality-flagged leagues: LPL 2020-21, LDL). Games are long enough that the nulls mean "data missing" not "event never happened", so treating them as unresolved would be a train/inference mismatch.
 - Year range 2020-2026 loaded; 2020-2025 train/dev, 2026 held out.
 
 ### v1 feature list (locked)
@@ -39,7 +48,7 @@ Statistical arbitrage on Polymarket for LoL esports. Build a win-probability mod
 - `firstdragon`, `firsttower` at 15/20/25 (~7% residual train/inference mismatch at 15-min accepted for signal gain).
 - `firstbaron` at 25 only.
 
-**D. Identifiers (NOT fed to model, kept for joins/splits/analysis):** `gameid`, `date`, `league`, `patch`, `teamid`, `opp_teamid`.
+**D. Identifiers (NOT fed to model, kept for joins/splits/analysis):** `gameid`, `date`, `league`, `patch`, `teamname`, `opp_teamname`. (Preferred `teamname` over `teamid` during pipeline build: human-readable and materially cleaner — ~21 null teamnames vs ~1.1K null teamids in the filtered window. `opp_teamname` is derived at stage 2 by pivoting each gameid's two team rows on `side`.)
 
 **Explicitly excluded (and why):**
 - `atakhan` — not at inference (removed 2026 patch 26.1). Training on a feature absent in production wastes capacity and risks miscalibration. (Reversed earlier "keep with nulls" decision.)
@@ -67,20 +76,55 @@ Random side per game (`np.random.default_rng(seed=42)`). Balances `side` ~50/50,
 
 ```
 scripts/preprocess/
-  01_load_and_filter.py    → data/processed/01_filtered.csv
-  02_one_row_per_game.py   → data/processed/02_one_row.csv
-  03_features.py           → data/processed/03_features.csv
-  04_split_checkpoints.py  → data/processed/checkpoint_{10,15,20,25}.csv
+  stage1_load_and_filter.py   → data/processed/01_filtered.csv            [DONE]
+  stage2_one_row_per_game.py  → data/processed/02_one_row.csv             [DONE]
+  stage3_features.py          → data/processed/03_features.csv            [DONE]
+  stage4_split_checkpoints.py → data/processed/checkpoint_{10,15,20,25}.csv [DONE]
+scripts/build_dataset.py (orchestrator, runs 1→4)                          [DONE]
 ```
 
-Plus `scripts/build_dataset.py` orchestrator. CSV format for now (observability — eyeball intermediates, git-diffable); move to parquet if size/speed becomes an issue.
+CSV format (observability — eyeball intermediates, git-diffable); move to parquet if size/speed becomes an issue.
 
-### Stage-boundary validations (added this session)
-Each stage asserts post-conditions and fails fast:
-- **Stage 1:** only complete rows, year range 2020-2026, ~12 rows × complete-games, no null `result`/`side`/`gamelength`.
-- **Stage 2:** one row per gameid, row count == unique gameid count, `side` ~50/50 (binomial), tier mapped.
-- **Stage 3:** exact locked feature columns, no NaN in model features, engineered diffs match `raw − opp_raw`.
-- **Stage 4:** per-checkpoint schema correct, no rows with `gamelength < T*60`, row counts logged.
+### TDD / testing conventions
+- `tests/preprocess/test_stageN_*.py` mirrors `scripts/preprocess/stageN_*.py`.
+- Root `conftest.py` prepends the repo to `sys.path` so `from scripts.preprocess... import` works from tests.
+- Each stage module exposes `run(df, ...) -> DataFrame` (pure transform) and `validate(df, ...) -> None` (raises on failure). Tests hit both with small synthetic fixtures; no real-CSV slices in tests.
+- Stage N trusts stage N-1's validator — tests at stage N don't re-verify stage N-1 invariants.
+- Stage 4 exposes `run(df, T) -> DataFrame` and `validate(df, T) -> None`; tests parameterize over T ∈ {10,15,20,25}.
+- Current count: **123 tests green** (stage 1: 23, stage 2: 16, stage 3: 22, stage 4: 62).
+
+### Stage-boundary validations (implemented)
+- **Stage 1:** `datacompleteness` all "complete"; `year` ∈ 2020-2026; league present in tier map; exactly 12 rows per gameid; non-null `result`/`side`/`gamelength`/`teamname`/`firstblood`/`firstdragon`/`firsttower`/`firstbaron` on team rows; exactly 1 winner per gameid; exactly 2 distinct teamnames per gameid.
+- **Stage 2:** unique gameids, all team rows, tier-mapped league, `side` ∈ {Blue, Red}, `side` balance within 5σ binomial tolerance, `opp_teamname` non-null and != `teamname`.
+- **Stage 3:** exact 63-column locked schema (no missing, no extras); no NaN in `ALWAYS_FILLED` (identifiers, statics, firsts, gamelength, result); `side` ∈ {Blue, Red}; `tier` ∈ {S, A, B}; `result` / `firstX` ∈ {0, 1}; engineered `killdiffat{T}` and `assistdiffat{T}` equal `raw − opp_raw` (NaN-tolerant for short-game `*at25` columns).
+- **Stage 4:** per-T schema exact (no missing, no extras); no NaN in any kept column (all 12 `*at{T}` stats populated, plus identifiers/statics/firsts/gamelength/result); `side`, `tier`, `result`, gated-`firstX` domain checks.
+
+### Real-data run — stages 1-4 (2026-04-20)
+- Stage 1: 826,284 raw rows (2020-2026) → **563,664 rows / 46,972 games** kept.
+- Stage 2: **46,972 rows** (one per game); side balance Blue=23,439 (49.9%) / Red=23,533 (50.1%).
+- Stage 3: **46,972 × 63**; all validators green.
+- Stage 4 (populated-frame filter):
+  - T=10: 46,972 kept (100.0%)
+  - T=15: 46,971 kept (100.0%)
+  - T=20: 46,865 kept (99.8%)
+  - T=25: 44,118 kept (93.9%)
+
+**(year, tier) distribution on stage 3 output:**
+
+| year | S | A | B | Total |
+|---|---|---|---|---|
+| 2020 | 1,960 | 2,983 | 2,417 | 7,360 |
+| 2021 | 1,829 | 2,986 | 2,657 | 7,472 |
+| 2022 | 1,480 | 2,711 | 2,475 | 6,666 |
+| 2023 | 1,481 | 3,305 | 2,594 | 7,380 |
+| 2024 | 1,369 | 3,009 | 2,484 | 6,862 |
+| 2025 | 1,789 | 3,488 | 3,167 | 8,444 |
+| 2026 | 757 | 1,028 | 1,003 | 2,788 |
+| **Total** | **10,665** | **19,510** | **16,797** | **46,972** |
+
+2020-2025 train/dev pool: ~44.2K games. 2026 held-out test: 2,788 (year-to-date). After the per-checkpoint `gamelength ≥ T*60` filter in stage 4, expect ~10% loss at T=25 → ~39.8K train, ~2.5K test at the hardest checkpoint. Fine for XGBoost; S-tier (10.7K across 7 years) is the thinnest slice and will bite on a v1.5 per-tier-model experiment, not on v1.
+
+**Data loss vs raw baseline (`01_row_counts.json`, 2020-2026):** 61,586 raw → 46,972 kept = 14,614 games dropped (23.7%). Dominated by the unmapped-tier filter (~16K pre-registered in the checklist, mostly LATAM nationals / academy / other leagues without a Liquipedia tier). Null-teamname / self-match / null-firsts / incomplete-datacompleteness / no-winner filters combined contribute single-digit-thousands. Loss is heaviest in 2020-2022 (24-36%) where Oracle shipped more tier-2/3 regional coverage; by 2025-26 drops to 5-10% as Oracle coverage narrowed to leagues in the tier map.
 
 ---
 
@@ -151,10 +195,20 @@ Implication: 2026 is structurally closer to 2020-2024 than to 2025 in baron term
 ---
 
 ## Immediate next step
-Implement the 4 pre-processing pipeline scripts + orchestrator + stage-boundary validators. Everything is specified.
+Pipeline is done. Next chunk is the **model training + experiment harness**:
+- Temporal split: train 2020-2024, val 2025, test 2026 (touched exactly once).
+- Logistic-regression baseline per T, then XGBoost per T (4 models total).
+- Optuna (50-100 trials per checkpoint) on val log-loss, early stopping.
+- Isotonic calibration on val if Brier / reliability diagram says it's needed.
+- Experiment log: simple CSV (`run_id, timestamp, checkpoint, hparams_json, val_logloss, val_brier, val_auc, notes`).
 
 ## Key files
-- `discovery-checklist.md` — authoritative decisions across all sections.
-- `data/exploration/*.json` — outputs from scripts 01-10.
+- `docs/preprocessing-pipeline.md` — pipeline spec (what it does, locked schema, invariants).
+- `discovery-checklist.md` — authoritative *decisions and reasoning* across all sections.
+- `scripts/preprocess/stage{1,2,3,4}_*.py` + `tests/preprocess/test_stage{1,2,3,4}_*.py` — implemented pipeline + tests.
+- `scripts/build_dataset.py` — stages 1→4 orchestrator.
+- `data/processed/0{1,2,3}_*.csv` + `data/processed/checkpoint_{10,15,20,25}.csv` — current pipeline outputs.
+- `data/exploration/*.json` — baseline exploration outputs (scripts 01-10).
+- `scripts/exploration/*.py` — exploration scripts (moved under `scripts/exploration/` — they are not pipeline code).
 - `data/columns.txt` — Oracle's Elixir column list.
-- `scripts/01_*.py` through `10_*.py` — exploration scripts (not pipeline).
+- `conftest.py` — pytest rootdir anchor.

@@ -1,6 +1,9 @@
 # Raw historical CSVs — large, not ours to redistribute
 data/lol-historical-data/
 
+# Pipeline intermediates — reproducible via `python scripts/build_dataset.py`
+data/processed/
+
 # Python
 __pycache__/
 *.pyc
