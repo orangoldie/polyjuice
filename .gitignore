@@ -4,6 +4,12 @@ data/lol-historical-data/
 # Pipeline intermediates — reproducible via `python scripts/build_dataset.py`
 data/processed/
 
+# Model artifacts — regenerable from code + data/processed/
+data/models/
+
+# Experiment run log — machine-generated, one row appended per run
+data/experiments/
+
 # Python
 __pycache__/
 *.pyc

@@ -1,0 +1,38 @@
+  The metrics
+
+  The model outputs a probability p in [0, 1] = "I think this team has p% chance of winning". The label y is 0 or 1. All four metrics are different ways of asking    
+  "how good was p?".
+
+  Log loss — the "textbook" probability metric. For each game: -log(p) if the team won, -log(1-p) if it lost. Average over all games. Lower is better; 0 is perfect,  
+  log(2) ≈ 0.693 is what you get by always predicting 0.5 (random coin flip baseline). It punishes confident wrong predictions harshly — predicting p=0.99 on a game  
+  you lose costs -log(0.01) ≈ 4.6, vs predicting 0.5 and losing costs only 0.69. That's why it's the right objective for betting: a miscalibrated "90% confident"     
+  claim that's actually wrong is much worse than "60% confident" and wrong. Your T=25 log loss of 0.28 means the model is, on average, pretty confident and usually   
+  right.
+
+  Brier score — mean squared error on probabilities: average of (p - y)². Same spirit as log loss but penalizes mistakes quadratically instead of logarithmically, so 
+  it doesn't blow up on "99% confident and wrong" the way log loss does. Easier to interpret intuitively (it's just MSE) but log loss is preferred for
+  calibration-sensitive work. Perfect = 0, random = 0.25.
+
+  AUC (Area Under the ROC Curve) — measures ranking quality, ignoring absolute values. If you pick a random winning game and a random losing game, AUC is the
+  probability that the model assigned a higher p to the winner. 0.5 = coin flip (no ranking info), 1.0 = perfect ordering. AUC is scale-free: if you uniformly shift  
+  every p by +0.2, AUC doesn't change but log loss and Brier get worse. So a model can have great AUC (it knows who'll probably win) and terrible calibration (the    
+  probabilities are off). Your T=25 AUC of 0.95 means "given any winning game and any losing game, the model ranks the winner higher 95% of the time."
+
+  Accuracy — just (correct predictions) / total, thresholded at p ≥ 0.5 → predict win. Human-readable, but the worst metric for our use case: it throws away all the  
+  probability information. A model that always says 0.51 for winners and 0.49 for losers gets 100% accuracy but would be useless for betting (no confidence signal =  
+  no Kelly sizing). Accuracy is here as a sanity anchor, not a decision metric.
+
+  Why these four in combination: log loss is what we tune on (matches calibration objective). Brier is a second calibration view. AUC tells us whether the model at   
+  least ranks correctly even if probabilities are off. Accuracy is the human-readable gut check.
+
+  C — the regularization strength
+
+  Logistic regression fits coefficients β by minimizing log_loss(data) + (1/C) · ||β||². That second term is the L2 penalty: it punishes large coefficient magnitudes.   C is the knob.
+
+  - Small C (say 0.01) → penalty dominates → model keeps coefficients small → "simpler" model, less fit to noise, risk of underfitting.
+  - Large C (say 100) → penalty barely matters → coefficients free to get big → "complex" model, risk of overfitting to training quirks.
+
+  Why you need the penalty at all: with many features, the model can memorize the training set in ways that don't generalize. L2 regularization keeps the coefficients   "modest" so the model is forced to use real signal instead of noise. C trades off "fit the data" vs "stay simple".
+
+  C=0.01 at T=10 and C=0.1 at T=15/20/25 means we wanted heavier regularization at T=10 — which makes sense, because T=10 has weaker signal (less game has happened)  
+  so "trusting the data too much" overfits more easily.
