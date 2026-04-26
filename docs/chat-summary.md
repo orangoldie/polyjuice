@@ -1,76 +1,60 @@
-# Chat Summary — v1 calibration plan (2026-04-24)
+# Chat Summary — calibration diagnosis and next direction (2026-04-24)
 
 ## State of the project
 
 - v1 in-game checkpoint model shipped for T ∈ {10, 15, 20, 25}. Baseline logistic (production: 2020–2025 train + optional isotonic) is the model currently scored on 2026.
-- XGBoost v1 was tuned (Optuna 100 trials/checkpoint) and **failed acceptance on all 4 checkpoints** — ties the baseline within CI noise. Verified reproducibly:
-  - All 4 XGB artifacts re-predict their own metrics.json bit-for-bit.
-  - `BASELINE_H2` constants in xgboost_v1.py match runs.csv.
-  - Acceptance H2 slice (3,274 / 3,274 / 3,271 / 3,176 games) is identical between baseline and XGB — comparison is fair. XGB has slightly *more* training data (year-vs-date split boundary) and still loses. No bug; features have no nonlinear structure to exploit at these checkpoints.
-- Project housekeeping completed this session:
-  - `scripts/models/` collapsed from 6 files to 2: `baseline_logistic.py` + `xgboost_v1.py`. Baseline now matches xgboost's CLI pattern (`--fit-production`, `--evaluate-test`, `--evaluate-test-production`). 34/34 baseline tests + 47/47 xgboost tests pass. Deleted `baseline_logistic_h2_rerun.py` (output lived in the `BASELINE_H2` constant), `baseline_logistic_2026_eval.py`, `baseline_logistic_production.py`, `baseline_logistic_production_2026_eval.py`.
-  - Exploration scripts 11 and 13's CSV outputs moved from `data/experiments/` to `data/exploration/`. `data/experiments/` now holds only `runs.csv`.
-  - Root cleanup: deleted stray `3.0` empty file, moved `chat-summary.md` / `get-started.md` / `metrics-explanation.txt` under `docs/`.
+- XGBoost v1 failed acceptance on all 4 checkpoints; ties the baseline within CI noise. No bug — features appear to have no nonlinear structure to exploit at these checkpoints.
+- Project housekeeping this session: `scripts/models/` collapsed to 2 files; exploration CSVs moved out of `data/experiments/`.
 
-## Problem to solve next — calibration at the 70-75% betting band
+## Phase 1 diagnostics ran (scripts 14 + 15)
 
-The user plans to bet on Polymarket specifically in the **70-75% predicted-win band**. Current production calibration on 2026:
+Goal was to figure out *where* calibration is broken in the 70-75% betting band before adding anything.
 
-| T  | ECE   | Brier | Status                |
-|----|-------|-------|-----------------------|
-| 10 | 0.022 | 0.190 | Borderline            |
-| 15 | 0.019 | 0.160 | OK                    |
-| 20 | **0.041** | 0.137 | **Not bettable — 4%** |
-| 25 | 0.023 | 0.097 | OK                    |
+**Three findings that push back on the earlier working hypotheses:**
 
-Global ECE is a weak signal though — what actually matters is **per-bin calibration at 65-80%, per tier**. That's what Phase 1 diagnoses.
+1. **Dropping 2025 from training does NOT help calibration in the betting band — it mildly hurts.** Production (with 2025) beats sibling (without) in [0.65, 0.80) at every checkpoint. The Feats-of-Strength contamination concern doesn't manifest here.
+2. **The 4.1% global ECE at T=20 is not a betting-band problem.** T=20 in [0.65, 0.80) is well-calibrated (+1.3pp). The ECE blowup lives in the low-prob bin and a noisy high-prob bin — neither matters for 70-75% betting.
+3. **Per-tier point-estimate gaps from script 14 looked like real opposing biases (S overconfident at T=10, A underconfident at T=20). Bootstrap in script 15 says they're mostly noise.** Only T=10 S-tier's −9.4pp gap has a CI that excludes zero, and it barely does (CI [−19%, −0.1%], n=102).
 
-## Research findings (agent pull + Riot Dev Diary / GPR / Pinnacle / arXiv 2309.02449 / ProjektZero)
+**Honest status of calibration at 70-75%:** aggregate band gaps are ±2pp at every T. The only borderline-real miscalibration is T=10 S-tier being ~9pp overconfident.
 
-1. **GPR is Tier-1 only** (LCK/LPL/LEC/LTA N+S/LCP/VCS/CBLOL). ProjektZero-LoL-Model on GitHub already builds Elo on Oracle's Elixir and covers all tiers — that's our reference if we roll our own. URL pattern `lolesports.com/en-GB/gpr/{year}/{event}` works; page is JS-hydrated, real API lives behind AWS (inspect devtools if we want time-series).
-2. **Elo prior helps calibration more than AUC, with biggest impact at early checkpoints.** Research specifically finds the gain concentrates in the probability band where the user wants to bet.
-3. **Riot's own WP model has features we don't:** XP diff, alive count at checkpoint, active buff timers (baron/elder currently active, not just "first taken"), herald trinket in inventory.
-4. **Draft effects are NOT fully subsumed by min-10 stats** — contradicts our discovery-checklist reasoning for deferring draft features. Scaling comp down 1k at 15 ≠ tempo comp down 1k. Still expensive to encode; deferring stays defensible.
-5. **Herald + void grubs carry tempo signal separate from dragons** in the 2024+ meta. Current model collapses them entirely.
+## Current direction — S-tier focus + team-strength prior
 
-## Plan — phased, in priority order
+Polymarket's current liquidity on LoL is concentrated on S-tier markets, so we're narrowing scope there anyway. That reframes the question:
 
-### Phase 1 — Diagnose (hours). **Start here.**
-Goal: figure out *where* calibration is actually broken before picking interventions.
+- **Do we need to fit a general multi-tier calibration system?** No. Bet on S-tier, model on S-tier, calibrate on S-tier.
+- **Is the T=10 S-tier overconfidence a real signal or a statistical ghost?** Borderline — needs another data point (more 2026 games, or an intervention that should close the gap if the mechanism is what we think).
+- **What's the natural mechanism?** Tier-1 teams come back from min-10 gold deficits more often than the model expects — i.e. team strength is doing work that the current features don't capture.
 
-- Per-bin calibration focused on the **65-80% bucket**, split per-tier (S/A/B) and per-T. Extension of `scripts/exploration/12_calibration_bins_2026.py`.
-- Quick ablation: retrain baseline **without 2025** (Feats of Strength era), evaluate on 2026, compare ECE + per-bin calibration vs current. If T=20 ECE drops materially, Feats leakage is confirmed and we know how to handle it.
-- Decision criterion: outcome of Phase 1 dictates whether we go (a) team-strength features, (b) Feats/era handling, (c) better calibrator, or some mix.
+Plan: **use Riot's GPR (Global Power Rankings) as a team-strength feature for S-tier games, see if T=10 S-tier gap closes.** GPR preferred over a homegrown Oracle's-Elixir Elo as the starting point: it's Riot's own validated rating, captures roster/region nuance we'd have to hand-engineer, and symbolically matches what we want the feature to represent (established pro strength, not a summary of historical results). Homegrown Elo stays on the table as v2 groundwork and as the fallback if GPR coverage / scrape proves unworkable.
 
-### Phase 2 — Team strength prior (1-2 days MVP, 1-2 weeks for full Elo)
-Single biggest expected calibration lever.
+## GPR build — decisions (see `docs/specs/gpr-feature.md`)
 
-- Start simple: **rolling win rate weighted by opponent tier** over a trailing window, computed offline from 2020-2025 Oracle's Elixir. Joined on `teamname` (identifiers already in pipeline output).
-- Layer **GPR snapshots** as an additional feature for Tier-1 games where available (optional; don't block on it).
-- Upgrade to full Elo/Glicko if simple version shows calibration gains but AUC gains are small (means we're on the right track but can sharpen).
-- Requires re-opening v1's "no team identity as feature" decision from discovery-checklist — user has explicitly OK'd this.
+Open questions from the prior chat are now resolved in the spec:
 
-### Phase 3 — Riot's missing features (few days)
-- **XP diff** at each checkpoint (`xpat{T} - opp_xpat{T}`, Oracle's Elixir has it). Inference parity: livestats exposes `level` only — heuristic-convert via a fitted level↔XP mapping.
-- **First herald** and **first void grub** flags, checkpoint-gated like firstdragon/firsttower. Need to confirm livestats exposure for these.
-- Alive count / active-buff-timer features require livestats frame parsing — out of scope until bet pipeline is being built.
+- **Training-data coverage.** Keep 2020–2025 training window. Pre-2024 rows get `has_gpr=0, gpr_diff=0`; 2024+ rows get real values where both teams have a snapshot. Missingness-indicator pattern — `gpr_diff`'s coefficient is fit cleanly on the covered subset.
+- **Scrape viability.** Gating unknown. Spec's step 1 is a scrape spike to confirm the underlying API exposes historical per-team snapshots. If it only returns current ratings, the spec is shelved and we reopen with a wayback-based plan or fall back to homegrown Elo.
+- **Temporal resolution.** Per-`(team, snapshot_date)` if the API exposes it; event-snapshot granularity otherwise. Join rule: `snapshot_date < game_date`, take `max`. Strict `<` prevents leakage by construction.
+- **League coverage.** LCK, LPL, LEC, LCS/LTA N+S, LCP, CBLOL covered. VCS not covered by GPR — excluded from this experiment.
+- **Encoding.** Raw `gpr_diff = power_score[teamname] − power_score[opp_teamname]`. Elo math says equal diffs → equal logit shifts, so raw diff is the correct shape. Revisit only if the coefficient misbehaves.
+- **Cold-start teams.** Fall through to `has_gpr=0, gpr_diff=0`. Acceptable if <5% of S-tier 2024+ games land here.
 
-### Phase 4 — Sample weighting (only if Phase 1 says so)
-- Exponential date-decay on training, or explicit 2025 downweight if Feats leakage is the demonstrated problem.
+## Open questions on what we'd do with it
 
-## User preferences captured this session
+- **Does including Elo close the T=10 S-tier band gap?** This is the primary test. Re-run script 15 post-feature; if gap collapses, team strength was the missing piece.
+- **Does it move AUC / log-loss materially?** Or only calibration-in-band? Different answers point to different model surgery.
+- **Does it help pre-game (v2 model) enough to justify pulling v2 forward?** If Elo alone gives a usable pre-game WR prior, v2's groundwork is mostly done.
+- **If T=10 S-tier gap doesn't close with GPR — then what?** That's a meaningful negative result. Candidates: fall back to homegrown Oracle's-Elixir Elo (more coverage, different construction), trajectory features (`golddiffat15 − golddiffat10`), stacking baseline + XGB, or accepting that the gap is just n=102 noise and waiting for more 2026 data.
 
-- Bet at 70-75% probability band — calibration analysis should focus there, not globally.
-- OK re-opening discovery-checklist decisions (team identity, patch-as-feature, etc.) — checklist is a starting point, not a rulebook.
-- Engineering appetite is fine — even multi-day features on the table.
-- Wants to also quick-check: does dropping 2025 from training improve 2026 calibration? (Subsumed into Phase 1.)
+## Things explicitly deprioritized (and why)
 
-## Recommended next action when resuming
+- **Drop-2025 ablation / Feats-of-Strength handling.** Script 14 showed it doesn't help in the band. Dead.
+- **Per-tier calibrator.** Script 15 shows only 1 of 12 cells has a non-zero gap at 95% CI, and we're narrowing to S-tier anyway — no reason to maintain per-tier infrastructure.
+- **Trajectory features, stacking, Riot's missing features (XP diff, herald/grub firsts).** All still on the table but downstream of the Elo experiment — no point adding more features if team strength alone resolves the only real signal.
+- **Homegrown Oracle's-Elixir Elo.** Kept as fallback / v2 groundwork but not the starting point — GPR symbolically captures what we want ("established pro team strength") without us having to re-engineer roster/region/decay logic.
 
-Phase 1 diagnostics — write an exploration script (probably `scripts/exploration/14_calibration_per_tier_bucketed.py`) that:
-1. Loads production baseline predictions on 2026 per T.
-2. Reports per-tier (S/A/B) × per-bin reliability, with tighter bins around 65-80%.
-3. Runs a second pass training on 2020-2024 only (sibling, already exists), scores on 2026, reports the same table — diff shows whether 2025 inclusion hurts at T=20.
-4. Writes results to `data/exploration/14_*.csv` + a console table.
+## References
 
-Outcome of this script decides Phase 2 vs Phase 4 priority.
+- `scripts/exploration/14_calibration_per_tier_bucketed.py` — per-tier × per-T × per-bin calibration, production vs sibling.
+- `scripts/exploration/15_band_gap_bootstrap.py` — 5000-iter bootstrap CIs on per-tier band gaps.
+- `data/exploration/14_calibration_per_tier_bucketed.csv`, `data/exploration/15_band_gap_bootstrap.csv` — outputs.
