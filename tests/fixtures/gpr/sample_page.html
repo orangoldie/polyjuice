@@ -1,0 +1,172 @@
+<!--
+  Synthetic GPR page fixture for tests/gpr/test_scrape.py.
+
+  Mirrors the real lolesports.com/en-GB/gpr/{year} structure where it matters
+  to the parser — Apollo SSR transport pushes embedded as JS literals — and
+  exercises the parser edge cases:
+
+    1. Two distinct payload shapes coexist on real pages:
+         (a) events[*].value.data.teamGPR
+         (b) rehydrate[<opaque-key>].data.teamGPR
+       Both must yield team records.
+    2. Apollo pushes are JS source, not JSON, and contain bare `undefined`
+       literals that must be substituted to `null` before json.loads.
+    3. Push payloads contain string literals with escaped quotes; the
+       paren-balancing extractor must respect string state.
+    4. The same (team_id, dateCalculated) snapshot can appear on multiple
+       pages and must dedupe to a single row when values agree.
+
+  Three teams (T_alpha, T_beta, T_gamma) populate the fixture:
+    - T_alpha appears in BOTH push shapes with identical snapshots
+      (dedupe-no-conflict path).
+    - T_beta has an escaped-quote in its name.
+    - T_gamma has an `undefined` field.
+-->
+<html>
+<body>
+<script>
+(window[Symbol.for("ApolloSSRDataTransport")] ??= []).push({
+  "rehydrate": {
+    "ROOT_QUERY:teamGPR(year:2024)": {
+      "data": {
+        "__typename": "Query",
+        "teamGPR": [
+          {
+            "__typename": "TeamGPR",
+            "id": "tgpr_alpha",
+            "team": {
+              "__typename": "Team",
+              "id": "team_alpha",
+              "code": "ALP",
+              "name": "Team Alpha",
+              "slug": "team-alpha",
+              "image": "https://example.com/a.png",
+              "homeLeague": {
+                "__typename": "League",
+                "id": "league_lck",
+                "name": "LCK",
+                "slug": "lck",
+                "image": "https://example.com/lck.png"
+              }
+            },
+            "teamGPRHistory": [
+              {"__typename":"GPR","dateCalculated":"2024-02-10T04:00:00Z","gprScore":1500,"elo":1480,"rank":1},
+              {"__typename":"GPR","dateCalculated":"2024-02-20T04:00:00Z","gprScore":1510,"elo":1495,"rank":1}
+            ],
+            "currentTeamGPR": {"__typename":"GPR","dateCalculated":"2024-02-20T04:00:00Z","gprScore":1510,"elo":1495,"rank":1},
+            "previousTeamGPR": {"__typename":"GPR","dateCalculated":"2024-02-10T04:00:00Z","gprScore":1500,"elo":1480,"rank":1},
+            "averageOpponentGPR": 1300,
+            "teamMatchRecord": "5-1",
+            "teamGameRecord": "10-3",
+            "tournaments": []
+          },
+          {
+            "__typename": "TeamGPR",
+            "id": "tgpr_beta",
+            "team": {
+              "__typename": "Team",
+              "id": "team_beta",
+              "code": "BTA",
+              "name": "Team \"Beta\" Gaming",
+              "slug": "team-beta",
+              "image": "https://example.com/b.png",
+              "homeLeague": {
+                "__typename": "League",
+                "id": "league_lpl",
+                "name": "LPL",
+                "slug": "lpl",
+                "image": "https://example.com/lpl.png"
+              }
+            },
+            "teamGPRHistory": [
+              {"__typename":"GPR","dateCalculated":"2024-02-10T04:00:00Z","gprScore":1450,"elo":1430,"rank":2}
+            ],
+            "currentTeamGPR": {"__typename":"GPR","dateCalculated":"2024-02-10T04:00:00Z","gprScore":1450,"elo":1430,"rank":2},
+            "previousTeamGPR": null,
+            "averageOpponentGPR": 1280,
+            "teamMatchRecord": "3-2",
+            "teamGameRecord": "7-5",
+            "tournaments": []
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+})
+</script>
+<script>
+(window[Symbol.for("ApolloSSRDataTransport")] ??= []).push({
+  "rehydrate": {},
+  "events": [
+    {
+      "value": {
+        "data": {
+          "__typename": "Query",
+          "teamGPR": [
+            {
+              "__typename": "TeamGPR",
+              "id": "tgpr_alpha",
+              "team": {
+                "__typename": "Team",
+                "id": "team_alpha",
+                "code": "ALP",
+                "name": "Team Alpha",
+                "slug": "team-alpha",
+                "image": "https://example.com/a.png",
+                "homeLeague": {
+                  "__typename": "League",
+                  "id": "league_lck",
+                  "name": "LCK",
+                  "slug": "lck",
+                  "image": "https://example.com/lck.png"
+                }
+              },
+              "teamGPRHistory": [
+                {"__typename":"GPR","dateCalculated":"2024-02-20T04:00:00Z","gprScore":1510,"elo":1495,"rank":1}
+              ],
+              "currentTeamGPR": {"__typename":"GPR","dateCalculated":"2024-02-20T04:00:00Z","gprScore":1510,"elo":1495,"rank":1},
+              "previousTeamGPR": null,
+              "averageOpponentGPR": 1300,
+              "teamMatchRecord": "5-1",
+              "teamGameRecord": "10-3",
+              "tournaments": []
+            },
+            {
+              "__typename": "TeamGPR",
+              "id": "tgpr_gamma",
+              "team": {
+                "__typename": "Team",
+                "id": "team_gamma",
+                "code": "GMA",
+                "name": "Team Gamma",
+                "slug": "team-gamma",
+                "image": "https://example.com/g.png",
+                "homeLeague": {
+                  "__typename": "League",
+                  "id": "league_lec",
+                  "name": "LEC",
+                  "slug": "lec",
+                  "image": "https://example.com/lec.png"
+                }
+              },
+              "teamGPRHistory": [
+                {"__typename":"GPR","dateCalculated":"2024-03-01T04:00:00Z","gprScore":1400,"elo":1390,"rank":3}
+              ],
+              "currentTeamGPR": {"__typename":"GPR","dateCalculated":"2024-03-01T04:00:00Z","gprScore":1400,"elo":1390,"rank":3},
+              "previousTeamGPR": null,
+              "averageOpponentGPR": 1250,
+              "teamMatchRecord": "2-3",
+              "teamGameRecord": "5-7",
+              "tournaments": [],
+              "nextFetchPolicy": undefined
+            }
+          ]
+        }
+      }
+    }
+  ]
+})
+</script>
+</body>
+</html>

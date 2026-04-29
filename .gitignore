@@ -1,6 +1,9 @@
 # Raw historical CSVs — large, not ours to redistribute
 data/lol-historical-data/
 
+# Raw GPR HTML — large (~10MB), reproducible via `python -m scripts.gpr.scrape --refresh`
+data/gpr/raw/
+
 # Pipeline intermediates — reproducible via `python scripts/build_dataset.py`
 data/processed/
 

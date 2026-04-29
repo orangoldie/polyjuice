@@ -1,0 +1,69 @@
+gpr_team_name,oe_teamname,notes
+100 Thieves,100 Thieves,
+Anyone's Legend,Anyone's Legend,
+BILIBILI GAMING,Bilibili Gaming,
+BNK FEARX,BNK FEARX,
+CERBERUS ESPORTS,CERBERUS Esports,
+The Chiefs Esports Club,Chiefs Esports Club,GPR has leading 'The'
+Cloud9 Kia,Cloud9,sponsor: Kia. Applies to LCS and LTA N rows
+CTBC Flying Oyster,CTBC Flying Oyster,
+DetonatioN FocusMe,DetonatioN FocusMe,
+Dignitas,Dignitas,
+Disguised,Disguised,
+DN SOOPers,DN SOOPers,
+Dplus KIA,Dplus Kia,
+KIWOOM DRX,DRX,sponsor: KIWOOM DRX is GPR's current name
+Estral Esports,Estral Esports,
+Fluxo,Fluxo,
+FlyQuest,FlyQuest,
+Fnatic,Fnatic,
+Fukuoka SoftBank HAWKS gaming,Fukuoka SoftBank HAWKS gaming,
+FURIA,FURIA,
+G2 Esports,G2 Esports,
+GAM Esports,GAM Esports,
+Gen.G Esports,Gen.G,GPR uses full org name
+GIANTX,GiantX,
+Ground Zero Gaming,Ground Zero Gaming,
+HANJIN BRION,HANJIN BRION,
+Hanwha Life Esports,Hanwha Life Esports,
+INTZ,INTZ,
+Invictus Gaming,Invictus Gaming,
+Isurus,Isurus,
+KaBuM!,KaBuM! Esports,"OE uses long-form, GPR uses short-form"
+Karmine Corp,Karmine Corp,
+KIWOOM DRX,Kiwoom DRX,
+kt Rolster,KT Rolster,
+LEVIATÁN,Leviatan,accent + casing
+Liberty,Liberty,
+LOS,Los Grandes,GPR uses 3-letter code
+LOUD,LOUD,
+LYON,LYON,
+Movistar KOI,MAD Lions KOI,rebrand: MAD Lions KOI '24 → Movistar KOI '25+; same GPR team_id covers both
+MGN Blue Esports,MGN Blue Esports,
+MGN Blue Esports,MGN Vikings Esports,MGN org rebrand Blue→Vikings; same GPR team_id covers VCS '24 and LCP '25+
+Movistar KOI,Movistar KOI,
+Movistar R7,Movistar R7,
+MVK Esports,MVK Esports,
+Natus Vincere,Natus Vincere,
+NONGSHIM RED FORCE,Nongshim RedForce,case + spacing variant
+NRG Kia,NRG,sponsor: Kia
+paiN Gaming,paiN Gaming,
+PSG Talon,PSG Talon,
+RED Canids Kalunga,RED Canids,sponsor: Kalunga. Applies to CBLOL and LTA S rows
+Rogue,Rogue,
+Sentinels,Sentinels,
+Shifters,Shifters,
+Shopify Rebellion,Shopify Rebellion,
+SK Gaming,SK Gaming,
+T1,T1,
+TP.HCM Team Flash,Team Flash,GPR uses regional prefix TP.HCM
+Team Heretics,Team Heretics,
+Team Liquid Alienware,Team Liquid,sponsor: Alienware. Applies to LCS and LTA N rows
+Team Secret Whales,Team Secret Whales,
+Team Vitality,Team Vitality,
+TEAM WHALES,Team Whales,
+TOP ESPORTS,Top Esports,
+Vivo Keyd Stars,Vivo Keyd Stars,
+,Rainbow Warriors,UNCOVERED: VCS '24 had only 4 GPR-rated teams; this one fell below GPR's qualification threshold
+,Team BDS,UNCOVERED: BDS played LEC '24-'25 but no GPR record; cause unknown (relegation? scrape gap?). Re-investigate if scrape is refreshed or if BDS appears in any LEC GPR push later
+,Team Secret,UNCOVERED: VCS '24. Saigon-Secret-as-rebrand was considered but rejected on review — they are not the same team

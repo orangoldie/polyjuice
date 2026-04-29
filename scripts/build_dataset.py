@@ -1,5 +1,5 @@
 """
-Orchestrator: run preprocessing stages 1 → 4 in order.
+Orchestrator: run preprocessing stages 1 → 5 in order.
 
 Each stage loads the prior stage's CSV output, transforms it, validates,
 and writes its own CSV. Runs on real data by default:
@@ -8,6 +8,13 @@ and writes its own CSV. Runs on real data by default:
   stage 2: 01_filtered.csv                 →  data/processed/02_one_row.csv
   stage 3: 02_one_row.csv                  →  data/processed/03_features.csv
   stage 4: 03_features.csv                 →  data/processed/checkpoint_{10,15,20,25}.csv
+  stage 5: checkpoint_{T}.csv + data/gpr/  →  data/processed/checkpoint_{T}_gpr.csv
+
+Stage 5 reads `data/gpr/snapshots.csv` and `data/gpr/team_aliases.csv`. The
+scrape that produces snapshots.csv is a separate, manually-invoked step
+(`python -m scripts.gpr.scrape`) and is intentionally NOT part of this
+orchestrator — the page-scrape mirrors how raw OE CSVs are also refreshed
+out-of-band, and keeps build_dataset.py purely offline + deterministic.
 """
 import os
 import subprocess
@@ -19,6 +26,7 @@ STAGES = [
     "scripts.preprocess.stage2_one_row_per_game",
     "scripts.preprocess.stage3_features",
     "scripts.preprocess.stage4_split_checkpoints",
+    "scripts.preprocess.stage5_join_gpr",
 ]
 
 

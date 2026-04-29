@@ -1,0 +1,3125 @@
+{
+  "summary": {
+    "oe_team_league_rows": 178,
+    "gpr_teams": 87,
+    "exact_matches": 114,
+    "oe_unmatched_geq_20_games": 21
+  },
+  "oe_teams": [
+    {
+      "teamname": "Dplus Kia",
+      "league": "LCK",
+      "games": 141,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "T1",
+      "league": "LCK",
+      "games": 125,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "KT Rolster",
+      "league": "LCK",
+      "games": 125,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "BNK FEARX",
+      "league": "LCK",
+      "games": 121,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Hanwha Life Esports",
+      "league": "LCK",
+      "games": 117,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Nongshim RedForce",
+      "league": "LCK",
+      "games": 117,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "G2 Esports",
+      "league": "LEC",
+      "games": 115,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "LCK",
+      "games": 115,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "HANJIN BRION",
+      "league": "LCK",
+      "games": 113,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "DN SOOPers",
+      "league": "LCK",
+      "games": 109,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "DRX",
+      "league": "LCK",
+      "games": 102,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Fnatic",
+      "league": "LEC",
+      "games": 87,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Karmine Corp",
+      "league": "LEC",
+      "games": 72,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "GiantX",
+      "league": "LEC",
+      "games": 72,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Vitality",
+      "league": "LEC",
+      "games": 68,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Movistar KOI",
+      "league": "LEC",
+      "games": 66,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Heretics",
+      "league": "LEC",
+      "games": 65,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "SK Gaming",
+      "league": "LEC",
+      "games": 60,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "CTBC Flying Oyster",
+      "league": "LCP",
+      "games": 57,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team BDS",
+      "league": "LEC",
+      "games": 56,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Fukuoka SoftBank HAWKS gaming",
+      "league": "LCP",
+      "games": 55,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Secret Whales",
+      "league": "LCP",
+      "games": 52,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "LOUD",
+      "league": "CBLOL",
+      "games": 50,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "MGN Blue Esports",
+      "league": "VCS",
+      "games": 48,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Vivo Keyd Stars",
+      "league": "CBLOL",
+      "games": 47,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "LCS",
+      "games": 47,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "PSG Talon",
+      "league": "LCP",
+      "games": 47,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "CBLOL",
+      "games": 46,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "GAM Esports",
+      "league": "LCP",
+      "games": 43,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Flash",
+      "league": "VCS",
+      "games": 40,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "MAD Lions KOI",
+      "league": "LEC",
+      "games": 38,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "LCS",
+      "games": 38,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Whales",
+      "league": "VCS",
+      "games": 38,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "DetonatioN FocusMe",
+      "league": "LCP",
+      "games": 38,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "MGN Vikings Esports",
+      "league": "LCP",
+      "games": 37,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "paiN Gaming",
+      "league": "CBLOL",
+      "games": 36,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "LCS",
+      "games": 35,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "FURIA",
+      "league": "CBLOL",
+      "games": 34,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "100 Thieves",
+      "league": "LCS",
+      "games": 33,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "MGN Vikings Esports",
+      "league": "VCS",
+      "games": 32,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "LTA N",
+      "games": 32,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Rogue",
+      "league": "LEC",
+      "games": 31,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "GAM Esports",
+      "league": "VCS",
+      "games": 31,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Team Secret",
+      "league": "VCS",
+      "games": 30,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "LOUD",
+      "league": "LTA S",
+      "games": 30,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Dignitas",
+      "league": "LCS",
+      "games": 29,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "CERBERUS Esports",
+      "league": "VCS",
+      "games": 29,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "paiN Gaming",
+      "league": "LTA S",
+      "games": 28,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Vivo Keyd Stars",
+      "league": "LTA S",
+      "games": 28,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "LTA N",
+      "games": 27,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Ground Zero Gaming",
+      "league": "LCP",
+      "games": 27,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Disguised",
+      "league": "LTA N",
+      "games": 26,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Los Grandes",
+      "league": "CBLOL",
+      "games": 25,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Chiefs Esports Club",
+      "league": "LCP",
+      "games": 25,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "FURIA",
+      "league": "LTA S",
+      "games": 25,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Shopify Rebellion",
+      "league": "LTA N",
+      "games": 24,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "LTA N",
+      "games": 24,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "KaBuM! Esports",
+      "league": "CBLOL",
+      "games": 23,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "NRG",
+      "league": "LCS",
+      "games": 23,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Fluxo",
+      "league": "CBLOL",
+      "games": 22,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "LTA S",
+      "games": 22,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "100 Thieves",
+      "league": "LTA N",
+      "games": 22,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Leviatan",
+      "league": "CBLOL",
+      "games": 21,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "LYON",
+      "league": "LCS",
+      "games": 21,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Rainbow Warriors",
+      "league": "VCS",
+      "games": 20,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "LYON",
+      "league": "LTA N",
+      "games": 20,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Dignitas",
+      "league": "LTA N",
+      "games": 20,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "T1",
+      "league": "WLDs",
+      "games": 19,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Leviatan",
+      "league": "LTA S",
+      "games": 19,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Isurus Estral",
+      "league": "LTA S",
+      "games": 19,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Kiwoom DRX",
+      "league": "LCK",
+      "games": 19,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Liberty",
+      "league": "CBLOL",
+      "games": 18,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "INTZ",
+      "league": "CBLOL",
+      "games": 18,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Fluxo W7M",
+      "league": "LTA S",
+      "games": 18,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "WLDs",
+      "games": 17,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Top Esports",
+      "league": "WLDs",
+      "games": 16,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Deep Cross Gaming",
+      "league": "LCP",
+      "games": 16,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "L\u00d8S",
+      "league": "CBLOL",
+      "games": 15,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Shopify Rebellion",
+      "league": "LCS",
+      "games": 14,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Hanwha Life Esports",
+      "league": "WLDs",
+      "games": 14,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Immortals",
+      "league": "LCS",
+      "games": 13,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Bilibili Gaming",
+      "league": "WLDs",
+      "games": 13,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Natus Vincere",
+      "league": "LEC",
+      "games": 13,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Sentinels",
+      "league": "LCS",
+      "games": 13,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Original Gaming",
+      "league": "VCS",
+      "games": 12,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "APOLLO GAMING",
+      "league": "VCS",
+      "games": 12,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "KT Rolster",
+      "league": "WLDs",
+      "games": 12,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Bilibili Gaming",
+      "league": "MSI",
+      "games": 12,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "Americas Cup",
+      "games": 12,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "WLDs",
+      "games": 11,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "100 Thieves",
+      "league": "LTA",
+      "games": 11,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Anyone's Legend",
+      "league": "MSI",
+      "games": 11,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Isurus",
+      "league": "LTA S",
+      "games": 11,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "G2 Esports",
+      "league": "MSI",
+      "games": 10,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "MSI",
+      "games": 10,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "T1",
+      "league": "MSI",
+      "games": 10,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Flamengo MDL",
+      "league": "LTA S",
+      "games": 10,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "G2 Esports",
+      "league": "EWC",
+      "games": 9,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "PSG Talon",
+      "league": "WLDs",
+      "games": 9,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "G2 Esports",
+      "league": "WLDs",
+      "games": 9,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Bilibili Gaming",
+      "league": "FST",
+      "games": 9,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "G2 Esports",
+      "league": "FST",
+      "games": 9,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Saigon Dino",
+      "league": "VCS",
+      "games": 8,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Dplus Kia",
+      "league": "WLDs",
+      "games": 8,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Weibo Gaming",
+      "league": "WLDs",
+      "games": 8,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Karmine Corp",
+      "league": "FST",
+      "games": 8,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Hanwha Life Esports",
+      "league": "FST",
+      "games": 8,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "CTBC Flying Oyster",
+      "league": "WLDs",
+      "games": 8,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "JD Gaming",
+      "league": "FST",
+      "games": 8,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "CYRUS",
+      "league": "VCS",
+      "games": 7,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "T1",
+      "league": "EWC",
+      "games": 7,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "EWC",
+      "games": 7,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Top Esports",
+      "league": "FST",
+      "games": 7,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "GAM Esports",
+      "league": "MSI",
+      "games": 7,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "CTBC Flying Oyster",
+      "league": "MSI",
+      "games": 7,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Luminosity Gaming",
+      "league": "LTA N",
+      "games": 7,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "LYON",
+      "league": "FST",
+      "games": 7,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "MAD Lions KOI",
+      "league": "WLDs",
+      "games": 6,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "GAM Esports",
+      "league": "WLDs",
+      "games": 6,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "WLDs",
+      "games": 6,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "FST",
+      "games": 6,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "CTBC Flying Oyster",
+      "league": "FST",
+      "games": 6,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Farenvehn",
+      "league": "LTA S",
+      "games": 6,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Alpha7 Esports",
+      "league": "LTA S",
+      "games": 6,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Estral Esports",
+      "league": "LTA N",
+      "games": 6,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Fluxo W7M",
+      "league": "CBLOL",
+      "games": 6,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Disguised",
+      "league": "LCS",
+      "games": 6,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "EWC",
+      "games": 5,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "paiN Gaming",
+      "league": "WLDs",
+      "games": 5,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "LTA",
+      "games": 5,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Movistar KOI",
+      "league": "MSI",
+      "games": 5,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Anyone's Legend",
+      "league": "EWC",
+      "games": 5,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Vivo Keyd Stars",
+      "league": "LTA",
+      "games": 5,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Movistar KOI",
+      "league": "WLDs",
+      "games": 5,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Los Ratones",
+      "league": "LEC",
+      "games": 5,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Shifters",
+      "league": "LEC",
+      "games": 5,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "MVK Esports",
+      "league": "LCP",
+      "games": 5,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Sentinels",
+      "league": "Americas Cup",
+      "games": 5,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "BNK FEARX",
+      "league": "FST",
+      "games": 5,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Top Esports",
+      "league": "EWC",
+      "games": 4,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "100 Thieves",
+      "league": "WLDs",
+      "games": 4,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Fnatic",
+      "league": "WLDs",
+      "games": 4,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "FURIA",
+      "league": "MSI",
+      "games": 4,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "FlyQuest",
+      "league": "MSI",
+      "games": 4,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Inferno Esports",
+      "league": "LCP",
+      "games": 4,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Anyone's Legend",
+      "league": "WLDs",
+      "games": 4,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Karmine Corp Blue",
+      "league": "LEC",
+      "games": 4,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "FST",
+      "games": 4,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Bilibili Gaming",
+      "league": "EWC",
+      "games": 3,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "EWC",
+      "games": 3,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Fukuoka SoftBank HAWKS gaming",
+      "league": "WLDs",
+      "games": 3,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "paiN Gaming",
+      "league": "LTA",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "LTA",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Hanwha Life Esports",
+      "league": "EWC",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Movistar KOI",
+      "league": "EWC",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Shopify Rebellion",
+      "league": "LTA",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "LTA",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "SDM Tigres",
+      "league": "LTA N",
+      "games": 3,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Invictus Gaming",
+      "league": "WLDs",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Secret Whales",
+      "league": "WLDs",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Vivo Keyd Stars",
+      "league": "WLDs",
+      "games": 3,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Secret Whales",
+      "league": "FST",
+      "games": 3,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "BNK FEARX",
+      "league": "WLDs",
+      "games": 2,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Movistar R7",
+      "league": "WLDs",
+      "games": 2,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "LNG Esports",
+      "league": "WLDs",
+      "games": 2,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Leviatan",
+      "league": "LTA",
+      "games": 2,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Isurus Estral",
+      "league": "LTA",
+      "games": 2,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "LTA",
+      "games": 2,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "QT DIG\u221e",
+      "league": "LCP",
+      "games": 2,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Saving OCE",
+      "league": "LCP",
+      "games": 2,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Saigon Dino",
+      "league": "LCP",
+      "games": 2,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Conviction",
+      "league": "LTA N",
+      "games": 2,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "Americas Cup",
+      "games": 2,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Fnatic",
+      "league": "EWC",
+      "games": 1,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "MGN Vikings Esports",
+      "league": "WLDs",
+      "games": 1,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "LOUD",
+      "league": "LTA",
+      "games": 1,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "GAM Esports",
+      "league": "EWC",
+      "games": 1,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "EWC",
+      "games": 1,
+      "years": [
+        "2025"
+      ]
+    }
+  ],
+  "gpr_teams": [
+    {
+      "team_name": "Gen.G Esports",
+      "home_league_slug": "lck",
+      "team_id": "100205573495116443",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Hanwha Life Esports",
+      "home_league_slug": "lck",
+      "team_id": "100205573496804586",
+      "snapshots": 64
+    },
+    {
+      "team_name": "FURIA",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "100205576309502431",
+      "snapshots": 64
+    },
+    {
+      "team_name": "DetonatioN FocusMe",
+      "home_league_slug": "lcp",
+      "team_id": "100285330168091787",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Dplus KIA",
+      "home_league_slug": "lck",
+      "team_id": "100725845018863243",
+      "snapshots": 64
+    },
+    {
+      "team_name": "BNK FEARX",
+      "home_league_slug": "lck",
+      "team_id": "100725845022060229",
+      "snapshots": 64
+    },
+    {
+      "team_name": "SK Gaming",
+      "home_league_slug": "lec",
+      "team_id": "101383793567806688",
+      "snapshots": 64
+    },
+    {
+      "team_name": "GIANTX",
+      "home_league_slug": "lec",
+      "team_id": "101383793572656373",
+      "snapshots": 64
+    },
+    {
+      "team_name": "NONGSHIM RED FORCE",
+      "home_league_slug": "lck",
+      "team_id": "102747101565183056",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Movistar KOI",
+      "home_league_slug": "lec",
+      "team_id": "103461966965149786",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Ultra Prime",
+      "home_league_slug": "lpl",
+      "team_id": "103461966986776720",
+      "snapshots": 64
+    },
+    {
+      "team_name": "LOUD",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "105397404796640412",
+      "snapshots": 64
+    },
+    {
+      "team_name": "HANJIN BRION",
+      "home_league_slug": "lck",
+      "team_id": "105505619546859895",
+      "snapshots": 64
+    },
+    {
+      "team_name": "MVK Esports",
+      "home_league_slug": "lcp",
+      "team_id": "107251245690956393",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Shifters",
+      "home_league_slug": "lec",
+      "team_id": "107563714667537640",
+      "snapshots": 64
+    },
+    {
+      "team_name": "LEVIAT\u00c1N",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "107598699275015260",
+      "snapshots": 64
+    },
+    {
+      "team_name": "CTBC Flying Oyster",
+      "home_league_slug": "lcp",
+      "team_id": "107700199633958891",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Fluxo",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "109480056092207899",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Team Heretics",
+      "home_league_slug": "lec",
+      "team_id": "109637393694097670",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Karmine Corp",
+      "home_league_slug": "lec",
+      "team_id": "111692118851466302",
+      "snapshots": 64
+    },
+    {
+      "team_name": "T1",
+      "home_league_slug": "lck",
+      "team_id": "98767991853197861",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Fnatic",
+      "home_league_slug": "lec",
+      "team_id": "98767991866488695",
+      "snapshots": 64
+    },
+    {
+      "team_name": "EDWARD GAMING",
+      "home_league_slug": "lpl",
+      "team_id": "98767991882270868",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Xi'an Team WE",
+      "home_league_slug": "lpl",
+      "team_id": "98767991887166787",
+      "snapshots": 64
+    },
+    {
+      "team_name": "G2 Esports",
+      "home_league_slug": "lec",
+      "team_id": "98767991926151025",
+      "snapshots": 64
+    },
+    {
+      "team_name": "GAM Esports",
+      "home_league_slug": "lcp",
+      "team_id": "98767991954244555",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Team Vitality",
+      "home_league_slug": "lec",
+      "team_id": "99322214695067838",
+      "snapshots": 64
+    },
+    {
+      "team_name": "kt Rolster",
+      "home_league_slug": "lck",
+      "team_id": "99566404579461230",
+      "snapshots": 64
+    },
+    {
+      "team_name": "DN SOOPers",
+      "home_league_slug": "lck",
+      "team_id": "99566404581868574",
+      "snapshots": 64
+    },
+    {
+      "team_name": "KIWOOM DRX",
+      "home_league_slug": "lck",
+      "team_id": "99566404585387054",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Oh My God",
+      "home_league_slug": "lpl",
+      "team_id": "99566404845279652",
+      "snapshots": 64
+    },
+    {
+      "team_name": "LGD GAMING",
+      "home_league_slug": "lpl",
+      "team_id": "99566404846951820",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Invictus Gaming",
+      "home_league_slug": "lpl",
+      "team_id": "99566404848691211",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Suzhou LNG Esports",
+      "home_league_slug": "lpl",
+      "team_id": "99566404850008779",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Beijing JDG Esports",
+      "home_league_slug": "lpl",
+      "team_id": "99566404852189289",
+      "snapshots": 64
+    },
+    {
+      "team_name": "WeiboGaming",
+      "home_league_slug": "lpl",
+      "team_id": "99566404853058754",
+      "snapshots": 64
+    },
+    {
+      "team_name": "BILIBILI GAMING",
+      "home_league_slug": "lpl",
+      "team_id": "99566404853854212",
+      "snapshots": 64
+    },
+    {
+      "team_name": "TOP ESPORTS",
+      "home_league_slug": "lpl",
+      "team_id": "99566404854685458",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Anyone's Legend",
+      "home_league_slug": "lpl",
+      "team_id": "99566404856367466",
+      "snapshots": 64
+    },
+    {
+      "team_name": "paiN Gaming",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "99566408217955692",
+      "snapshots": 64
+    },
+    {
+      "team_name": "Vivo Keyd Stars",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "99566408219409348",
+      "snapshots": 64
+    },
+    {
+      "team_name": "RED Canids Kalunga",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "99566408221961358",
+      "snapshots": 64
+    },
+    {
+      "team_name": "THUNDER TALK GAMING",
+      "home_league_slug": "lpl",
+      "team_id": "101388912911039804",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Shenzhen NINJAS IN PYJAMAS",
+      "home_league_slug": "lpl",
+      "team_id": "101388912914513220",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Shopify Rebellion",
+      "home_league_slug": "lcs",
+      "team_id": "111504538396430510",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Cloud9 Kia",
+      "home_league_slug": "lcs",
+      "team_id": "98767991877340524",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Dignitas",
+      "home_league_slug": "lcs",
+      "team_id": "98926509883054987",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Team Liquid Alienware",
+      "home_league_slug": "lcs",
+      "team_id": "98926509885559666",
+      "snapshots": 63
+    },
+    {
+      "team_name": "FlyQuest",
+      "home_league_slug": "lcs",
+      "team_id": "98926509892121852",
+      "snapshots": 63
+    },
+    {
+      "team_name": "Fukuoka SoftBank HAWKS gaming",
+      "home_league_slug": "lcp",
+      "team_id": "103535282119620510",
+      "snapshots": 59
+    },
+    {
+      "team_name": "Rogue",
+      "home_league_slug": "lec",
+      "team_id": "101383793574360315",
+      "snapshots": 53
+    },
+    {
+      "team_name": "PSG Talon",
+      "home_league_slug": "lcp",
+      "team_id": "104367068120825486",
+      "snapshots": 53
+    },
+    {
+      "team_name": "Royal Never Give Up",
+      "home_league_slug": "lpl",
+      "team_id": "98767991892579754",
+      "snapshots": 53
+    },
+    {
+      "team_name": "100 Thieves",
+      "home_league_slug": "lta_n",
+      "team_id": "99294153828264740",
+      "snapshots": 53
+    },
+    {
+      "team_name": "FunPlus Phoenix",
+      "home_league_slug": "lpl",
+      "team_id": "99566404855553726",
+      "snapshots": 53
+    },
+    {
+      "team_name": "Relove Deep Cross Gaming",
+      "home_league_slug": "lcp",
+      "team_id": "107700204561086446",
+      "snapshots": 38
+    },
+    {
+      "team_name": "LOS",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "109480204628225868",
+      "snapshots": 38
+    },
+    {
+      "team_name": "Disguised",
+      "home_league_slug": "lcs",
+      "team_id": "110428362822825796",
+      "snapshots": 35
+    },
+    {
+      "team_name": "LYON",
+      "home_league_slug": "lcs",
+      "team_id": "99566405941863385",
+      "snapshots": 35
+    },
+    {
+      "team_name": "Ground Zero Gaming",
+      "home_league_slug": "lcp",
+      "team_id": "109675490370327425",
+      "snapshots": 34
+    },
+    {
+      "team_name": "Team Secret Whales",
+      "home_league_slug": "lcp",
+      "team_id": "113661839307879869",
+      "snapshots": 29
+    },
+    {
+      "team_name": "Estral Esports",
+      "home_league_slug": "cd",
+      "team_id": "104841890701948065",
+      "snapshots": 27
+    },
+    {
+      "team_name": "NRG Kia",
+      "home_league_slug": "lcs",
+      "team_id": "106972778172351142",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Saigon Secret",
+      "home_league_slug": "vcs",
+      "team_id": "107251295460371069",
+      "snapshots": 27
+    },
+    {
+      "team_name": "CERBERUS ESPORTS",
+      "home_league_slug": "vcs",
+      "team_id": "107251374793416561",
+      "snapshots": 27
+    },
+    {
+      "team_name": "TP.HCM Team Flash",
+      "home_league_slug": "vcs",
+      "team_id": "107258254469504696",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Six Karma",
+      "home_league_slug": "lla",
+      "team_id": "107581284487120142",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Frank Esports",
+      "home_league_slug": "pcs",
+      "team_id": "107760667929003738",
+      "snapshots": 27
+    },
+    {
+      "team_name": "TEAM WHALES",
+      "home_league_slug": "lcp",
+      "team_id": "108573042084687884",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Team Bliss",
+      "home_league_slug": "pcs",
+      "team_id": "109675484017801229",
+      "snapshots": 27
+    },
+    {
+      "team_name": "HELLPIGS",
+      "home_league_slug": "pcs",
+      "team_id": "109692071893352727",
+      "snapshots": 27
+    },
+    {
+      "team_name": "West Point Esports",
+      "home_league_slug": "pcs",
+      "team_id": "109692074894483834",
+      "snapshots": 27
+    },
+    {
+      "team_name": "MGN Blue Esports",
+      "home_league_slug": "vcs",
+      "team_id": "109828279319224248",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Immortals Progressive",
+      "home_league_slug": "lcs",
+      "team_id": "98767991930907107",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Movistar R7",
+      "home_league_slug": "lla",
+      "team_id": "98767991935149427",
+      "snapshots": 27
+    },
+    {
+      "team_name": "RARE ATOM",
+      "home_league_slug": "lpl",
+      "team_id": "99566404847770461",
+      "snapshots": 27
+    },
+    {
+      "team_name": "J Team",
+      "home_league_slug": "pcs",
+      "team_id": "99566406490127625",
+      "snapshots": 27
+    },
+    {
+      "team_name": "INTZ",
+      "home_league_slug": "cd",
+      "team_id": "99566408217116828",
+      "snapshots": 27
+    },
+    {
+      "team_name": "KaBuM!",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "99566408221114231",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Liberty",
+      "home_league_slug": "cblol-brazil",
+      "team_id": "99566408222831088",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Isurus",
+      "home_league_slug": "lla",
+      "team_id": "99566408358330419",
+      "snapshots": 27
+    },
+    {
+      "team_name": "INFINITY",
+      "home_league_slug": "north_regional_league",
+      "team_id": "99566408562477641",
+      "snapshots": 27
+    },
+    {
+      "team_name": "Isurus",
+      "home_league_slug": "lta_s",
+      "team_id": "113606449173273162",
+      "snapshots": 26
+    },
+    {
+      "team_name": "The Chiefs Esports Club",
+      "home_league_slug": "lcp",
+      "team_id": "99566406332987990",
+      "snapshots": 26
+    },
+    {
+      "team_name": "Natus Vincere",
+      "home_league_slug": "lec",
+      "team_id": "114868016111590239",
+      "snapshots": 11
+    },
+    {
+      "team_name": "Sentinels",
+      "home_league_slug": "lcs",
+      "team_id": "115688562107799886",
+      "snapshots": 10
+    },
+    {
+      "team_name": "QT DIG",
+      "home_league_slug": "ljl-japan",
+      "team_id": "101428372605353526",
+      "snapshots": 9
+    }
+  ],
+  "exact_matches": [
+    {
+      "oe_teamname": "Dplus Kia",
+      "oe_league": "LCK",
+      "oe_games": 141,
+      "gpr_team_name": "Dplus KIA",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100725845018863243"
+    },
+    {
+      "oe_teamname": "T1",
+      "oe_league": "LCK",
+      "oe_games": 125,
+      "gpr_team_name": "T1",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "98767991853197861"
+    },
+    {
+      "oe_teamname": "KT Rolster",
+      "oe_league": "LCK",
+      "oe_games": 125,
+      "gpr_team_name": "kt Rolster",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "99566404579461230"
+    },
+    {
+      "oe_teamname": "BNK FEARX",
+      "oe_league": "LCK",
+      "oe_games": 121,
+      "gpr_team_name": "BNK FEARX",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100725845022060229"
+    },
+    {
+      "oe_teamname": "Hanwha Life Esports",
+      "oe_league": "LCK",
+      "oe_games": 117,
+      "gpr_team_name": "Hanwha Life Esports",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100205573496804586"
+    },
+    {
+      "oe_teamname": "G2 Esports",
+      "oe_league": "LEC",
+      "oe_games": 115,
+      "gpr_team_name": "G2 Esports",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991926151025"
+    },
+    {
+      "oe_teamname": "HANJIN BRION",
+      "oe_league": "LCK",
+      "oe_games": 113,
+      "gpr_team_name": "HANJIN BRION",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "105505619546859895"
+    },
+    {
+      "oe_teamname": "DN SOOPers",
+      "oe_league": "LCK",
+      "oe_games": 109,
+      "gpr_team_name": "DN SOOPers",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "99566404581868574"
+    },
+    {
+      "oe_teamname": "Fnatic",
+      "oe_league": "LEC",
+      "oe_games": 87,
+      "gpr_team_name": "Fnatic",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991866488695"
+    },
+    {
+      "oe_teamname": "Karmine Corp",
+      "oe_league": "LEC",
+      "oe_games": 72,
+      "gpr_team_name": "Karmine Corp",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "111692118851466302"
+    },
+    {
+      "oe_teamname": "GiantX",
+      "oe_league": "LEC",
+      "oe_games": 72,
+      "gpr_team_name": "GIANTX",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "101383793572656373"
+    },
+    {
+      "oe_teamname": "Team Vitality",
+      "oe_league": "LEC",
+      "oe_games": 68,
+      "gpr_team_name": "Team Vitality",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "99322214695067838"
+    },
+    {
+      "oe_teamname": "Movistar KOI",
+      "oe_league": "LEC",
+      "oe_games": 66,
+      "gpr_team_name": "Movistar KOI",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "103461966965149786"
+    },
+    {
+      "oe_teamname": "Team Heretics",
+      "oe_league": "LEC",
+      "oe_games": 65,
+      "gpr_team_name": "Team Heretics",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "109637393694097670"
+    },
+    {
+      "oe_teamname": "SK Gaming",
+      "oe_league": "LEC",
+      "oe_games": 60,
+      "gpr_team_name": "SK Gaming",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "101383793567806688"
+    },
+    {
+      "oe_teamname": "CTBC Flying Oyster",
+      "oe_league": "LCP",
+      "oe_games": 57,
+      "gpr_team_name": "CTBC Flying Oyster",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "107700199633958891"
+    },
+    {
+      "oe_teamname": "Fukuoka SoftBank HAWKS gaming",
+      "oe_league": "LCP",
+      "oe_games": 55,
+      "gpr_team_name": "Fukuoka SoftBank HAWKS gaming",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "103535282119620510"
+    },
+    {
+      "oe_teamname": "Team Secret Whales",
+      "oe_league": "LCP",
+      "oe_games": 52,
+      "gpr_team_name": "Team Secret Whales",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "113661839307879869"
+    },
+    {
+      "oe_teamname": "LOUD",
+      "oe_league": "CBLOL",
+      "oe_games": 50,
+      "gpr_team_name": "LOUD",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "105397404796640412"
+    },
+    {
+      "oe_teamname": "MGN Blue Esports",
+      "oe_league": "VCS",
+      "oe_games": 48,
+      "gpr_team_name": "MGN Blue Esports",
+      "gpr_home_league": "vcs",
+      "gpr_team_id": "109828279319224248"
+    },
+    {
+      "oe_teamname": "Vivo Keyd Stars",
+      "oe_league": "CBLOL",
+      "oe_games": 47,
+      "gpr_team_name": "Vivo Keyd Stars",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408219409348"
+    },
+    {
+      "oe_teamname": "PSG Talon",
+      "oe_league": "LCP",
+      "oe_games": 47,
+      "gpr_team_name": "PSG Talon",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "104367068120825486"
+    },
+    {
+      "oe_teamname": "GAM Esports",
+      "oe_league": "LCP",
+      "oe_games": 43,
+      "gpr_team_name": "GAM Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "98767991954244555"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "LCS",
+      "oe_games": 38,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "Team Whales",
+      "oe_league": "VCS",
+      "oe_games": 38,
+      "gpr_team_name": "TEAM WHALES",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "108573042084687884"
+    },
+    {
+      "oe_teamname": "DetonatioN FocusMe",
+      "oe_league": "LCP",
+      "oe_games": 38,
+      "gpr_team_name": "DetonatioN FocusMe",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "100285330168091787"
+    },
+    {
+      "oe_teamname": "paiN Gaming",
+      "oe_league": "CBLOL",
+      "oe_games": 36,
+      "gpr_team_name": "paiN Gaming",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408217955692"
+    },
+    {
+      "oe_teamname": "FURIA",
+      "oe_league": "CBLOL",
+      "oe_games": 34,
+      "gpr_team_name": "FURIA",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "100205576309502431"
+    },
+    {
+      "oe_teamname": "100 Thieves",
+      "oe_league": "LCS",
+      "oe_games": 33,
+      "gpr_team_name": "100 Thieves",
+      "gpr_home_league": "lta_n",
+      "gpr_team_id": "99294153828264740"
+    },
+    {
+      "oe_teamname": "Rogue",
+      "oe_league": "LEC",
+      "oe_games": 31,
+      "gpr_team_name": "Rogue",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "101383793574360315"
+    },
+    {
+      "oe_teamname": "GAM Esports",
+      "oe_league": "VCS",
+      "oe_games": 31,
+      "gpr_team_name": "GAM Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "98767991954244555"
+    },
+    {
+      "oe_teamname": "LOUD",
+      "oe_league": "LTA S",
+      "oe_games": 30,
+      "gpr_team_name": "LOUD",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "105397404796640412"
+    },
+    {
+      "oe_teamname": "Dignitas",
+      "oe_league": "LCS",
+      "oe_games": 29,
+      "gpr_team_name": "Dignitas",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509883054987"
+    },
+    {
+      "oe_teamname": "CERBERUS Esports",
+      "oe_league": "VCS",
+      "oe_games": 29,
+      "gpr_team_name": "CERBERUS ESPORTS",
+      "gpr_home_league": "vcs",
+      "gpr_team_id": "107251374793416561"
+    },
+    {
+      "oe_teamname": "paiN Gaming",
+      "oe_league": "LTA S",
+      "oe_games": 28,
+      "gpr_team_name": "paiN Gaming",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408217955692"
+    },
+    {
+      "oe_teamname": "Vivo Keyd Stars",
+      "oe_league": "LTA S",
+      "oe_games": 28,
+      "gpr_team_name": "Vivo Keyd Stars",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408219409348"
+    },
+    {
+      "oe_teamname": "Ground Zero Gaming",
+      "oe_league": "LCP",
+      "oe_games": 27,
+      "gpr_team_name": "Ground Zero Gaming",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "109675490370327425"
+    },
+    {
+      "oe_teamname": "Disguised",
+      "oe_league": "LTA N",
+      "oe_games": 26,
+      "gpr_team_name": "Disguised",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "110428362822825796"
+    },
+    {
+      "oe_teamname": "FURIA",
+      "oe_league": "LTA S",
+      "oe_games": 25,
+      "gpr_team_name": "FURIA",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "100205576309502431"
+    },
+    {
+      "oe_teamname": "Shopify Rebellion",
+      "oe_league": "LTA N",
+      "oe_games": 24,
+      "gpr_team_name": "Shopify Rebellion",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "111504538396430510"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "LTA N",
+      "oe_games": 24,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "Fluxo",
+      "oe_league": "CBLOL",
+      "oe_games": 22,
+      "gpr_team_name": "Fluxo",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "109480056092207899"
+    },
+    {
+      "oe_teamname": "100 Thieves",
+      "oe_league": "LTA N",
+      "oe_games": 22,
+      "gpr_team_name": "100 Thieves",
+      "gpr_home_league": "lta_n",
+      "gpr_team_id": "99294153828264740"
+    },
+    {
+      "oe_teamname": "LYON",
+      "oe_league": "LCS",
+      "oe_games": 21,
+      "gpr_team_name": "LYON",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "99566405941863385"
+    },
+    {
+      "oe_teamname": "LYON",
+      "oe_league": "LTA N",
+      "oe_games": 20,
+      "gpr_team_name": "LYON",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "99566405941863385"
+    },
+    {
+      "oe_teamname": "Dignitas",
+      "oe_league": "LTA N",
+      "oe_games": 20,
+      "gpr_team_name": "Dignitas",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509883054987"
+    },
+    {
+      "oe_teamname": "T1",
+      "oe_league": "WLDs",
+      "oe_games": 19,
+      "gpr_team_name": "T1",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "98767991853197861"
+    },
+    {
+      "oe_teamname": "Kiwoom DRX",
+      "oe_league": "LCK",
+      "oe_games": 19,
+      "gpr_team_name": "KIWOOM DRX",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "99566404585387054"
+    },
+    {
+      "oe_teamname": "Liberty",
+      "oe_league": "CBLOL",
+      "oe_games": 18,
+      "gpr_team_name": "Liberty",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408222831088"
+    },
+    {
+      "oe_teamname": "INTZ",
+      "oe_league": "CBLOL",
+      "oe_games": 18,
+      "gpr_team_name": "INTZ",
+      "gpr_home_league": "cd",
+      "gpr_team_id": "99566408217116828"
+    },
+    {
+      "oe_teamname": "Top Esports",
+      "oe_league": "WLDs",
+      "oe_games": 16,
+      "gpr_team_name": "TOP ESPORTS",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404854685458"
+    },
+    {
+      "oe_teamname": "Shopify Rebellion",
+      "oe_league": "LCS",
+      "oe_games": 14,
+      "gpr_team_name": "Shopify Rebellion",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "111504538396430510"
+    },
+    {
+      "oe_teamname": "Hanwha Life Esports",
+      "oe_league": "WLDs",
+      "oe_games": 14,
+      "gpr_team_name": "Hanwha Life Esports",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100205573496804586"
+    },
+    {
+      "oe_teamname": "Bilibili Gaming",
+      "oe_league": "WLDs",
+      "oe_games": 13,
+      "gpr_team_name": "BILIBILI GAMING",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404853854212"
+    },
+    {
+      "oe_teamname": "Natus Vincere",
+      "oe_league": "LEC",
+      "oe_games": 13,
+      "gpr_team_name": "Natus Vincere",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "114868016111590239"
+    },
+    {
+      "oe_teamname": "Sentinels",
+      "oe_league": "LCS",
+      "oe_games": 13,
+      "gpr_team_name": "Sentinels",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "115688562107799886"
+    },
+    {
+      "oe_teamname": "KT Rolster",
+      "oe_league": "WLDs",
+      "oe_games": 12,
+      "gpr_team_name": "kt Rolster",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "99566404579461230"
+    },
+    {
+      "oe_teamname": "Bilibili Gaming",
+      "oe_league": "MSI",
+      "oe_games": 12,
+      "gpr_team_name": "BILIBILI GAMING",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404853854212"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "WLDs",
+      "oe_games": 11,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "100 Thieves",
+      "oe_league": "LTA",
+      "oe_games": 11,
+      "gpr_team_name": "100 Thieves",
+      "gpr_home_league": "lta_n",
+      "gpr_team_id": "99294153828264740"
+    },
+    {
+      "oe_teamname": "Anyone's Legend",
+      "oe_league": "MSI",
+      "oe_games": 11,
+      "gpr_team_name": "Anyone's Legend",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404856367466"
+    },
+    {
+      "oe_teamname": "Isurus",
+      "oe_league": "LTA S",
+      "oe_games": 11,
+      "gpr_team_name": "Isurus",
+      "gpr_home_league": "lta_s",
+      "gpr_team_id": "113606449173273162"
+    },
+    {
+      "oe_teamname": "G2 Esports",
+      "oe_league": "MSI",
+      "oe_games": 10,
+      "gpr_team_name": "G2 Esports",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991926151025"
+    },
+    {
+      "oe_teamname": "T1",
+      "oe_league": "MSI",
+      "oe_games": 10,
+      "gpr_team_name": "T1",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "98767991853197861"
+    },
+    {
+      "oe_teamname": "G2 Esports",
+      "oe_league": "EWC",
+      "oe_games": 9,
+      "gpr_team_name": "G2 Esports",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991926151025"
+    },
+    {
+      "oe_teamname": "PSG Talon",
+      "oe_league": "WLDs",
+      "oe_games": 9,
+      "gpr_team_name": "PSG Talon",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "104367068120825486"
+    },
+    {
+      "oe_teamname": "G2 Esports",
+      "oe_league": "WLDs",
+      "oe_games": 9,
+      "gpr_team_name": "G2 Esports",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991926151025"
+    },
+    {
+      "oe_teamname": "Bilibili Gaming",
+      "oe_league": "FST",
+      "oe_games": 9,
+      "gpr_team_name": "BILIBILI GAMING",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404853854212"
+    },
+    {
+      "oe_teamname": "G2 Esports",
+      "oe_league": "FST",
+      "oe_games": 9,
+      "gpr_team_name": "G2 Esports",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991926151025"
+    },
+    {
+      "oe_teamname": "Dplus Kia",
+      "oe_league": "WLDs",
+      "oe_games": 8,
+      "gpr_team_name": "Dplus KIA",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100725845018863243"
+    },
+    {
+      "oe_teamname": "Karmine Corp",
+      "oe_league": "FST",
+      "oe_games": 8,
+      "gpr_team_name": "Karmine Corp",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "111692118851466302"
+    },
+    {
+      "oe_teamname": "Hanwha Life Esports",
+      "oe_league": "FST",
+      "oe_games": 8,
+      "gpr_team_name": "Hanwha Life Esports",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100205573496804586"
+    },
+    {
+      "oe_teamname": "CTBC Flying Oyster",
+      "oe_league": "WLDs",
+      "oe_games": 8,
+      "gpr_team_name": "CTBC Flying Oyster",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "107700199633958891"
+    },
+    {
+      "oe_teamname": "T1",
+      "oe_league": "EWC",
+      "oe_games": 7,
+      "gpr_team_name": "T1",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "98767991853197861"
+    },
+    {
+      "oe_teamname": "Top Esports",
+      "oe_league": "FST",
+      "oe_games": 7,
+      "gpr_team_name": "TOP ESPORTS",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404854685458"
+    },
+    {
+      "oe_teamname": "GAM Esports",
+      "oe_league": "MSI",
+      "oe_games": 7,
+      "gpr_team_name": "GAM Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "98767991954244555"
+    },
+    {
+      "oe_teamname": "CTBC Flying Oyster",
+      "oe_league": "MSI",
+      "oe_games": 7,
+      "gpr_team_name": "CTBC Flying Oyster",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "107700199633958891"
+    },
+    {
+      "oe_teamname": "LYON",
+      "oe_league": "FST",
+      "oe_games": 7,
+      "gpr_team_name": "LYON",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "99566405941863385"
+    },
+    {
+      "oe_teamname": "GAM Esports",
+      "oe_league": "WLDs",
+      "oe_games": 6,
+      "gpr_team_name": "GAM Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "98767991954244555"
+    },
+    {
+      "oe_teamname": "CTBC Flying Oyster",
+      "oe_league": "FST",
+      "oe_games": 6,
+      "gpr_team_name": "CTBC Flying Oyster",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "107700199633958891"
+    },
+    {
+      "oe_teamname": "Estral Esports",
+      "oe_league": "LTA N",
+      "oe_games": 6,
+      "gpr_team_name": "Estral Esports",
+      "gpr_home_league": "cd",
+      "gpr_team_id": "104841890701948065"
+    },
+    {
+      "oe_teamname": "Disguised",
+      "oe_league": "LCS",
+      "oe_games": 6,
+      "gpr_team_name": "Disguised",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "110428362822825796"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "EWC",
+      "oe_games": 5,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "paiN Gaming",
+      "oe_league": "WLDs",
+      "oe_games": 5,
+      "gpr_team_name": "paiN Gaming",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408217955692"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "LTA",
+      "oe_games": 5,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "Movistar KOI",
+      "oe_league": "MSI",
+      "oe_games": 5,
+      "gpr_team_name": "Movistar KOI",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "103461966965149786"
+    },
+    {
+      "oe_teamname": "Anyone's Legend",
+      "oe_league": "EWC",
+      "oe_games": 5,
+      "gpr_team_name": "Anyone's Legend",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404856367466"
+    },
+    {
+      "oe_teamname": "Vivo Keyd Stars",
+      "oe_league": "LTA",
+      "oe_games": 5,
+      "gpr_team_name": "Vivo Keyd Stars",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408219409348"
+    },
+    {
+      "oe_teamname": "Movistar KOI",
+      "oe_league": "WLDs",
+      "oe_games": 5,
+      "gpr_team_name": "Movistar KOI",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "103461966965149786"
+    },
+    {
+      "oe_teamname": "Shifters",
+      "oe_league": "LEC",
+      "oe_games": 5,
+      "gpr_team_name": "Shifters",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "107563714667537640"
+    },
+    {
+      "oe_teamname": "MVK Esports",
+      "oe_league": "LCP",
+      "oe_games": 5,
+      "gpr_team_name": "MVK Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "107251245690956393"
+    },
+    {
+      "oe_teamname": "Sentinels",
+      "oe_league": "Americas Cup",
+      "oe_games": 5,
+      "gpr_team_name": "Sentinels",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "115688562107799886"
+    },
+    {
+      "oe_teamname": "BNK FEARX",
+      "oe_league": "FST",
+      "oe_games": 5,
+      "gpr_team_name": "BNK FEARX",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100725845022060229"
+    },
+    {
+      "oe_teamname": "Top Esports",
+      "oe_league": "EWC",
+      "oe_games": 4,
+      "gpr_team_name": "TOP ESPORTS",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404854685458"
+    },
+    {
+      "oe_teamname": "100 Thieves",
+      "oe_league": "WLDs",
+      "oe_games": 4,
+      "gpr_team_name": "100 Thieves",
+      "gpr_home_league": "lta_n",
+      "gpr_team_id": "99294153828264740"
+    },
+    {
+      "oe_teamname": "Fnatic",
+      "oe_league": "WLDs",
+      "oe_games": 4,
+      "gpr_team_name": "Fnatic",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991866488695"
+    },
+    {
+      "oe_teamname": "FURIA",
+      "oe_league": "MSI",
+      "oe_games": 4,
+      "gpr_team_name": "FURIA",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "100205576309502431"
+    },
+    {
+      "oe_teamname": "FlyQuest",
+      "oe_league": "MSI",
+      "oe_games": 4,
+      "gpr_team_name": "FlyQuest",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "98926509892121852"
+    },
+    {
+      "oe_teamname": "Anyone's Legend",
+      "oe_league": "WLDs",
+      "oe_games": 4,
+      "gpr_team_name": "Anyone's Legend",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404856367466"
+    },
+    {
+      "oe_teamname": "Bilibili Gaming",
+      "oe_league": "EWC",
+      "oe_games": 3,
+      "gpr_team_name": "BILIBILI GAMING",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404853854212"
+    },
+    {
+      "oe_teamname": "Fukuoka SoftBank HAWKS gaming",
+      "oe_league": "WLDs",
+      "oe_games": 3,
+      "gpr_team_name": "Fukuoka SoftBank HAWKS gaming",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "103535282119620510"
+    },
+    {
+      "oe_teamname": "paiN Gaming",
+      "oe_league": "LTA",
+      "oe_games": 3,
+      "gpr_team_name": "paiN Gaming",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408217955692"
+    },
+    {
+      "oe_teamname": "Hanwha Life Esports",
+      "oe_league": "EWC",
+      "oe_games": 3,
+      "gpr_team_name": "Hanwha Life Esports",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100205573496804586"
+    },
+    {
+      "oe_teamname": "Movistar KOI",
+      "oe_league": "EWC",
+      "oe_games": 3,
+      "gpr_team_name": "Movistar KOI",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "103461966965149786"
+    },
+    {
+      "oe_teamname": "Shopify Rebellion",
+      "oe_league": "LTA",
+      "oe_games": 3,
+      "gpr_team_name": "Shopify Rebellion",
+      "gpr_home_league": "lcs",
+      "gpr_team_id": "111504538396430510"
+    },
+    {
+      "oe_teamname": "Invictus Gaming",
+      "oe_league": "WLDs",
+      "oe_games": 3,
+      "gpr_team_name": "Invictus Gaming",
+      "gpr_home_league": "lpl",
+      "gpr_team_id": "99566404848691211"
+    },
+    {
+      "oe_teamname": "Team Secret Whales",
+      "oe_league": "WLDs",
+      "oe_games": 3,
+      "gpr_team_name": "Team Secret Whales",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "113661839307879869"
+    },
+    {
+      "oe_teamname": "Vivo Keyd Stars",
+      "oe_league": "WLDs",
+      "oe_games": 3,
+      "gpr_team_name": "Vivo Keyd Stars",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "99566408219409348"
+    },
+    {
+      "oe_teamname": "Team Secret Whales",
+      "oe_league": "FST",
+      "oe_games": 3,
+      "gpr_team_name": "Team Secret Whales",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "113661839307879869"
+    },
+    {
+      "oe_teamname": "BNK FEARX",
+      "oe_league": "WLDs",
+      "oe_games": 2,
+      "gpr_team_name": "BNK FEARX",
+      "gpr_home_league": "lck",
+      "gpr_team_id": "100725845022060229"
+    },
+    {
+      "oe_teamname": "Movistar R7",
+      "oe_league": "WLDs",
+      "oe_games": 2,
+      "gpr_team_name": "Movistar R7",
+      "gpr_home_league": "lla",
+      "gpr_team_id": "98767991935149427"
+    },
+    {
+      "oe_teamname": "Fnatic",
+      "oe_league": "EWC",
+      "oe_games": 1,
+      "gpr_team_name": "Fnatic",
+      "gpr_home_league": "lec",
+      "gpr_team_id": "98767991866488695"
+    },
+    {
+      "oe_teamname": "LOUD",
+      "oe_league": "LTA",
+      "oe_games": 1,
+      "gpr_team_name": "LOUD",
+      "gpr_home_league": "cblol-brazil",
+      "gpr_team_id": "105397404796640412"
+    },
+    {
+      "oe_teamname": "GAM Esports",
+      "oe_league": "EWC",
+      "oe_games": 1,
+      "gpr_team_name": "GAM Esports",
+      "gpr_home_league": "lcp",
+      "gpr_team_id": "98767991954244555"
+    }
+  ],
+  "oe_unmatched_geq_20": [
+    {
+      "teamname": "Nongshim RedForce",
+      "league": "LCK",
+      "games": 117,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Gen.G",
+      "league": "LCK",
+      "games": 115,
+      "years": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "DRX",
+      "league": "LCK",
+      "games": 102,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team BDS",
+      "league": "LEC",
+      "games": 56,
+      "years": [
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "LCS",
+      "games": 47,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "CBLOL",
+      "games": 46,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Team Flash",
+      "league": "VCS",
+      "games": 40,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "MAD Lions KOI",
+      "league": "LEC",
+      "games": 38,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "MGN Vikings Esports",
+      "league": "LCP",
+      "games": 37,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "LCS",
+      "games": 35,
+      "years": [
+        "2024",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "MGN Vikings Esports",
+      "league": "VCS",
+      "games": 32,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Cloud9",
+      "league": "LTA N",
+      "games": 32,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Team Secret",
+      "league": "VCS",
+      "games": 30,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Team Liquid",
+      "league": "LTA N",
+      "games": 27,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Los Grandes",
+      "league": "CBLOL",
+      "games": 25,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "Chiefs Esports Club",
+      "league": "LCP",
+      "games": 25,
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "teamname": "KaBuM! Esports",
+      "league": "CBLOL",
+      "games": 23,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "NRG",
+      "league": "LCS",
+      "games": 23,
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "teamname": "RED Canids",
+      "league": "LTA S",
+      "games": 22,
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "teamname": "Leviatan",
+      "league": "CBLOL",
+      "games": 21,
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "teamname": "Rainbow Warriors",
+      "league": "VCS",
+      "games": 20,
+      "years": [
+        "2024"
+      ]
+    }
+  ]
+}
