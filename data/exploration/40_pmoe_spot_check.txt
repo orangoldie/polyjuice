@@ -1,0 +1,69 @@
+ok joined rows: 1717
+
+================================================================================
+SAMPLE 1
+================================================================================
+
+--- POLYMARKET SIDE ---
+  condition_id : 0x98aeda123571f3b38ef8e0cf47e06a66656d533bd8d76f4641c6202d0227ad9d
+  event_slug   : lol-baam-anb-2026-02-12
+  match_date   : 2026-02-12
+  game_number  : 1
+  outcome_0    : 'Baam Esports'
+  outcome_1    : 'Anubis Gaming'
+  n_trades     : 23
+  first trade  : 2026-02-12 15:29:53+00:00  price=0.45  side=BUY  outcome_idx=1
+  last trade   : 2026-02-12 20:53:03+00:00 price=0.999  side=SELL  outcome_idx=1
+  price range  : [0.001, 0.999]
+
+--- OE SIDE ---
+  oe_gameid    : LOLTMNT05_176461
+  league       : AL (2026 Winter)
+  oe_date      : 2026-02-12 16:07:19 (UTC)
+  patch        : 16.03
+  gamelength   : 2377s (39.6 min)
+  Blue  Anubis Gaming                       WON
+  Red   BAAM Esports                        lost
+
+--- ALIGNMENT CHECK ---
+  pm teams (resolved): {'BAAM Esports', 'Anubis Gaming'}
+  oe teams           : {'Anubis Gaming', 'BAAM Esports'}
+  match              : True
+  pm match_date      : 2026-02-12
+  oe date_day        : 2026-02-12
+  pm game_number     : 1
+  oe game            : 1
+
+================================================================================
+SAMPLE 2
+================================================================================
+
+--- POLYMARKET SIDE ---
+  condition_id : 0xad2746537553147ea2331ed2dc4a3cc107b47420b06f88f79f84295cde9ac025
+  event_slug   : lol-cnv-wu-2026-04-22
+  match_date   : 2026-04-22
+  game_number  : 2
+  outcome_0    : 'Conviction'
+  outcome_1    : 'Winthrop University'
+  n_trades     : 214
+  first trade  : 2026-04-22 22:55:22+00:00  price=0.3399998921950904  side=BUY  outcome_idx=1
+  last trade   : 2026-04-23 00:47:06+00:00 price=0.999  side=SELL  outcome_idx=1
+  price range  : [0.001, 0.999]
+
+--- OE SIDE ---
+  oe_gameid    : LOLTMNT02_384692
+  league       : NACL (2026 Spring)
+  oe_date      : 2026-04-22 23:24:35 (UTC)
+  patch        : 16.08
+  gamelength   : 2659s (44.3 min)
+  Blue  Conviction                          lost
+  Red   Winthrop University                 WON
+
+--- ALIGNMENT CHECK ---
+  pm teams (resolved): {'Conviction', 'Winthrop University'}
+  oe teams           : {'Conviction', 'Winthrop University'}
+  match              : True
+  pm match_date      : 2026-04-22
+  oe date_day        : 2026-04-22
+  pm game_number     : 2
+  oe game            : 2

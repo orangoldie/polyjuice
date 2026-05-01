@@ -1,0 +1,42 @@
+sample rows:
+                                                     question  game_number            outcome_0                   outcome_1 fetch_status
+0      LoL: KT Rolster vs Hanwha Life Esports - Game 1 Winner            1           KT Rolster         Hanwha Life Esports           ok
+1      LoL: KT Rolster vs Hanwha Life Esports - Game 2 Winner            2           KT Rolster         Hanwha Life Esports           ok
+2               LoL: Nongshim Red Force vs T1 - Game 1 Winner            1   Nongshim Red Force                          T1           ok
+3               LoL: Nongshim Red Force vs T1 - Game 2 Winner            2   Nongshim Red Force                          T1           ok
+4   LoL: Uwinks vs DetonatioN FocusMe Academy - Game 1 Winner            1               Uwinks  DetonatioN FocusMe Academy           ok
+5   LoL: Uwinks vs DetonatioN FocusMe Academy - Game 2 Winner            2               Uwinks  DetonatioN FocusMe Academy           ok
+6      LoL: RMD Gaming vs paiN Gaming Academy - Game 1 Winner            1           RMD Gaming         paiN Gaming Academy           ok
+7      LoL: RMD Gaming vs paiN Gaming Academy - Game 2 Winner            2           RMD Gaming         paiN Gaming Academy           ok
+8      LoL: RMD Gaming vs paiN Gaming Academy - Game 3 Winner            3           RMD Gaming         paiN Gaming Academy           ok
+9      LoL: RMD Gaming vs paiN Gaming Academy - Game 4 Winner            4           RMD Gaming         paiN Gaming Academy           ok
+10               LoL: FlyQuest vs Team Liquid - Game 2 Winner            2             FlyQuest                 Team Liquid           ok
+11               LoL: FlyQuest vs Team Liquid - Game 1 Winner            1             FlyQuest                 Team Liquid           ok
+12           LoL: Once Upon A Team vs Dynasty - Game 2 Winner            2     Once Upon A Team                     Dynasty           ok
+13           LoL: Once Upon A Team vs Dynasty - Game 1 Winner            1     Once Upon A Team                     Dynasty           ok
+14    LoL: Frites Esports Club vs The Bandits - Game 2 Winner            2  Frites Esports Club                 The Bandits           ok
+
+unique outcome strings: 218
+exact normalized match to OE: 198 / 218
+misses: 20
+sample misses (first 40):
+  'A One Man Army Esports Prime'
+  'BIG'
+  'DN Freecs'
+  'FURIA Esports'
+  'GIANTX PRIDE'
+  'LOS'
+  'Leviatan Esports'
+  'NRG Esports'
+  'OKSavingsBank BRION'
+  'Orbit Anonymo'
+  'PCIFIC '
+  'Periquitos Zangados'
+  'Senshi Esports Club'
+  'Skillcamp Esport'
+  'T1 Academy'
+  'TQ DURPA KASHLQ'
+  'The Otter Side'
+  'The Secret Club Esport'
+  'UCAM Esports Club'
+  'devils.one x KMT'

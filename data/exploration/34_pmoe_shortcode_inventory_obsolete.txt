@@ -1,0 +1,68 @@
+events with >=1 ok market: 880 / 880
+unique shortcodes: 209
+total team-event slots: 1760
+
+top 30 by event-frequency:
+  jdg            32
+  ig1            28
+  blg            28
+  we             26
+  tes            26
+  wb             24
+  al             23
+  nip            23
+  omg            23
+  gen            21
+  fox1           21
+  dk             21
+  t1             20
+  drxc           20
+  lng            20
+  t1a            19
+  nsea           19
+  dnf            19
+  hle1           18
+  ns             18
+  hle            18
+  lgd            18
+  drx            18
+  kt             17
+  ktc            17
+  tsw            17
+  c9             17
+  dnsc           16
+  sen            16
+  ly             16
+
+shortcodes appearing in only 1 event (long tail):
+  count: 27
+  sample: ['uwinks', 'dfma', 'ts3', 'nerd', 'she1', 'ae2', 'bg2', 'vdn', 'rg4', 'clo', 'elg', 'pzg', 'gls', 'cda', 'fcn2', 'jl', 'sc', 'esba', 'vfb', 'zena', 'dg', 'obf', 'gm1', 'aoma', 'axl', '100', 'tln']
+
+OE distinct teamnames (2024-2026): 820
+
+auto-match results across 209 shortcodes:
+  unambiguous: 48
+  ambiguous:   62
+  unmatched:   99
+
+events where BOTH shortcodes auto-resolved: 44 / 880 (5.0%)
+
+sample ambiguous (first 15):
+  kt         -> ['Galakticos', 'KT Rolster Challengers', 'Beşiktaş Esports', "UnlockTan'i", 'Waia Snikt']
+  ns         -> ["Dragoon's Goons", 'Zenshi Gaming', 'MAD Lions KOI', 'Team Insidious', 'Galions']
+  fly        -> ['CTBC Flying Oyster', 'CTBC Flying Oyster Academy', 'FlyQuest NZXT', 'FLY5', 'Guangdong Flying Tigers']
+  al         -> ['Leões Porto Salvo Esports', 'Kiwoom DRX Challengers', 'Hungkuang Falcon (弘光獵鷹)', 'Mental Over Tempo', 'KrabbelGruppeAlpha']
+  drxc       -> ['Kiwoom DRX Challengers', 'DRX', 'DRX Challengers']
+  nerd       -> ['Ei Nerd Esports', "Nerd's Gangster's Carecas"]
+  ewi        -> ['Austrian Force willhaben', 'E WIE EINFACH E-SPORTS', 'For The Win Esports']
+  genga      -> ['Oxygen Gaming', 'Gen.G']
+  sen        -> ['Senshi eSports', 'Sengoku Gaming Academy', 'Sentinels']
+  ly         -> ['LYON', 'CTBC Flying Oyster', 'SPAXFAMILY', 'CTBC Flying Oyster Academy', 'BraVeLY']
+  lev        -> ['Leviatan', 'Next Level Esports']
+  fur        -> ['FURY Global', 'Eintracht Frankfurt', 'FURIA Youth', 'FURIA', 'NORTHS FURY']
+  mvk        -> ['MVK Esports', 'MVK Esports Academy']
+  gen        -> ['Gen.G Scholars', 'Evil genius', 'Gentle Mates', 'Oxygen Gaming', "Anyone's Legend"]
+  up         -> ['KrabbelGruppeAlpha', 'Never Give Up', 'Lupus Esports', 'Papara SuperMassive', 'Supernova']
+
+sample unmatched (first 30):
+  ['hle1', 'dfma', 'pnga', 'tl2', 'dyn1', 'ban2', 'ktc', 'ig1', 'foxy', 'ts3', 'use1', 'khk', 'dnsc', 'dkc', 'nsea', 'bro1', 'hle', 'vks', 'kc', 'fnc', 'lll', 'shft', 'navi', 'wb', 'blg', 'cfo', 'fox1', 'png1', 'fxw7', 'gz']

@@ -1,0 +1,25 @@
+series-length distribution (max game in a series):
+game
+1    1856
+2    1398
+3    1148
+4     282
+5     190
+
+--- WLDs 2025-09-25 ('Invictus Gaming', 'Top Esports') ---
+  game=1  gameid=12836-12836_game_1
+  game=2  gameid=12836-12836_game_2
+  game=3  gameid=12836-12836_game_3
+  game=4  gameid=12836-12836_game_4
+
+--- WLDs 2025-09-26 ('JD Gaming', 'Weibo Gaming') ---
+  game=1  gameid=12837-12837_game_1
+  game=2  gameid=12837-12837_game_2
+  game=3  gameid=12837-12837_game_3
+  game=4  gameid=12837-12837_game_4
+
+--- WLDs 2025-09-27 ('Invictus Gaming', 'JD Gaming') ---
+  game=1  gameid=12838-12838_game_1
+  game=2  gameid=12838-12838_game_2
+  game=3  gameid=12838-12838_game_3
+  game=4  gameid=12838-12838_game_4

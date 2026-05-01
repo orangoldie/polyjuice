@@ -7,6 +7,12 @@ data/gpr/raw/
 # Pipeline intermediates — reproducible via `python scripts/build_dataset.py`
 data/processed/
 
+# Polymarket trade dump — large, reproducible via `python scripts/polymarket/dump_trades.py`
+data/polymarket/
+
+# Livestats frame cache — large, reproducible via scripts/exploration/32_livestats_firsts_timing.py
+data/exploration/livestats_frames/
+
 # Model artifacts — regenerable from code + data/processed/
 data/models/
 
