@@ -26,7 +26,7 @@ Temporal split:
 Derived from the stage-4 checkpoint schema, with the collinear `*diffat{T}` columns dropped (see below). For checkpoint T:
 
 - **Numeric (standardized):** the 8 raw/opp stats — `goldat{T}, opp_goldat{T}, csat{T}, opp_csat{T}, killsat{T}, opp_killsat{T}, assistsat{T}, opp_assistsat{T}`.
-- **Binary (as-is):** `side_is_blue` (1 if `side == "Blue"`, else 0), plus the gated first-event flags (`firstblood` always; `firstdragon` and `firsttower` at T≥15; `firstbaron` at T=25).
+- **Binary (as-is):** `side_is_blue` (1 if `side == "Blue"`, else 0), plus the gated first-event flags (`firstblood` and `firstdragon` always; `firsttower` at T ≥ 20; `firstbaron` excluded entirely). Gates were realigned 2026-05-03 against direct livestats timing measurements (`docs/specs/livestats-firsts-timing.md`); see `preprocessing-pipeline.md` for the per-checkpoint table and rationale.
 - **Categorical (one-hot, S as baseline):** `tier` → `tier_A`, `tier_B`. Implemented via `pd.Categorical(tier, categories=["S","A","B"])` then `pd.get_dummies(..., drop_first=True)`; plain `drop_first=True` on the raw string column drops alphabetically-first (A), which is not what we want.
 
 Identifiers (`gameid`, `date`, `year`, `league`, `patch`, `teamname`, `opp_teamname`) and `gamelength` are not fed to the model.

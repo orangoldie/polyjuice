@@ -126,11 +126,17 @@ Validators run at the end of each stage's main, before writing output. A failing
 | Feature      | T=10 | T=15 | T=20 | T=25 |
 |--------------|:----:|:----:|:----:|:----:|
 | `firstblood` |  ✅  |  ✅  |  ✅  |  ✅  |
-| `firstdragon`|  ❌  |  ✅  |  ✅  |  ✅  |
-| `firsttower` |  ❌  |  ✅  |  ✅  |  ✅  |
-| `firstbaron` |  ❌  |  ❌  |  ❌  |  ✅  |
+| `firstdragon`|  ✅  |  ✅  |  ✅  |  ✅  |
+| `firsttower` |  ❌  |  ❌  |  ✅  |  ✅  |
+| `firstbaron` |  ❌  |  ❌  |  ❌  |  ❌  |
 
-Gates reflect per-checkpoint resolution rates — e.g. firstdragon is only ~50% resolved by min 10 (train/inference mismatch), firstbaron isn't 50%+ resolved until min 25.
+Gates reflect per-checkpoint resolution rates measured directly via the lolesports livestats API (see `docs/specs/livestats-firsts-timing.md` and `data/exploration/32_livestats_firsts_timing.json`):
+
+- `firstdragon` resolves by min 10 in ~75% of S-tier games — acceptable, gated in from T=10.
+- `firsttower` resolves by min 15 in only ~22% (78% leakage) — excluded until T=20.
+- `firstbaron` resolves by min 25 in only ~19% (81% leakage) — excluded entirely. Including it would mean training on the post-game OE boolean (which encodes "team that eventually took first baron"), then in production needing to either fabricate the value or accept that 81% of inferences would have a feature that doesn't reflect minute-25 reality. Either path silently miscalibrates the live model.
+
+The 2026-05-03 realignment cost ~0.016 Brier at T=25 on the production held-out set (vs. the prior leak-inclusive gates), but only ~0.004 ECE — i.e. most of the regression was loss of (leakage-fueled) sharpness, not loss of calibration. Net gain at T=10 was both: −0.006 Brier and −0.011 ECE from adding `firstdragon`.
 
 **Validator checks:** per-T schema exact (no missing, no extras); no NaN in any kept column; `side`, `tier`, `result`, gated `firstX` domain checks.
 

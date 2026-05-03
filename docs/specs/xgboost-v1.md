@@ -43,7 +43,7 @@ Per checkpoint T, the model consumes:
 
 - **Numeric (12 cols):** the full `{raw, opp, diff}` triple for each of `gold`, `cs`, `kills`, `assists` at minute T.
 - **Categorical (native):** `side` ∈ {Blue, Red}, `tier` ∈ {S, A, B}. Fed via xgboost native categorical support (`enable_categorical=True`), not one-hot.
-- **Binary:** gated first-event flags — `firstblood` always; `firstdragon`, `firsttower` at T ≥ 15; `firstbaron` at T = 25.
+- **Binary:** gated first-event flags — `firstblood` and `firstdragon` always; `firsttower` at T ≥ 20; `firstbaron` excluded entirely. Gates were realigned 2026-05-03 against direct livestats timing measurements (`docs/specs/livestats-firsts-timing.md`); see `preprocessing-pipeline.md` for the per-checkpoint table and rationale.
 
 Identifiers (`gameid, date, year, league, patch, teamname, opp_teamname`) and `gamelength` are not fed to the model.
 

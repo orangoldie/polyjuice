@@ -10,10 +10,14 @@ For each T in {10, 15, 20, 25}:
     + identifiers + gamelength + label,
   - write data/processed/checkpoint_{T}.csv and validate it.
 
-First-event gates (per A3 in discovery-checklist.md):
-  - firstblood at every checkpoint,
-  - firstdragon, firsttower at 15/20/25,
-  - firstbaron at 25 only.
+First-event gates (realigned 2026-05-03 against direct livestats timing
+measurements — see docs/specs/livestats-firsts-timing.md and
+data/exploration/32_livestats_firsts_timing.json):
+  - firstblood, firstdragon at every checkpoint,
+  - firsttower at 20/25 only (78% leakage at min 15),
+  - firstbaron excluded entirely (81% leakage at min 25).
+The per-checkpoint table and the calibration tradeoff measured against the
+2026 holdout are documented in docs/specs/preprocessing-pipeline.md.
 
 Input:  data/processed/03_features.csv
 Output: data/processed/checkpoint_{10,15,20,25}.csv
