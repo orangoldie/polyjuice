@@ -1,0 +1,66 @@
+joined ok markets: 1743
+with OE meta: 1743
+streaming trades.csv...
+fills loaded: 1004821
+computing first_pin per market...
+markets analyzed: 1743  with first_pin: 1714
+cleanly resolved (>=20 fills, pinned): 1478
+
+=== overall offset_s = first_pin - (oe_date + gamelength) ===
+  n=1478  mean=+1068.1s  median=+62.5s
+  p05=-214.0  p25=-13.0  p75=+283.0  p95=+1825.7
+  |offset|<=  30s:  28.0%
+  |offset|<=  60s:  36.9%
+  |offset|<= 120s:  47.3%
+  |offset|<= 300s:  73.7%
+
+=== per-league offset_s distribution ===
+      league |    n |    mean |     med |     p25 |     p75 |  |<=60s| |  |<=300s|
+          AC |   15 |   +67.1 |   +60.0 |   +20.0 |   +88.5 |    46.7% |    100.0%
+          AL |   22 | +2997.3 |  +589.5 |  +443.5 | +2251.0 |     4.5% |     18.2%
+       CBLOL |   68 |  +111.6 |   +36.0 |   +10.8 |  +156.5 |    51.5% |     89.7%
+          CD |    7 | +2360.9 |  +450.0 |  +234.5 |  +541.0 |    14.3% |     28.6%
+        DCup |   63 |  +474.4 |  +297.0 |  +170.5 |  +723.0 |     4.8% |     50.8%
+         EBL |    6 | +8666.2 | +7975.5 | +4156.8 | +10367.0 |     0.0% |      0.0%
+          EM |   68 |  +288.4 |  +108.0 |   +15.8 |  +326.5 |    33.8% |     72.1%
+         EWC |   28 |  +539.2 |  +208.5 |  +152.8 |  +312.5 |    10.7% |     71.4%
+         FST |   36 |  +417.4 |   -23.5 |  -140.8 |   +13.0 |    44.4% |     72.2%
+         HLL |   16 |  +996.8 |  +204.0 |   +95.2 |  +393.2 |    18.8% |     68.8%
+          HW |   20 |  +993.9 |  +330.5 |  +121.0 |  +893.2 |     5.0% |     40.0%
+       KeSPA |   14 |  +728.6 |  +146.5 |    -2.0 |  +532.5 |    28.6% |     64.3%
+         LCK |  126 |    -3.0 |    -7.0 |   -68.5 |   +64.2 |    49.2% |     94.4%
+        LCKC |  153 |  +433.1 |   +33.0 |    -5.0 |  +189.0 |    43.1% |     80.4%
+         LCP |  112 |   +33.4 |    -3.5 |   -39.8 |   +50.2 |    52.7% |     88.4%
+         LCS |   72 |   +44.9 |    -1.5 |   -22.2 |  +168.0 |    51.4% |     91.7%
+         LEC |   93 |  +121.0 |   +17.0 |   -15.0 |  +194.0 |    46.2% |     81.7%
+         LES |   33 |  +299.2 |  +295.0 |  +121.0 |  +389.0 |    18.2% |     51.5%
+         LFL |   11 |  +117.5 |   +10.0 |  -158.0 |  +337.0 |    27.3% |     54.5%
+         LIT |   25 | +2704.3 |  +505.0 |  +225.0 | +1416.0 |     8.0% |     28.0%
+         LPL |  218 | +2382.4 |   -11.0 |   -34.8 |   +98.5 |    54.1% |     88.1%
+       LPLOL |   16 |  +324.9 |  +246.0 |  +147.0 |  +403.2 |     6.2% |     62.5%
+        NACL |   51 |  +180.1 |   +73.0 |   +24.0 |  +180.5 |    41.2% |     82.4%
+         NLC |    5 |  +352.6 |  +218.0 |   +83.0 |  +514.0 |    20.0% |     60.0%
+         PRM |   34 |  +981.6 |  +173.5 |   +20.2 |  +403.2 |    29.4% |     61.8%
+          RL |   17 |  +349.9 |  +337.0 |  +175.0 |  +557.0 |     5.9% |     47.1%
+         ROL |   43 | +8988.2 |  +431.0 |  +241.5 |  +905.5 |     0.0% |     27.9%
+         TCL |   65 | +1591.6 |  +366.0 |  +198.0 |  +655.0 |     4.6% |     38.5%
+        WLDs |   33 |  +458.9 |    +5.0 |   -27.0 |  +332.0 |    48.5% |     72.7%
+
+=== top 15 outliers by |offset_s| ===
+  lol-ig1-omg-2026-02-11                   lg=   LPL  n_fills= 1400  glen= 2776s  offset=+332643.0s  final=0.999
+  lol-myth-dyn1-2026-01-29                 lg=   ROL  n_fills=   34  glen= 2231s  offset=+304068.0s  final=0.999
+  lol-ig1-omg-2026-02-11                   lg=   LPL  n_fills= 1670  glen= 1781s  offset=+153110.0s  final=0.998
+  lol-g2nord-big1-2026-02-05               lg=  CCWS  n_fills=   27  glen= 1721s  offset=+64586.0s  final=0.995
+  lol-ban2-znt-2026-02-12                  lg=   ROL  n_fills=   29  glen= 1812s  offset=+30957.0s  final=0.001
+  lol-eko-gmb-2026-02-12                   lg=   LIT  n_fills=   37  glen= 1595s  offset=+27206.0s  final=0.001
+  lol-bw-phx2-2026-01-29                   lg=   TCL  n_fills=   30  glen= 1984s  offset=+26722.0s  final=0.992
+  lol-gng-fn-2026-02-12                    lg=    AL  n_fills=   22  glen= 2228s  offset=+24308.0s  final=0.990
+  lol-dp-su-2026-02-09                     lg=   TCL  n_fills=  180  glen= 1661s  offset=+21313.0s  final=0.001
+  lol-lps-tsc-2026-02-12                   lg=   EBL  n_fills=   77  glen= 1989s  offset=+21300.0s  final=0.999
+  lol-es1-big1-2026-03-04                  lg=   PRM  n_fills=  372  glen= 1831s  offset=+20678.0s  final=0.001
+  lol-ban2-fec-2026-02-03                  lg=   ROL  n_fills=   28  glen= 1458s  offset=+20395.0s  final=0.001
+  lol-eko-gmb-2026-02-12                   lg=   LIT  n_fills=   52  glen= 2266s  offset=+19667.0s  final=0.999
+  lol-foxy-dkc-2026-01-22                  lg=  LCKC  n_fills=   47  glen= 1588s  offset=+16426.0s  final=0.001
+  lol-rmd-pnga-2026-04-28                  lg=    CD  n_fills=  122  glen= 1732s  offset=+14471.0s  final=0.001
+
+wrote data/exploration/49_pmoe_date_anchor_full.csv

@@ -1,66 +1,85 @@
-# Chat Summary — GPR feature: spec finalized + scraper shipped (2026-04-27)
+# Session summary: 2026-05-03 — model-market blender
 
-## Where we are
+Started from the question "is the edge real or a calibration artifact?" — ended with a deployable v1 strategy.
 
-The GPR (Riot Global Power Rankings) team-strength feature spec is locked and the first piece of infrastructure (the scraper) is checked in and verified end-to-end. We are mid-Step-3 of the spec's sequencing — see `docs/specs/gpr-feature.md` for the authoritative plan.
+---
 
-## What's shipped this session
+## What was done
 
-- **`docs/specs/gpr-feature.md`** — finalized after a focused review pass. Notable changes from the prior draft:
-  - **Standardization fit on rated rows only** (with unrated rows imputed to the rated mean before scaling). Stops `has_gpr` from having to absorb a mean-shift through l2-regularized coefficients, which would bias the headline `β_team − β_opp` contrast that success criterion #2 is computed on.
-  - **Date-type normalization** in stage 5 — both `dateCalculated` and OE `date` parsed to tz-aware UTC `pandas.Timestamp` before the strict-`<` comparison. Guards against silent ~1-day phantom leakage from naive-vs-aware datetime mismatch.
-  - **Scraper fixture + parser test** added to Step 3 (not yet implemented — see "what's next").
-  - **Riot prior sanity check** added as Step 6 (between stage 5 and the refit). 5-line check: bin `gpr_diff`, plot empirical WR vs `W_e = 1/(1+10^(-gpr_diff/600))`, see if Riot's published prior actually calibrates on our slice. Cheap insurance — if it doesn't, the offset Future Option won't save us either.
-  - **`gpr_team_id` future option** for the alias table key (more rebrand-stable than name; deferred to v2 because OE side has no compatible ID).
-  - **VCS no longer special-cased.** The previous spec excluded VCS based on a stale "GPR doesn't cover VCS" claim from the prior chat-summary. The truth: VCS-as-a-league doesn't exist post-2025 (merged into LCP), but 2024 VCS *is* GPR-rated and we have 108 snapshots for VCS teams in the scraped data. The per-game-cutoff join now applies uniformly — any team with a qualifying snapshot gets `has_gpr=1` regardless of league.
-  - **Objective rewrite** — was stale, claimed "two new columns (`gpr_diff`, `has_gpr`)" with `gpr_diff` as the fit coefficient. Actual design adds four columns (`gpr_team`, `gpr_opp_team`, `gpr_diff`, `has_gpr`) and drops `gpr_diff` at model input in favor of `{team, opp}` so the model can express both rating-gap and rating-level effects.
+### 1. Edge reliability bins (`scripts/exploration/47_pmoe_edge_reliability_bins.py`)
 
-- **`scripts/gpr/scrape.py`** — implemented, working end-to-end. Fetches `lolesports.com/en-GB/gpr/{2024,2024/worlds,2025,2026}`, caches raw HTML under `data/gpr/raw/` (gitignored, ~10MB), parses Apollo SSR push payloads, dedupes on `(team_id, snapshot_date)`, writes `data/gpr/snapshots.csv`.
-  - Two non-obvious things the scraper handles: (a) the SSR pushes contain bare `undefined` JS literals (invalid JSON) — substituted to `null` before parsing; (b) two payload shapes coexist on different pages (`events[*].value.data` vs `rehydrate[<key>].data`) — the spike's extractor only handled the first, missing 2 of 4 pages until we patched it.
-  - Output: 4,279 unique snapshots, 86 unique teams, range 2024-02-10 → 2026-04-26, 64 distinct snapshot dates. Coverage by league looks complete (LCK 638, LPL 1023, LEC 630, CBLOL 532, LCP 514, LCS 449, plus VCS 108, PCS 135, LLA 81, LTA N/S, LJL).
-  - Sanity-checked T1's trajectory matches lived reality (rank 1 early 2024 → 4-5 by Worlds 2024 → 1 by Worlds Final 2025 → 4-5 by spring 2026). Confirms snapshots are published-at-the-time, not retroactively recomputed.
-  - Reproducible: re-run with `python -m scripts.gpr.scrape` (offline from cache) or `--refresh` to re-fetch.
+Bucketed `eval_table.csv` by `(p_model − p_market)` and checked realized edge per bin. Result: directionally correct (sign of predicted edge matches sign of realized) but **magnitude inflated by ~1.7×** — when raw model says +20pp edge, you only get +12pp. EM league specifically anti-edge at every threshold; LCKC the cleanest. Headline: "bet when |edge| ≥ t" works (every threshold's CI excludes zero), but raw model edge cannot be trusted as a Kelly input.
 
-- **`.gitignore`** — added `data/gpr/raw/` so cached HTML doesn't bloat the repo.
+### 2. Model-market blender (`48_pmoe_blender_fit_oof.py`)
 
-## State of v1 production model (unchanged from prior session)
+Fit `logit(p_blend) = a + b·logit(p_model) + c·logit(p_market)` per checkpoint via group-k-fold by `oe_gameid`. Both inputs land with positive significant weight at every checkpoint — **the market carries information the model doesn't** (~50% weight at T=10/15, ~30% at T=20/25). Reliability bins now sit on the diagonal (no more 1.7× overstatement). Threshold-betting realized edge improved 30% (raw model thr≥0.10: +0.117; blender: +0.151). EM auto-fixed by the blender learning to defer to the market in regimes the model is wrong about.
 
-- Baseline logistic per checkpoint, train 2020-2025, eval 2026.
-- XGBoost v1 ties baseline within CI noise — no nonlinear structure to exploit at these checkpoints.
-- Calibration diagnosis (scripts 14 + 15) found one borderline-real miscalibration: T=10 S-tier ~9pp overconfident in [0.65, 0.80), n=102, CI barely excludes zero. Aggregate band gaps are ±2pp at every T. The GPR feature is the targeted intervention for that T=10 S-tier gap.
+### 3. OE-date timing audit (`49_pmoe_date_anchor_full.py`)
 
-## Immediate next step (what a fresh chat should pick up)
+User flagged concern: we treat OE `date` as exact game start. Earlier script 42 had validated this on 8 markets; widened to all 1478 cleanly-resolved markets. **Median offset +62s** (typical games within ~1 min). p25/p75 = (−13s, +283s). S/A-tier majors (LCK/LPL/LCP/LCS/LEC) median offsets within ±20s — essentially perfect. LCKC median +33s, EM +108s. Long tail dominated by **join errors** (markets with offsets in hours-to-days) — same `event_slug` appearing twice with different gamelengths suggests a `game_number` ambiguity in same-day Bo3 joins. Worth fixing the join logic later.
 
-**Step 2 of the spec — the team alias table.** It's the highest-risk piece of the experiment and now unblocked because `data/gpr/snapshots.csv` exists.
+### 4. Blender timing sweep (`50_pmoe_blender_timing_sweep.py`)
 
-Concrete deliverable:
+Sweep filter thresholds {∞, 300s, 180s, 60s} and refit blender at each. **Counterintuitive result:** as filter tightens, blender's edge over the market *grows* (Δ Brier −0.007 → −0.038; threshold-bet realized edge +0.15 → +0.22). Timing skew was *diluting* signal, not creating phantom edge. T=25 c/(b+c) shifted 0.33 → 0.54 with filtering — late-checkpoint coefficient was the most biased, in the predicted direction.
 
-1. Enumerate every distinct `teamname` in 2024+ OE data for the leagues GPR rates (S-tier + 2024 VCS) with game counts. New exploration script — `scripts/exploration/17_s_tier_team_inventory.py` or similar.
-2. Enumerate every distinct `team_name` in `data/gpr/snapshots.csv` (already done implicitly — 86 teams).
-3. Hand-create `data/gpr/team_aliases.csv` with columns `gpr_team_name, oe_teamname, notes`. Map every OE-side team with ≥20 games. Document any flagged-uncovered with a reason.
-4. Validator: assert every OE team with ≥20 games is either mapped or flagged. Iterate until clean.
-5. 50-random-game spot-check.
+### 5. Production fit + persisted artifact (`51_pmoe_blender_fit_production.py`)
 
-Estimated half day to a day depending on rebrand complexity.
+Selection rule: **S-tier league allowlist (matches GPR-eligible) ∩ |offset_s| ≤ 60s**. Population: 560 rows / 142 games / 8 leagues actually present (LCP 143, LCK 127, LEC 83, LCS 68, CBLOL 68, FST 32, WLDs 31, EWC 8). Persisted to `data/models/model_market_blender/coefficients.json` with metadata (fit date, allowlist, n_rows). README.txt has the inference snippet.
 
-## Subsequent steps (per spec)
+Per-checkpoint coefficients on the production fit:
 
-4. **`stage5_join_gpr.py`** — per-game cutoff join, emits `checkpoint_{T}_gpr.csv`. Tests cover the strict-`<` boundary, both-teams-rated requirement, cross-year-boundary anchoring.
-5. **Wire stage 5 into `build_dataset.py`.**
-6. **Riot prior sanity check** — `scripts/exploration/16_gpr_prior_calibration.py`. Gates the refit; cheap to run.
-7. **`baseline_logistic_gpr.py`** — refit with `{gpr_team, gpr_opp_team, has_gpr}`. Scaler fit on rated rows only, statsmodels post-fit for SE / coefficient covariance / contrast z-stat.
-8. **Evaluate on 2026 S-tier holdout** — paired-bootstrap log-loss CI, AUC, ECE, re-run script 15 for the band-gap closure check.
-9. **Decision point** — ship if joint test passes; switch to fixed-coefficient-offset Future Option if the contrast lands borderline; negative-result write-up if it clearly fails.
+| cp | a | b (model) | c (market) | c/(b+c) | OOF Brier blend | Δ vs market |
+|---|---|---|---|---|---|---|
+| 10 | +1.06 | 0.83 | 0.37 | 0.31 | 0.154 | −0.035 |
+| 15 | +1.05 | 0.46 | 0.76 | **0.62** | 0.132 | −0.024 |
+| 20 | +1.22 | 0.53 | 0.61 | 0.54 | 0.110 | −0.033 |
+| 25 | +1.49 | 0.52 | 0.60 | 0.54 | 0.073 | −0.041 |
 
-## Outstanding hygiene (not blocking but worth doing)
+Headline T=25 OOF Brier of 0.073 looked too good — triggered Phase 6.
 
-- **Scraper fixture + parser test** (`tests/fixtures/gpr/sample_page.html` + `tests/gpr/test_scrape.py`). Spec calls for it; deferred this session to keep momentum on the alias table. The lolesports SSR-cache embedding format can change at any time and the first signal of breakage is currently a silent empty `snapshots.csv`.
-- **Per-page summary printing in scraper** prints unique team count per page now (post-fix) — was confusingly showing `events_teams + rehydrate_teams` (e.g. 160 instead of 80) before.
+### 6. Temporal holdout + bootstrap CIs (`52_pmoe_blender_temporal_holdout.py`)
 
-## Key references
+Fit on first 80% of games chronologically (through 2026-04-15), evaluate on last 20%. **Signal survives**: aggregate Δ blend − market = −0.036, CI [−0.062, −0.009] — excludes zero. T=25 specifically regressed from OOF 0.073 to holdout 0.092, but still beat market (0.135) by 0.043. Per-checkpoint CIs on full population: 3/4 of blend-vs-market and 3/4 of blend-vs-model deltas exclude zero. **The 0.073 was overoptimistic, but the signal is real.**
 
-- `docs/specs/gpr-feature.md` — authoritative spec for everything above.
-- `docs/specs/baseline-logistic.md` — baseline this experiment refits on top of.
-- `scripts/exploration/15_band_gap_bootstrap.py` — produces the T=10 S-tier band-gap number that success criterion #3 tests against.
-- `scripts/gpr/scrape.py` + `data/gpr/snapshots.csv` — what we built this session.
-- `discovery-checklist.md` — broader project-level decisions (preprocessing pipeline, feature lock, train/test split, etc.).
+### 7. Staleness + endgame check (`53_pmoe_blender_staleness_check.py`)
+
+Last "could-still-kill-it" concerns: was T=25 beating a stale market or sniping nearly-decided endgame? **Both ruled out.**
+
+- **Staleness:** median 2-3s across all checkpoints, p90 ≤ 26s. Market is live.
+- **Time-to-end at T=25:** median 469s (7.8 min) of game remaining. ~25% are within 5 min of end.
+- **Crucial subset test:** restricted T=25 to snapshots with ≥5 min remaining (n=106) — Brier gap **grew** from −0.041 to −0.052. Blender's edge is biggest on genuinely-undecided late-game states, not on endgame snipes.
+
+---
+
+## Decisions made during deliberation (not separate scripts, but load-bearing)
+
+- **Use the blender for sizing AND direction, not just direction.** The blender's `p_blend − p_market` is calibrated by construction (verified in 47/48's reliability bins) — unlike the raw model edge which inflates by ~1.7×. So it's safe as a Kelly input when combined with the existing risk controls.
+- **Stay with `baseline_logistic_gpr` (not the non-GPR baseline).** ECE-on-S-tier favors the non-GPR baseline (T=10: 0.048 vs 0.063), but Brier and log-loss favor GPR at every checkpoint on every relevant slice (script 23: GPR LL is 4-7% better on 2025 S-tier rated; even bigger gain on stale-anchor games at +0.10 LL at T=10). ECE alone undervalues sharpness — GPR is sharper at the cost of a slightly higher ECE, which is the net-positive tradeoff for a betting model. Script 46's "baseline wins on production" was a cross-tier number; on the S-tier slice the blender uses, GPR wins.
+- **T=10 is the riskiest live entry point.** Two reasons compound: raw GPR model has its weakest ECE at T=10 (0.063, with extreme bins miscalibrated), AND the blender places its highest model-weight at T=10 (b=0.83). The blender re-calibration absorbs most of this, but if pre-bet caution is wanted, restrict the first ~50 live bets to T=15+ and add T=10 only after live results validate the blender's T=10 confidence.
+- **Don't bet directly on `p_model`, only via `p_blend`.** Blender absorbs raw-model miscalibration via its logistic re-fit; raw probabilities should not be used as Kelly inputs without that step.
+
+---
+
+## Where the trading thesis stands now
+
+- **Production blender persisted** at `data/models/model_market_blender/coefficients.json`. Inference is sigmoid(a + b·logit(p_model) + c·logit(p_market)) per checkpoint.
+- **Headline:** blender beats the market on temporal holdout with significant CI. T=25 OOF (0.073) was overoptimistic; realistic T=25 Brier ~0.09. Per-bet realized edge expectation: **~+0.10 to +0.15** (gross of spread/fees).
+- **Operational rule (v1):**
+  1. League ∈ S-tier allowlist (LCK, LPL, LCP, LCS, LEC, CBLOL, WLDs, etc. — full list in coefficients.json)
+  2. Compute `p_model` from `baseline_logistic_gpr` for the appropriate checkpoint T.
+  3. Compute `p_blend = sigmoid(a + b·logit(p_model) + c·logit(p_market))` using the persisted per-cp coefficients.
+  4. `edge = p_blend − p_market`.
+  5. Bet when `|edge| ≥ 0.10`. Quarter-Kelly with 2% bankroll cap (existing decision from discovery-checklist section 3).
+  6. Kelly formula uses `p_blend` directly — its magnitude is calibrated, unlike the raw model edge which would over-bet by ~70%.
+  7. Log every bet (`p_model`, `p_market`, `p_blend`, `edge_pred`, outcome) — re-check magnitude calibration after ~50 bets; if realized slope drifts from 1.0, shrink predicted edge before sizing.
+  8. Optional pre-bet caution: skip T=10 for the first ~50 live bets (T=10 is where raw model is least calibrated AND blender weights model heaviest).
+
+---
+
+## Open issues / followups not yet done
+
+- **Spread + fees not modeled.** All edge numbers gross. Quantifying this is now the largest gap between predicted +0.10–0.15 edge and live $-PnL. Use `trades.csv` to estimate per-checkpoint median spread.
+- **Polymarket → OE join bugs.** Step 3 surfaced ~1% of markets with hours-to-days offsets, almost certainly wrong-game matches via `game_number` ambiguity in same-day Bo3s. Worth fixing in `scripts/polymarket/build_eval_table.py`.
+- **Blender intercepts of +1.0 to +1.5** are larger than expected — partly base-rate skew (team_a wins 53.5%), partly population restriction. Re-check after more games accumulate; may indicate calibration tilt to correct.
+- **Per-league counts in fit are uneven** (LCP+LCK = 48% of fit). If LCP/LCK are especially inefficient in our window, the blender may be partly memorizing that. Re-fit with more leagues balanced once data accumulates.
+- **Re-fit cadence:** quarterly is probably right.

@@ -1,0 +1,30 @@
+s-tier allowlist (20): ['Americas Cup', 'CBLOL', 'EU LCS', 'EWC', 'FST', 'GPL', 'LCK', 'LCP', 'LCS', 'LEC', 'LMS', 'LPL', 'LTA', 'LTA N', 'LTA S', 'MSC', 'MSI', 'NA LCS', 'OGN', 'WLDs']
+
+eval rows: 2300
+  in S-tier allowlist:           1143
+  with offset_s available:       2245
+  S-tier AND |offset| <= 60s:    560
+
+fit population: 560 rows from 142 games across 8 leagues
+
+  per-league row counts in fit population:
+         LCP    143
+         LCK    127
+         LEC     83
+         LCS     68
+       CBLOL     68
+         FST     32
+        WLDs     31
+         EWC      8
+
+=== per-checkpoint fits ===
+    cp |  n_fit |        a |  b (model) |  c (market) |  c/(b+c) |  oof Brier blend |  vs market
+    10 |    142 |  +1.0583 |    +0.8292 |     +0.3655 |    0.306 |           0.1542 |    -0.0346
+    15 |    141 |  +1.0462 |    +0.4627 |     +0.7592 |    0.621 |           0.1320 |    -0.0236
+    20 |    142 |  +1.2249 |    +0.5271 |     +0.6056 |    0.535 |           0.1104 |    -0.0333
+    25 |    135 |  +1.4861 |    +0.5222 |     +0.5997 |    0.535 |           0.0726 |    -0.0408
+
+  shared (all cp) | n=  560 | a=+1.1479  b=+0.6419  c=+0.4883  c/(b+c)=0.432  oof Brier=0.1186 (market 0.1508)
+
+wrote data/models/model_market_blender\coefficients.json
+wrote data/models/model_market_blender\README.txt
