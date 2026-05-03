@@ -56,10 +56,10 @@ SIDE_CATEGORIES = ["Blue", "Red"]
 TIER_CATEGORIES = ["S", "A", "B"]
 
 FIRST_GATES = {
-    10: ["firstblood"],
-    15: ["firstblood", "firstdragon", "firsttower"],
+    10: ["firstblood", "firstdragon"],
+    15: ["firstblood", "firstdragon"],
     20: ["firstblood", "firstdragon", "firsttower"],
-    25: ["firstblood", "firstdragon", "firsttower", "firstbaron"],
+    25: ["firstblood", "firstdragon", "firsttower"],
 }
 
 SPLIT_CUTOFFS = {

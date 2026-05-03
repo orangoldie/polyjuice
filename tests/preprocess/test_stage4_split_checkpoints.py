@@ -76,22 +76,27 @@ def test_output_columns_firstblood_at_every_checkpoint():
         assert "firstblood" in output_columns(T)
 
 
-def test_output_columns_firstdragon_gated_at_15_and_later():
-    assert "firstdragon" not in output_columns(10)
-    for T in (15, 20, 25):
+def test_output_columns_firstdragon_present_at_all_checkpoints():
+    # Per data/exploration/32_livestats_firsts_timing.json: firstdragon resolves
+    # by minute 10 in ~75% of S-tier games — acceptable leakage to gate at T=10.
+    for T in CHECKPOINTS:
         assert "firstdragon" in output_columns(T)
 
 
-def test_output_columns_firsttower_gated_at_15_and_later():
-    assert "firsttower" not in output_columns(10)
-    for T in (15, 20, 25):
+def test_output_columns_firsttower_gated_at_20_and_later():
+    # firsttower resolves by minute 15 in only ~22% of S-tier games (78% leakage),
+    # so it's excluded from the T=15 checkpoint and only enters from T=20.
+    for T in (10, 15):
+        assert "firsttower" not in output_columns(T)
+    for T in (20, 25):
         assert "firsttower" in output_columns(T)
 
 
-def test_output_columns_firstbaron_only_at_25():
-    for T in (10, 15, 20):
+def test_output_columns_firstbaron_never_emitted():
+    # firstbaron resolves by minute 25 in only ~19% of S-tier games (81% leakage),
+    # so it's dropped from every checkpoint.
+    for T in CHECKPOINTS:
         assert "firstbaron" not in output_columns(T)
-    assert "firstbaron" in output_columns(25)
 
 
 @pytest.mark.parametrize("T", CHECKPOINTS)

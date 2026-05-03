@@ -36,10 +36,10 @@ GAMELENGTH = ["gamelength"]
 LABEL = ["result"]
 
 FIRST_GATES: dict[int, list[str]] = {
-    10: ["firstblood"],
-    15: ["firstblood", "firstdragon", "firsttower"],
+    10: ["firstblood", "firstdragon"],
+    15: ["firstblood", "firstdragon"],
     20: ["firstblood", "firstdragon", "firsttower"],
-    25: ["firstblood", "firstdragon", "firsttower", "firstbaron"],
+    25: ["firstblood", "firstdragon", "firsttower"],
 }
 
 

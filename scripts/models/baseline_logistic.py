@@ -54,10 +54,10 @@ CV_SEED = 42
 TIER_CATEGORIES = ["S", "A", "B"]  # S = baseline; dummies for A and B
 
 FIRST_GATES = {
-    10: ["firstblood"],
-    15: ["firstblood", "firstdragon", "firsttower"],
+    10: ["firstblood", "firstdragon"],
+    15: ["firstblood", "firstdragon"],
     20: ["firstblood", "firstdragon", "firsttower"],
-    25: ["firstblood", "firstdragon", "firsttower", "firstbaron"],
+    25: ["firstblood", "firstdragon", "firsttower"],
 }
 
 # Anything in X that is NOT in this set is numeric and gets standardized.

@@ -1,31 +1,31 @@
-joined ok gameids: 1717
-OE meta rows for joined gameids: 1717
-  01_filtered                 47627 total  /   1413 of 1717 joined
-  02_one_row                  47627 total  /   1413 of 1717 joined
-  03_features                 47627 total  /   1413 of 1717 joined
-  checkpoint_15_gpr           47626 total  /   1413 of 1717 joined
+joined ok gameids: 1743
+OE meta rows for joined gameids: 1743
+  01_filtered                 47831 total  /   1435 of 1743 joined
+  02_one_row                  47831 total  /   1435 of 1743 joined
+  03_features                 47831 total  /   1435 of 1743 joined
+  checkpoint_15_gpr           47830 total  /   1435 of 1743 joined
 
-missing at checkpoint_15_gpr stage: 304
+missing at checkpoint_15_gpr stage: 308
 
 first stage at which each missing gameid drops:
-01_filtered    304
+01_filtered    308
 
 league breakdown of missing gameids:
 league
-LPL     214
+LPL     218
 HW       57
 CCWS     18
 AC       15
 
 datacompleteness breakdown of missing gameids:
 datacompleteness
-partial     214
+partial     218
 complete     90
 
 league breakdown of PRESENT-in-checkpoint_15_gpr joined gameids (top 15):
 league
 LCKC     159
-LCK      122
+LCK      126
 LCP      112
 AL        99
 LEC       93
@@ -35,7 +35,7 @@ EM        71
 CBLOL     68
 ROL       66
 DCup      63
-EBL       52
-NACL      51
+NACL      53
+EBL       48
 LIT       40
 WLDs      38

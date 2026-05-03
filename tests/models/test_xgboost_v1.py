@@ -135,10 +135,10 @@ def test_categorical_features_side_tier():
 
 
 @pytest.mark.parametrize("T,expected", [
-    (10, ["firstblood"]),
-    (15, ["firstblood", "firstdragon", "firsttower"]),
+    (10, ["firstblood", "firstdragon"]),
+    (15, ["firstblood", "firstdragon"]),
     (20, ["firstblood", "firstdragon", "firsttower"]),
-    (25, ["firstblood", "firstdragon", "firsttower", "firstbaron"]),
+    (25, ["firstblood", "firstdragon", "firsttower"]),
 ])
 def test_binary_features_gated(T, expected):
     assert BINARY_FEATURES(T) == expected
@@ -168,16 +168,18 @@ def test_prepare_Xy_diff_columns_present(T):
 def test_prepare_Xy_gated_firsts_at_10():
     df = pd.DataFrame([make_row(10)])
     X, _, _ = prepare_Xy(df, 10)
-    assert "firstblood" in X.columns
-    for flag in ("firstdragon", "firsttower", "firstbaron"):
+    for flag in ("firstblood", "firstdragon"):
+        assert flag in X.columns
+    for flag in ("firsttower", "firstbaron"):
         assert flag not in X.columns
 
 
 def test_prepare_Xy_gated_firsts_at_25():
     df = pd.DataFrame([make_row(25)])
     X, _, _ = prepare_Xy(df, 25)
-    for flag in ("firstblood", "firstdragon", "firsttower", "firstbaron"):
+    for flag in ("firstblood", "firstdragon", "firsttower"):
         assert flag in X.columns
+    assert "firstbaron" not in X.columns
 
 
 def test_prepare_Xy_identifiers_not_in_features():
